@@ -1,0 +1,6 @@
+preprint:
+    script:
+        - make TITLE=networks TYPE=draft
+    artifacts:
+        paths:
+            - ELS_networks_preprint_version.pdf
