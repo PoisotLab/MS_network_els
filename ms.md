@@ -19,8 +19,8 @@
   - parasitism
   - predator-prey (food web)
 * scale of studies : global to local
-* predictions
-* species dynamics
+* predictions and models
+* species and populations dynamics
 
 
 [\(Montoya, Pimm, & Solé, 2006\)](#@montoya2006a)
@@ -36,3 +36,4 @@
 [\(Paine, 1966\)](#@paine1966)
 [\(Stouffer & Bascompte, 2010\)](#@stouffer2010)
 [\(Thébault & Fontaine, 2010\)](#@thebault2010)
+[\(Thébault & Loreau, 2003\)](#@thebault2003)
