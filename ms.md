@@ -1,26 +1,37 @@
-* based on graph theory
-* explanation of what is a graph, a node and an edge
-  directed/undirected interactions, weighted/unweighted interactions
+* based on graph theory (partie succinte, par obliger d'écrire trois paragraphes la dessus)
+  - grapg G, vertices V and edges E
+  - matrix algebra
+* explanation of what is a graph, a vertex/node and an edge
+  - directed/undirected interactions (the norm for the arrow direction in a directed interaction is, in a food web for example, from the prey to the predator (it refers to the transfert of "ernergy" /based on the nutrient flux convention)
+  - weighted/unweighted interactions
+  - how the représentation of this two kind of networks differs, for instance in a adjency matrix (symetric when the network is undirected, 0/1 for unweighted, ...)
+* Basic properties of a network: number of nodes = order, number of edges = size
+  - number of nodes = order, number of edges = size
+  - node degree (number of link by node) (in and out degree in directed network)
+  - distance between two nodes (if combined with connectance, gives an idea of more or less the shape of the network if combine with connectance)
+* wide range of available measures :
+  basics, as connectance, species richness, etc.
+  others, depending on the question asked/the goal reach
+    nestedness, modularity, centrality, phylogeny, etc.
+    degree/links distributions, detection of key species, ...
+  used to define ecological network properties
+* different types of ecological networks
+  - mutualistic vs. antagonistic (examples : pollination, infection network, ) donner des exmples de papiers sur différents types de réseaux?
+  - parasitism (host-parasite : parasitoid-aphids, ...)
+  - predator-prey (food web => food web length often limited to 5 or 6 steps? => links with small world effect and properties? ref?)
 * study of ecological networks used for theoretical and applied ecology
   - pest control
   - ecosystem functioning
   - evolution and adaptation
   - conservation/restoration
-* wide range of available measures :
-  basics, as connectance, species richness, etc.
-  others, depending on the question asked/the goal reach
-    nestedness, modularity, centrality, phylogeny, etc.
-  used to define ecological network properties
-* difficulty to compare different network and within network due to the precision of data (definition of taxa or species : it is easier to identify the species of a wolf than a planton)
-* ecological network structure and composition and what does it means for the ecosystem (functionnement, functional role of species, stability, robustness, etc.)
+* notion of top, intermediate and basal species (valid especially in food web) : top species (consommateurs secondaires) : species which predate on over species ; basal species (producteurs primaires) : species which are predates by other species ; intermediate species : species which predate on and are predated by other species in the food chain/web
+* difficulty to compare different network and within network due to the precision of data (definition of taxa or species : it is easier to identify the species of a wolf than a planton) gave birth at the term "trophic species": node/"species" that share the same interactions in the network
+* ecological network structure and composition and what does it mean for the ecosystem (functionnement, functional role of species, stability, robustness, etc.)
 * studies based on interactions, energetic/methabolic flux, genetic or phylogenetic links between species/trophic level/...
-* different types of ecological networks
-  - mutualistic vs. antagonistic
-  - parasitism
-  - predator-prey (food web)
-* scale of studies : global to local
-* predictions and models
-* species and populations dynamics
+* scale of studies : global (community) to local (population) (is there a sense to study at the scale of the population for an ecological aim? I'm not sure)
+* predictions and models (Brose? -> Eva, qu'esk t'en penses?,)
+* species and populations dynamics (Lotka-Volta dynamics, which else?)
+* one way to study species interactions is to study their similarity (realtionship that they share?)
 
 
 [\(Montoya, Pimm, & Solé, 2006\)](#@montoya2006a)
