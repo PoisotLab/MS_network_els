@@ -2,6 +2,10 @@
 
 - definition
 - domains + questions
+- other uses of networks
+    - epidemiology
+    - animal societies
+    - landscape connectivity
 
 # Invariants in ecological networks
 
@@ -102,11 +106,11 @@ different communities: @bake15srf show that species keep occupying the same
 position in the network across space, regardless of the species they interact
 with at every location.
 
-# Other uses of networks in ecology
+# Section 4
 
-- epidemiology **TP**
-- animal societies
-- landscape connectivity **TP**
+- ?
+- ??
+- ???
 
 # Conclusion
 
