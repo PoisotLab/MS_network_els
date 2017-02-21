@@ -86,13 +86,21 @@ species composition, and changes in the way these species interact
 network properties [@have92ssn]. Spatial variation in network structure can
 also reflect deep-time constraints; for example, @dals13hci reveal that
 historical climate change trends have a signature on the nestedness and
-modularity of pollination networks.
-
-- $\beta$
-- change in time but keep same features
-- @diaz10cmn replacement by functionally equivalent species
-- @bake15srf high fidelity in trophic role (do the same thing w diff. species)
-
+modularity of pollination networks. Even when the same species are present,
+interactions between them can vary. @cars14bdp and @troj15gvm investigated
+this phenomenon in mutualistic networks. Interaction turnover results from
+variations in partner fidelity (some species pairs are extremely closely
+associated), but also from variations in the local environment in which the
+species interact. Interestingly, and as mentioned in section **x**, networks
+overwhelmingly tend to conserve their structure even when interactions
+within them change. @diaz10cmn surveyed a pollination network over 10 years,
+and found important species turnover during this period. Nevertheless,
+the network retained its structure because species where replaced by their
+functional equivalent; a generalist pollinator often succeeded to another
+generalist pollinator. Conversely, species tend to retain their role in
+different communities: @bake15srf show that species keep occupying the same
+position in the network across space, regardless of the species they interact
+with at every location.
 
 # Other uses of networks in ecology
 
