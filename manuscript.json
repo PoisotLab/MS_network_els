@@ -1,45 +1,7 @@
 [
-  {
-    "author": [
-      {
-        "family": "Hutchinson",
-        "given": "G E"
-      }
-    ],
-    "container-title": "Cold Spring Harb. Symp. Quant. Biol.",
-    "issued": {
-      "date-parts": [
-        [
-          1957
-        ]
-      ]
-    },
-    "page": "415-427",
-    "title": "Concluding remarks",
-    "type": "article-journal",
-    "volume": "22",
-    "id": "hutc57cr"
-  },
-  {
-    "author": [
-      {
-        "family": "Hutchinson",
-        "given": "G E"
-      }
-    ],
-    "container-title": "Am. Nat.",
-    "issue": "870",
-    "issued": {
-      "date-parts": [
-        [
-          1959
-        ]
-      ]
-    },
-    "page": "145",
-    "title": "Homage to Santa Rosalia or why are there so many kinds of animals?",
-    "type": "article-journal",
-    "volume": "93",
-    "id": "hutc59hsr"
-  }
+  {"id":"basc07pmn","type":"article-journal","title":"Plant-Animal Mutualistic Networks: The Architecture of Biodiversity","container-title":"Annual Review of Ecology, Evolution, and Systematics","page":"567-593","volume":"38","issue":"1","source":"CrossRef","URL":"http://www.annualreviews.org/doi/10.1146/annurev.ecolsys.38.091206.095818","DOI":"10.1146/annurev.ecolsys.38.091206.095818","ISSN":"1543-592X, 1545-2069","language":"en","author":[{"family":"Bascompte","given":"Jordi"},{"family":"Jordano","given":"Pedro"}],"issued":{"date-parts":[[2007,12]]},"accessed":{"date-parts":[["2016",10,12]]},"title-short":"Plant-Animal Mutualistic Networks"},
+  {"id":"jacq16ncr","type":"article-journal","title":"No complexity–stability relationship in empirical ecosystems","container-title":"Nature Communications","page":"12573","volume":"7","source":"CrossRef","URL":"http://www.nature.com/doifinder/10.1038/ncomms12573","DOI":"10.1038/ncomms12573","ISSN":"2041-1723","author":[{"family":"Jacquet","given":"Claire"},{"family":"Moritz","given":"Charlotte"},{"family":"Morissette","given":"Lyne"},{"family":"Legagneux","given":"Pierre"},{"family":"Massol","given":"François"},{"family":"Archambault","given":"Philippe"},{"family":"Gravel","given":"Dominique"}],"issued":{"date-parts":[[2016,8,24]]},"accessed":{"date-parts":[["2016",9,1]]}},
+  {"id":"zure17idd","type":"article-journal","title":"Integrating demography, dispersal and interspecific interactions into bird distribution models","container-title":"Journal of Avian Biology","page":"n/a-n/a","source":"Wiley Online Library","abstract":"Species’ ranges are primarily limited by the physiological (abiotic) tolerance of the species, described by their fundamental niche. Additionally, demographic processes, dispersal, and interspecific interactions with other species are shaping species distributions, resulting in the realised niche. Understanding the complex interplay between these drivers is vital for making robust biodiversity predictions to novel environments. Correlative species distribution models have been widely used to predict biodiversity response but also remain criticised, as they are not able to properly disentangle the abiotic and biotic drivers shaping species’ niches. Recent developments have thus focussed on (i) integrating demography and dispersal into species distribution models, and on (ii) integrating interspecific interactions. Here, I review recent demographic and multi-species modelling approaches and discuss critical aspects of these models that remain underexplored in general and in respect to birds, for example, the complex life histories of birds and other animals as well as the scale dependence of interspecific interactions. I conclude by formulating modelling guidelines for integrating the abiotic and biotic processes that limit species’ ranges, which will help to disentangle the complex roles of demography, dispersal and interspecific interactions in shaping species niches. Throughout, I pinpoint complexities of avian life cycles that are critical for consideration in the models and identify data requirements for operationalizing the different modelling steps. This article is protected by copyright. All rights reserved.","URL":"http://onlinelibrary.wiley.com/doi/10.1111/jav.01225/abstract","DOI":"10.1111/jav.01225","ISSN":"1600-048X","language":"en","author":[{"family":"Zurell","given":"Damaris"}],"issued":{"date-parts":[[2017,2,1]]},"accessed":{"date-parts":[["2017",2,7]]},"container-title-short":"J Avian Biol"},
+  {"id":"pois13tcd","type":"article-journal","title":"Trophic complementarity drives the biodiversity-ecosystem functioning relationship in food webs","container-title":"Ecology Letters","page":"853–861","volume":"16","issue":"7","source":"Google Scholar","abstract":"The biodiversity-ecosystem functioning (BEF) relationship is central in community ecology. Its drivers in competitive systems (sampling effect and functional complementarity) are intuitive and elegant, but we lack an integrative understanding of these drivers in complex ecosystems. Because networks encompass two key components of the BEF relationship (species richness and biomass flow), they provide a key to identify these drivers, assuming that we have a meaningful measure of functional complementarity. In a network, diversity can be defined by species richness, the number of trophic levels, but perhaps more importantly, the diversity of interactions. In this paper, we define the concept of trophic complementarity (TC), which emerges through exploitative and apparent competition processes, and study its contribution to ecosystem functioning. Using a model of trophic community dynamics, we show that TC predicts various measures of ecosystem functioning, and generate a range of testable predictions. We find that, in addition to the number of species, the structure of their interactions needs to be accounted for to predict ecosystem productivity.","URL":"http://onlinelibrary.wiley.com/doi/10.1111/ele.12118/full","DOI":"10.1111/ele.12118","ISSN":"1461-0248","language":"ENG","author":[{"family":"Poisot","given":"Timothée"},{"family":"Mouquet","given":"Nicolas"},{"family":"Gravel","given":"Dominique"}],"issued":{"date-parts":[[2013]]},"accessed":{"date-parts":[["2016",9,2]]},"container-title-short":"Ecol. Lett."},
+  {"id":"eklo12reh","type":"article-journal","title":"Relevance of evolutionary history for food web structure","container-title":"Proceedings of the Royal Society of London B: Biological Sciences","page":"1588-1596","volume":"279","issue":"1733","source":"rspb.royalsocietypublishing.org","abstract":"Explaining the structure of ecosystems is one of the great challenges of ecology. Simple models for food web structure aim at disentangling the complexity of ecological interaction networks and detect the main forces that are responsible for their shape. Trophic interactions are influenced by species traits, which in turn are largely determined by evolutionary history. Closely related species are more likely to share similar traits, such as body size, feeding mode and habitat preference than distant ones. Here, we present a theoretical framework for analysing whether evolutionary history—represented by taxonomic classification—provides valuable information on food web structure. In doing so, we measure which taxonomic ranks better explain species interactions. Our analysis is based on partitioning of the species into taxonomic units. For each partition, we compute the likelihood that a probabilistic model for food web structure reproduces the data using this information. We find that taxonomic partitions produce significantly higher likelihoods than expected at random. Marginal likelihoods (Bayes factors) are used to perform model selection among taxonomic ranks. We show that food webs are best explained by the coarser taxonomic ranks (kingdom to class). Our methods provide a way to explicitly include evolutionary history in models for food web structure.","URL":"http://rspb.royalsocietypublishing.org/content/279/1733/1588","DOI":"10.1098/rspb.2011.2149","ISSN":"0962-8452, 1471-2954","language":"en","author":[{"family":"Eklöf","given":"Anna"},{"family":"Helmus","given":"Matthew R."},{"family":"Moore","given":"M."},{"family":"Allesina","given":"Stefano"}],"issued":{"date-parts":[[2012,4,22]]},"accessed":{"date-parts":[["2016",10,18]]},"PMID":"22090387"}
 ]
