@@ -27,11 +27,12 @@ structure, despite obeying to a shared underlying principle. For example,
 degree to which the diet of specialists and generalists overlaps) and
 modularity (the tendency of species to form densely aggregated clusters)
 are positively correlated. In networks with higher connectance, this became
-the opposite: networks were either nested (and not modular) or modular (and
-not nested). In the recent years, it emerged that many aspects of network
-structure covary with connectance [@chag15cte; @pois14wen]: this suggests
-that simply knowing how many species there are, and how many interactions
-they establish, is already very informative about the network structure.
+the opposite: networks with a large number of interactions were either nested
+(and not modular) or modular (and not nested). In the recent years, it emerged
+that many aspects of network structure covary with connectance [@chag15cte;
+@pois14wen]: this suggests that simply knowing how many species there are,
+and how many interactions they establish, is already very informative about
+the network structure.
 
 - motifs **ED**
 - evo/phylogenetic structure **MB**
