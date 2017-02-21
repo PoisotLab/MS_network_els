@@ -78,7 +78,15 @@ the fundamental advance that this represents, this would allow to predict
 interactions based on external information [@mora15ibi].
 
 - interactions => populations and biomass dynamics **ED**
-- spatial and temporal variation **TP**
+
+***here*** - spatial and temporal variation **TP**
+
+- change in properties
+- $\beta$
+- change in time but keep same features
+- @diaz10cmn replacement by functionally equivalent species
+- @bake15srf high fidelity in trophic role (do the same thing w diff. species)
+
 
 # Other uses of networks in ecology
 
