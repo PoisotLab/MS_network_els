@@ -1,0 +1,48 @@
+---
+title: Article template using markdown, pandoc, and friends
+short: Template
+author:
+  - family: Poisot
+    given: Timothée
+    affiliation: 1, 2
+    email: tim@poisotlab.io
+    id: tp
+    orcid: 0000-0002-0735-5184
+  - family: Author
+    given: Second
+    affiliation: 2,3
+    id: sa
+affiliation:
+  - id: 1
+    text: Université de Montréal, Département de Sciences Biologiques
+  - id: 2
+    text: Québec Centre for Biodiversity Sciences
+  - id: 3
+    text: University of Whatever
+keyword:
+  - k: markdown
+  - k: pandoc
+  - k: LaTeX
+figure:
+  - id: figure1
+    caption: This is a figure. Its caption should be long enough to demonstrate the effects of using the caption package.
+    short: Example figure.
+    file: figure1.png
+  - id: figure2
+    caption: This is a second figure. It is taking the two columns in preprint mode.
+    short: Example figure.
+    file: figure1.png
+    wide: true
+table:
+  - id: table1
+    caption: Test table
+    short: Short test table caption
+    file: table1.md
+  - id: table2
+    caption: Test table
+    short: Short test table caption
+    file: table2.md
+    wide: true
+date: \today
+abstract: Writing manuscripts doesn't have to be awful. This template *tries* to provide good defaults for both the draft and preprint modes. Most of the information is contained in the YAML file. The preprint mode is particularly good looking.
+...
