@@ -1,6 +1,0 @@
-compile:
-    script:
-        - make TITLE=networks TEMPLATE=draft
-    artifacts:
-        paths:
-            - ELS_networks_preprint_version.pdf
