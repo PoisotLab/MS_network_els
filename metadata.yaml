@@ -1,6 +1,6 @@
 ---
-title: Article template using markdown, pandoc, and friends
-short: Template
+title: Complex ecological networks
+short: Ecological networks
 author:
   - family: Poisot
     given: Timothée
@@ -23,26 +23,6 @@ keyword:
   - k: markdown
   - k: pandoc
   - k: LaTeX
-figure:
-  - id: figure1
-    caption: This is a figure. Its caption should be long enough to demonstrate the effects of using the caption package.
-    short: Example figure.
-    file: figure1.png
-  - id: figure2
-    caption: This is a second figure. It is taking the two columns in preprint mode.
-    short: Example figure.
-    file: figure1.png
-    wide: true
-table:
-  - id: table1
-    caption: Test table
-    short: Short test table caption
-    file: table1.md
-  - id: table2
-    caption: Test table
-    short: Short test table caption
-    file: table2.md
-    wide: true
 date: \today
-abstract: Writing manuscripts doesn't have to be awful. This template *tries* to provide good defaults for both the draft and preprint modes. Most of the information is contained in the YAML file. The preprint mode is particularly good looking.
+abstract: TODO
 ...
