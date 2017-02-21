@@ -1,6 +1,6 @@
-preprint:
+compile:
     script:
-        - make TITLE=networks TYPE=draft
+        - make TITLE=networks TEMPLATE=draft
     artifacts:
         paths:
             - ELS_networks_preprint_version.pdf
