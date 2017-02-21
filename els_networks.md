@@ -5,28 +5,30 @@
 
 # Invariants in ecological networks
 
-- link-species scaling law
-- motifs
-- evo/phylogenetic structure
+- link-species scaling law **TP**
+- motifs **ED**
+- evo/phylogenetic structure **MB**
     - @eklo12reh => network structure effect on evolutionary history
 
 # From structure to properties
 
-- perturbations/extinctions
-- BEF
-- stability
+- perturbations/extinctions **MB**
+- BEF **ED**
+- stability **MB**
     - @jacq16ncr
 
 # Linking interactions to ecological mechanisms
 
-- interactions = traits + behavior + ...
-- interactions => populations and biomass dynamics
-- spatial and temporal variation
+- interactions = traits + behavior + ... **TP**
+- interactions => populations and biomass dynamics **ED**
+- spatial and temporal variation **TP**
 
 # Other uses of networks in ecology
 
-- epidemiology
+- epidemiology **TP**
 - animal societies
-- landscape connectivity
+- landscape connectivity **TP**
 
 # Conclusion
+
+# References
