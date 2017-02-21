@@ -108,8 +108,11 @@ with at every location.
 
 # Section 4
 
-- ?
-- ??
+- distributions and species interactions
+    - Cazelles
+    - Araujo
+    - Lessard geographic species pool
+- ???
 - ???
 
 # Conclusion
