@@ -1,0 +1,99 @@
+\documentclass[9pt,twocolumn]{article}
+
+\input{.plmt/plmt.tex}
+
+\setcounter{secnumdepth}{0}
+
+\geometry{margin=1.65cm}
+\setlength{\columnsep}{5.1mm}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[LO,RE]{}
+\fancyhead[LE,RO]{}
+\fancyfoot[C]{}
+\fancyfoot[LO,RE]{\color{meta}\sffamily $if(short)$\small\textbf{Preprint:}\slshape\,$short$$endif$}
+\fancyfoot[LE,RO]{\color{meta}\sffamily\small Page \thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{document}
+
+\twocolumn[{%
+\begin{@twocolumnfalse}%
+
+$if(title)$
+\begin{tikzpicture}[remember picture,overlay]
+\node[yshift=-8cm] at (current page.north west)
+{
+\begin{tikzpicture}[remember picture, overlay]
+\draw[bg, fill=bg] (0,0) rectangle (\paperwidth,8cm);
+\end{tikzpicture}
+};
+\node[
+    yshift=-4cm,
+    xshift=1.9cm,
+    anchor=west,
+    text width=15cm] at (current page.north west){\sffamily\huge\mdseries\baselineskip=22pt {\color{meta}$title$}\par};
+\end{tikzpicture}
+\vskip 8cm
+$endif$
+
+
+$if(author)$
+$for(author)$
+$if(author.orcid)$
+\href{http://orcid.org/$author.orcid$}{$author.given$ $author.family$}
+$else$
+$author.given$ $author.family$
+$endif$
+{\color{meta}$author.affiliation$$if(author.email)$,@$endif$}$sep$\hskip 2em   %\\
+$endfor$
+\bigskip
+$endif$
+
+$if(affiliation)$
+\small
+$for(affiliation)$
+{\sffamily\color{accent}$affiliation.id$} {\color{meta}$affiliation.text$}\\
+$endfor$
+\bigskip
+\normalsize
+$endif$
+
+$if(author)$
+$for(author)$
+$if(author.email)$ {\sffamily\color{accent}@} {\color{meta}\texttt{$author.email$}}$endif$
+$endfor$
+\bigskip
+$endif$
+
+$if(date)$
+{
+  \sffamily\small
+  \color{accent}Date
+  \color{meta} $date$
+}
+\vskip 1em
+$endif$
+
+$if(abstract)$
+{\small\sffamily\bfseries $abstract$}{\small%
+\vskip 1em {\color{accent}\ccby}\quad{\sffamily\color{meta} This work is licensed under a %
+Creative Commons Attribution 4.0 Unported License.}%
+}%
+\vskip 1em
+$endif$
+$if(keyword)$
+{\small\sffamily
+    {\color{accent}Keywords}
+$for(keyword)$
+  $keyword.k$ \hskip 1em
+$endfor$\vskip 4em
+}
+$endif$
+\end{@twocolumnfalse}
+}]
+
+$body$
+
+\end{document}
