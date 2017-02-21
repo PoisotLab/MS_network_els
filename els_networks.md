@@ -14,7 +14,6 @@
 
 - perturbations/extinctions
 - BEF
-    - 
 - stability
     - @jacq16ncr
 
