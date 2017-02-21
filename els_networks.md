@@ -79,9 +79,15 @@ interactions based on external information [@mora15ibi].
 
 - interactions => populations and biomass dynamics **ED**
 
-***here*** - spatial and temporal variation **TP**
+Ecological networks are also spatially and temporally variable
+[@troj16enm]. There are two drivers to this variability: changes in
+species composition, and changes in the way these species interact
+[@pois12dsi]. Changes in species alone are able to generate variation in
+network properties [@have92ssn]. Spatial variation in network structure can
+also reflect deep-time constraints; for example, @dals13hci reveal that
+historical climate change trends have a signature on the nestedness and
+modularity of pollination networks.
 
-- change in properties
 - $\beta$
 - change in time but keep same features
 - @diaz10cmn replacement by functionally equivalent species
