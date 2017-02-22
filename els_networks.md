@@ -47,9 +47,23 @@ motifs. Motifs can be more broadly defined as being particular patterns of
 interconnection between three or more nodes in networks at a frequency
 significantly higher than those find in randomized networks. Three-species
 motifs thus represent the simplest building blocks of networks, and more
-importantly the typical interaction found in ecological networks. As such, the
-offer the possibility to integrate theories developped on simple modules (*e.g.*
-tri-trophic food chain or omnivory) in larger, more realistic networks. Using motifs, 
+importantly the typical interaction found in communities. As such, the offer the
+possibility to integrate theories developped on simple modules (@holt97cm)
+(*e.g.* omnivory, @mcca98wti) in larger, more realistic networks. For instance,
+food webs are characterized by an over-representation of linear food chains and
+omnivory and an under-representation of apparent and exploitative competition
+[@cama07qal; @basc05stm]. @stou10ufp found that this distribution promotes
+stability in food webs, with over-represented motifs being more stable in
+isolation and correlated with higher stability in large realistic communities,
+and conversely. Motifs can also be used to characterize species role in
+networks. From the 13 different threes-species motifs emerge 30 uniques
+positions for species to occupy in these motifs. The different positions a
+species will occupy, and the frequency with which it will occupy these different
+positions in networks are called species motif role (@stou12ecs). These roles
+have been shown to be evolutionnary conserved in food webs (@stou12ecs) and that
+the variability of species role in time is less than expected in
+host-parasitoids bipartite networks (@bake15srf).
+
 
 - evo/phylogenetic structure **MB**
     - @eklo12reh => network structure effect on evolutionary history
