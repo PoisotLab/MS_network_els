@@ -117,4 +117,19 @@ with at every location.
 
 # Conclusion
 
+# Glossary
+
+*Adjacency matrix*
+*Allometric scaling*
+*Assembly*
+*Bioenergetics*
+*Ecological interactions*: Every type of contact between two species that alters
+the abundance, biomass and/or behaviour of one or both species. Interactions
+can be trophic, mutualistic or antagonistic, directed or undirected, weighted
+or unweighted.
+*Ecosystem functioning*
+*Graph theory*
+*Nodes/Links, Edges/Vertices*
+*Phylogenetic signal*
+
 # References
