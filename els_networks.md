@@ -39,11 +39,17 @@ and how many interactions they establish, is already very informative about
 the network structure.
 
 Another remarkable generality of network structure is the distribution of
-particular shapes of interconnection between all the three-species subsets.
+particular shapes of interconnection between all three-species subsets.
 @milo02nms found that networks (not just ecological but other types of networks
 such as neuronal or electronical networks) can be characterized by the
 over-representation of some of these three-species subset, which they called
-motifs. 
+motifs. Motifs can be more broadly defined as being particular patterns of
+interconnection between three or more nodes in networks at a frequency
+significantly higher than those find in randomized networks. Three-species
+motifs thus represent the simplest building blocks of networks, and more
+importantly the typical interaction found in ecological networks. As such, the
+offer the possibility to integrate theories developped on simple modules (*e.g.*
+tri-trophic food chain or omnivory) in larger, more realistic networks. Using motifs, 
 
 - evo/phylogenetic structure **MB**
     - @eklo12reh => network structure effect on evolutionary history
