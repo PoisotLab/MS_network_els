@@ -38,7 +38,13 @@ that many aspects of network structure covary with connectance [@chag15cte;
 and how many interactions they establish, is already very informative about
 the network structure.
 
-- motifs **ED**
+Another remarkable generality of network structure is the distribution of
+particular shapes of interconnection between all the three-species subsets.
+@milo02nms found that networks (not just ecological but other types of networks
+such as neuronal or electronical networks) can be characterized by the
+over-representation of some of these three-species subset, which they called
+motifs. 
+
 - evo/phylogenetic structure **MB**
     - @eklo12reh => network structure effect on evolutionary history
 
