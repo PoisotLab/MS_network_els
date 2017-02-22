@@ -46,6 +46,13 @@ the network structure.
 
 - perturbations/extinctions **MB**
 - BEF **ED**
+
+By mapping transfer of biomass and/or constraints on organism, ecological networks
+offer the possibility to reconciliate two branches of ecology that have been
+for a long time studied separately: ecosystem ecology and population ecology.
+From this reconciliation emerges an ideal framework to integrate theories on the
+relationship between biodiversity and ecosystem functioning (BEF).  
+
 - stability **MB**
     - @jacq16ncr
 
