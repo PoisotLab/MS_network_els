@@ -47,13 +47,19 @@ the network structure.
 - perturbations/extinctions **MB**
 - BEF **ED**
 
-By mapping transfer of biomass and/or constraints on organism, ecological
-networks offer the possibility to reconcile in a unique framework ecosystem ecology and population
-ecology. From this reconciliation networks emerge as an ideal framework to
-integrate theories on the relationship between biodiversity and ecosystem
-functioning (BEF) in larger, more realistic communities than the typical simple
-modules or sub-systems studied in the early BEF studies [@lore10lbe;
-@duff07frb].
+By mapping transfer of biomass and energy and/or constraints on organism,
+ecological networks offer the possibility to reconcile in a unique framework
+ecosystem ecology and population ecology. From this reconciliation networks
+emerge as an ideal framework to integrate theories on the relationship between
+biodiversity and ecosystem functioning (BEF) in larger, more realistic
+communities than the typical simple modules or sub-systems studied in the early
+BEF studies [@lore10lbe; @duff07frb]. For instance, early work on this
+integration showed that the typical positive asymptotic relationship between
+species diversity and several indices of functioning in competitive communities
+(all species belong to a single trophic level such as producers) is no longer a
+generality when embedded with trophic interactions. Moreover, the relationship
+changes depending on the structure of these trophic interactions [@theb03fcb;
+@theb07cee]. 
 
 - stability **MB**
     - @jacq16ncr
