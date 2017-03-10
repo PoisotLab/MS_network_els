@@ -49,26 +49,30 @@ the network structure.
 - BEF **ED**
 
 The consequences of the erosion of biodiversity for ecosystem functioning has
-been for almost three decades now a central problematic for ecologists. While
+been for almost three decades a central problematic for ecologists. While
 the hypothesis that an increase in species diversity results in an increased
-productivity dates back to Darwin (ref Origin of Species), the emergence of
-experimental ecology and the shift from observation in natural systems to the
-quantification of ecology has made possible to develop a quite general theory
-for what is now called the BEF relationship.
-
-By mapping transfer of biomass and energy and/or constraints on organism,
-ecological networks offer the possibility to reconcile in a unique framework
-ecosystem ecology and population ecology. From this reconciliation networks
-emerge as an ideal framework to integrate theories on the relationship between
-biodiversity and ecosystem functioning (BEF) in larger, more realistic
-communities than the typical simple modules or sub-systems studied in the early
-BEF studies [@lore10lbe; @duff07frb]. For instance, early work on this
-integration showed that the typical positive asymptotic relationship between
-species diversity and several indices of functioning in competitive communities
-(all species belong to a single trophic level such as producers) is no longer a
-generality when embedded with trophic interactions. Moreover, the relationship
-changes depending on the structure of these trophic interactions [@theb03fcb;
-@theb07cee].
+productivity dates back to Darwin [@darw59osm], the emergence of experimental
+ecology and the shift from observation in natural systems to the quantification
+of ecology has made possible to develop a quite general theory for what is now
+called the BEF relationship. In a trophic group (i.e. a group of species that
+all belong to the same trophic level, e.g. producers or herbivores), the loss of
+diversity resuts in a loss of efficiency to capture the shared resource
+compartment [@lore10lbe] (e.g. nutrients for producers, or producers for
+herbivores). This leading to a decrease in productivity or other index of
+functioning. Yet, when the trophic group under focus is coupled to other(s), the
+action of diversity on functioning is more variable [@duff07frb]. Top-down and
+bottom-up controls are exemple of mechanisms that modifies the action of the
+diversity at one level on other(s). This makes the BEF relationship
+unpredictable in real-world communities, composed of several trophic groups that
+are virtually never differentiable -- as intraguild predation and omnivory blurr
+the frontier between levels. The multiplicity of the factors influencing the BEF
+relationship calls for a more general framework that allows the integration of
+the theories developped for trophic group and for simple modules or sub-systems.
+By mapping transfer of biomass and energy and/or constraints on organism through
+the different compartments that compose a natural community ecological, networks --
+and food webs in particular -- offer the possibility to perform this
+integration, reconciling at the same time ecosystem ecology and population
+ecology. Anlyses performed on simulated food-webs with unchanged diversity have shown that interactions, and more specifically their structure, have a significative influence on functioning [@theb03fcb; @theb07cee; @pois13tcd]. The structure of interactions indeed translates the distribution of different types of properties important for ecosystem functioning, such as the presence of omnivory, the generality of species, the modularity of the food-web, etc.  
 
 - stability **MB**
     - @jacq16ncr
