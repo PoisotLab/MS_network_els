@@ -46,8 +46,6 @@ the network structure.
 
 - perturbations/extinctions **MB**
 
-- BEF **ED**
-
 The consequences of the erosion of biodiversity for ecosystem functioning has
 been for almost three decades a central problematic for ecologists. While
 the hypothesis that an increase in species diversity results in an increased
