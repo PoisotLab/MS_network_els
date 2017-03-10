@@ -47,8 +47,8 @@ the network structure.
 - perturbations/extinctions **MB**
 
 The consequences of the erosion of biodiversity for ecosystem functioning has
-been for almost three decades a central problematic for ecologists. While
-the hypothesis that an increase in species diversity results in an increased
+been for almost three decades a central problematic for ecologists. While the
+hypothesis that an increase in species diversity results in an increased
 productivity dates back to Darwin [@darw59osm], the emergence of experimental
 ecology and the shift from observation in natural systems to the quantification
 of ecology has made possible to develop a quite general theory for what is now
@@ -70,7 +70,12 @@ By mapping transfer of biomass and energy and/or constraints on organism through
 the different compartments that compose a natural community ecological, networks --
 and food webs in particular -- offer the possibility to perform this
 integration, reconciling at the same time ecosystem ecology and population
-ecology. Anlyses performed on simulated food-webs with unchanged diversity have shown that interactions, and more specifically their structure, have a significative influence on functioning [@theb03fcb; @theb07cee; @pois13tcd]. The structure of interactions indeed translates the distribution of different types of properties important for ecosystem functioning, such as the presence of omnivory, the generality of species, the modularity of the food-web, etc.  
+ecology. Anlyses performed on simulated food-webs with unchanged diversity have
+shown that interactions, and more specifically their structure, have a
+significative influence on functioning [@theb03fcb; @theb07cee; @pois13tcd]. The
+structure of interactions indeed translates the distribution of different types
+of properties important for ecosystem functioning, such as the presence of
+omnivory, the generality of species, the modularity of the food-web, etc.  
 
 - stability **MB**
     - @jacq16ncr
