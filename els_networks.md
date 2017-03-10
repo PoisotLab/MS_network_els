@@ -45,7 +45,16 @@ the network structure.
 # From structure to properties
 
 - perturbations/extinctions **MB**
+
 - BEF **ED**
+
+The consequences of the erosion of biodiversity for ecosystem functioning has
+been for almost three decades now a central problematic for ecologists. While
+the hypothesis that an increase in species diversity results in an increased
+productivity dates back to Darwin (ref Origin of Species), the emergence of
+experimental ecology and the shift from observation in natural systems to the
+quantification of ecology has made possible to develop a quite general theory
+for what is now called the BEF relationship.
 
 By mapping transfer of biomass and/or constraints on organism, ecological
 networks offer the possibility to reconciliate two branches of ecology that have
@@ -54,7 +63,7 @@ ecology. From this reconciliation networks emerge as an ideal framework to
 integrate theories on the relationship between biodiversity and ecosystem
 functioning (BEF) in larger, more realistic communities than the typical simple
 modules or sub-systems studied in the early BEF studies [@lore10lbe;
-@duff07frb]. 
+@duff07frb].
 
 - stability **MB**
     - @jacq16ncr
