@@ -81,7 +81,13 @@ is a need to develop a deeper understanding of them [@pois15swe]. Beyond
 the fundamental advance that this represents, this would allow to predict
 interactions based on external information [@mora15ibi].
 
-- interactions => populations and biomass dynamics **ED**
+The existence of multiple factors influencing the realization of an interaction
+between two species -- identified above -- results in the fact that in disturbed
+environment, interactions tend to disappear at a higher rates than species
+[@vali15sle]. Yet, while the consequences and causes of species extinction is
+the subject of a prolofic body of litterature, the causes and consequences of
+changes in the diversity of interactions has received comparatively less
+attention. 
 
 Ecological networks are also spatially and temporally variable
 [@troj16enm]. There are two drivers to this variability: changes in
