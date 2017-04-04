@@ -84,10 +84,18 @@ interactions based on external information [@mora15ibi].
 The existence of multiple factors influencing the realization of an interaction
 between two species -- identified above -- results in the fact that in disturbed
 environment, interactions tend to disappear at a higher rates than species
-[@vali15sle]. Yet, while the consequences and causes of species extinction is
-the subject of a prolofic body of litterature, the causes and consequences of
+[@vali15sle]. While the consequences and causes of species extinction is the
+subject of a prolofic body of litterature, the consequences and causes of
 changes in the diversity of interactions has received comparatively less
-attention. 
+attention. Yet, it is a well known fact that the structure of interactions
+within an ecological network can drastically modify the dynamics of populations
+and thus of biomass itself. Let us consider for instance a simple sub-system of
+three species A, B and C. How they interact with one another (as described in
+section ... they can interact in 13 different ways) will shape their dynamics
+through processes such as trophic cascade (if $A \rightarrow B \rightarrow C$)
+or competition (e.g. $A \rightarrow C \leftarrow B$). Scaling up the whole
+network, the distribution of certain types of interaction (e.g. motifs or motifs
+roles distributions), or interactors ()    
 
 Ecological networks are also spatially and temporally variable
 [@troj16enm]. There are two drivers to this variability: changes in
