@@ -81,21 +81,37 @@ is a need to develop a deeper understanding of them [@pois15swe]. Beyond
 the fundamental advance that this represents, this would allow to predict
 interactions based on external information [@mora15ibi].
 
-The existence of multiple factors influencing the realization of an interaction
-between two species -- identified above -- results in the fact that in disturbed
-environment, interactions tend to disappear at a higher rates than species
-[@vali15sle]. While the consequences and causes of species extinction is the
-subject of a prolofic body of litterature, the consequences and causes of
-changes in the diversity of interactions has received comparatively less
-attention. Yet, it is a well known fact that the structure of interactions
-within an ecological network can drastically modify the dynamics of populations
-and thus of biomass itself. Let us consider for instance a simple sub-system of
-three species A, B and C. How they interact with one another (as described in
-section ... they can interact in 13 different ways) will shape their dynamics
-through processes such as trophic cascade (if $A \rightarrow B \rightarrow C$)
-or competition (e.g. $A \rightarrow C \leftarrow B$). Scaling up the whole
-network, the distribution of certain types of interaction (e.g. motifs or motifs
-roles distributions), or interactors ()    
+The realisation of an interaction between individuals from the same or different
+populations also have ecological consequences. The most visible one being that
+it modifies the dynamics of at least one of these populations and through it,
+ecosystem processes [@lore10pet]. Let us consider for instance a population in
+isolation, reproducing in a environment with unlimited space and resources.
+Malthus' law [@malt98epp] predicts that it will grow exponentially. But in real
+world ecosystem, this case is seldom, if ever, observed. Resources are indeed
+rarely unlimited, and populations are usualy part of a wider community composed
+of numerous species, embedded in a web of interactions. Then, as the individuals
+become more and more numerous, they consume more and more of the resources they
+share which increases intra- and potentially inter-specific competition and
+results in density-dependant effects. They also become increasingly likely to
+interact with individuals from other populations, as seen above. To analyze the
+effect of interactions of any type on population dynamics, models have to
+simultaneously account for each interacting population. These interactions are
+listed in the adjacency matrix $A$, a square matrix $n*n$ where $n$ is the
+number of species composing the community. $A_{ij} = 1$ when species $i$ and $j$
+interact and $0$ otherwise. Then, population dynamics models can take the
+following general form [@pois15swe]:
+
+$$
+\frac{dN_i}{dt} = N_i(r_i * \sum_j A_{ij} \alpha_{i,j} N_j)$ where $\alpha_{i,j}
+$$
+
+where $\alpha_{ij}$ quantifies the strength of the interaction. Obviously, for
+each population dynamic model, the biomass $B_i$ of population $i$ can replace
+its abundance $N_i$ making it possible to see how interactions influences
+biomass flows and associated ecosystem processes (see for instance @will07hyi).
+Since the seminal work of May [@may72wlc], several studies have used this type
+of models to analyze how different types of interaction affect ecosystem
+stability or functioning. 
 
 Ecological networks are also spatially and temporally variable
 [@troj16enm]. There are two drivers to this variability: changes in
