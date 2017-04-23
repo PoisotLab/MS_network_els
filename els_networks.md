@@ -75,7 +75,7 @@ shown that interactions, and more specifically their structure, have a
 significative influence on functioning [@theb03fcb; @theb07cee; @pois13tcd]. The
 structure of interactions indeed translates the distribution of different types
 of properties important for ecosystem functioning, such as the presence of
-omnivory, the generality of species, the modularity of the food-web, etc.  
+omnivory, the generality of species, the modularity of the food-web, etc.
 
 - stability **MB**
     - @jacq16ncr
