@@ -137,26 +137,26 @@ is a need to develop a deeper understanding of them [@pois15swe]. Beyond
 the fundamental advance that this represents, this would allow to predict
 interactions based on external information [@mora15ibi].
 
-The realization of an interaction between individuals from the same or different
-populations within a community also have ecological consequences as it modifies
-the dynamics of at least one of the interacting populations, and through it, the
-ecosystem emerging properties. If we consider for instance a population A, its
-dynamics is not the same when it multiplies in isolation -- where it can grow
-exponentially if resources are unlimited [@malt98epp] or logistically otherwise
-[@verh38nlq] -- or when it is embedded in a real-world community, composed of
-several species interacting with one another through different mechanisms
-[@ches08ipc]. It can lose individuals to predation, have parasitism increase its
-death rate and at the same time see its establishment eased through
-facilitation. It then becomes necessary to account for interactions when
-studying the dynamic a population, community stability or ecosystem functioning.
-But the effect of interactions on populations dynamics is not always the
-straigthforward, both in terms of directionality and intensity, as it exists
-different types of interactions and multiple factors influence their probability
-and strength. Since the seminal work of @may72wlc, the analysis of these effects
-has been a prolofic field of ecology, feeding in particular the famous
-"complexity-stability debate" (see @alle15sra for an overview). Including
-interactions in population dynamics analyses can be done by using model of the
-following general form [@pois15swe]:
+The realization of an interaction between individuals from the same or
+different populations within a community also have ecological consequences
+as it modifies the dynamics of at least one of the interacting populations,
+and through it, the ecosystem emerging properties. If we consider for
+instance a population A, its dynamics is not the same when it multiplies
+in isolation -- where it can grow exponentially if resources are unlimited
+[@malt98epp] or logistically otherwise [@verh38nlq] -- or when it is embedded
+in a real-world community, composed of several species interacting with one
+another through different mechanisms [@ches08ipc]. It can lose individuals to
+predation, have parasitism increase its death rate and at the same time see
+its establishment eased through facilitation. It then becomes necessary to
+account for interactions when studying the dynamic a population, community
+stability or ecosystem functioning.  But the effect of interactions on
+populations dynamics is not always the straightforward, both in terms of
+directionality and intensity, as it exists different types of interactions and
+multiple factors influence their probability and strength. Since the seminal
+work of @may72wlc, the analysis of these effects has been a prolific field
+of ecology, feeding in particular the famous "complexity-stability debate"
+(see @alle15sra for an overview). Including interactions in population dynamics
+analyses can be done by using model of the following general form [@pois15swe]:
 
 $$
 \frac{1}{N_i}\frac{\text{d}}{\text{d}t}N_i = r_i \times \sum_j A_{ij} \alpha_{i,j} N_j \,
