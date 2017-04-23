@@ -159,7 +159,7 @@ interactions in population dynamics analyses can be done by using model of the
 following general form [@pois15swe]:
 
 $$
-\frac{1}{N_i}\frac{\text{d}}{\frac{d}t}N_i = r_i \times \sum_j A_{ij} \alpha_{i,j} N_j \,
+\frac{1}{N_i}\frac{\text{d}}{\text{d}t}N_i = r_i \times \sum_j A_{ij} \alpha_{i,j} N_j \,
 $$
 
 wherein the adjacency matrix $A$ ($n*n$), list the realized interactions in a
