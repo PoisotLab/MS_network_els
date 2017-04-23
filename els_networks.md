@@ -159,15 +159,15 @@ interactions in population dynamics analyses can be done by using model of the
 following general form [@pois15swe]:
 
 $$
-\frac{dN_i}{dt} = N_i(r_i * \sum_j A_{ij} \alpha_{i,j} N_j)$ where $\alpha_{i,j}
+\frac{1}{N_i}\frac{\text{d}}{\frac{d}t}N_i = r_i \times \sum_j A_{ij} \alpha_{i,j} N_j \,
 $$
 
-where the adjacency matrix $A$ ($n*n$), list the realized interactions in a
+wherein the adjacency matrix $A$ ($n*n$), list the realized interactions in a
 given community composed of $n$ species. $A_{ij} \neq 0$ when species $i$ and
 $j$ interact and $0$ otherwise. $\alpha_{ij}$ quantifies the strength of the
 interaction. We presented here an equation to model populations abundance $N$
 but it can easily be adapted to model biomass flows by replacing populations'
-abundances by their biomasses $B_i$ (see for instance @will07hyi).   
+abundances by their biomasses $B_i$ (see for instance @will07hyi).
 
 Ecological networks are also spatially and temporally variable
 [@troj16enm]. There are two drivers to this variability: changes in
