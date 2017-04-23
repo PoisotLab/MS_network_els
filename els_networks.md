@@ -38,7 +38,32 @@ that many aspects of network structure covary with connectance [@chag15cte;
 and how many interactions they establish, is already very informative about
 the network structure.
 
-- motifs **ED**
+Another remarkable generality of network structure is the distribution of
+particular shapes of interconnection between all three-species subsets.
+@milo02nms indeed found that networks (not just ecological but other types of
+networks such as neuronal or electronical networks as well) can be characterized
+by the over-representation of some of these three-species subset, which they
+called motifs. Motifs can be more broadly defined as being particular shapes of
+interconnection between three or more nodes in networks at a frequency
+significantly higher than those find in randomized networks. Three-species
+motifs thus represent the simplest building blocks of networks, and more
+importantly the typical interaction found in communities. As such, they offer
+the possibility to integrate theories developped on simple modules (*e.g.*
+omnivory, @mcca98wti, @holt97cm) in larger, more realistic networks. For
+instance, food webs are characterized by an over-representation of linear food
+chains and omnivory and an under-representation of apparent and exploitative
+competition [@cama07qal; @basc05stm]. @stou10ufp found that this distribution
+promotes stability in food webs, with over-represented motifs being more stable
+in isolation and correlated with higher stability in large realistic
+communities, and conversely. Motifs can also be used to characterize species
+role in networks. From the 13 different three-species motifs emerge 30 uniques
+positions for species to occupy in these motifs, representing how the species is
+embedded in its community. The different positions a species will occupy, and
+the frequency with which it will occupy these different positions in networks
+are called species motif role (@stou12ecs). These roles have been shown to be
+evolutionnary conserved in food webs (@stou12ecs) and to have less variability
+in time than expected in host-parasitoids bipartite networks (@bake15srf).
+
 - evo/phylogenetic structure **MB**
     - @eklo12reh => network structure effect on evolutionary history
 
