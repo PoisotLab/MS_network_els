@@ -102,8 +102,22 @@ structure of interactions indeed translates the distribution of different types
 of properties important for ecosystem functioning, such as the presence of
 omnivory, the generality of species, the modularity of the food-web, etc.
 
-- stability **MB**
-    - @jacq16ncr
+Since more than 50 years, researchers try to understand communities dynamics.
+Considerable attention have been paid to the ability of communities to keep
+their species composition and species coexistence (i.e. persistence), and to the
+rapidity of communities to reach a stable dynamic after a perturbation (i.e.
+recovery resilience). Both are key measures which define the concept of
+community stability. The trivial idea that stability (persistence and
+resilience) increases with the complexity of a network, defined by high species
+richness and connectance, have been frequently used to understand the behavior
+of ecological networks. Nevertheless, predictions have been based on random
+complex networks, while ecological networks have non-random structure
+(@may72wlc, ). Those false assumptions is fueling the stability-complexity
+debate (see @mcca00dd), making irrelevant descriptors usually used to study
+stability through empirical networks, such as species richness, connectance and
+interaction strength. Then, we need to focus on other components of network
+structure.
+(@mcca98wti, @neut02srf, @basc05isc, @jacq16ncr, @bros06ase, @otto07add, @theb10sec, @stou11cif)
 
 # Linking interactions to ecological mechanisms
 
