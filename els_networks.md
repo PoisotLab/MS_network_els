@@ -194,7 +194,7 @@ with at every location.
 
 # From the regional species pool to local structured communities
 
-- distributions and species interactions
+From all the species that can occur on the overall geographic area under focus -- the regional species pool -- only subsets with varying composition -- the local communities -- will be observed at the different sites. What factors drive the local occurrence and abundance of species? Answering this question still is one of the primary goal of ecologist and biogeographers (ref). 
 
 - coexistence theory
 
