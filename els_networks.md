@@ -192,14 +192,13 @@ different communities: @bake15srf show that species keep occupying the same
 position in the network across space, regardless of the species they interact
 with at every location.
 
-# Section 4
+# From the regional species pool to local structured communities
 
 - distributions and species interactions
-    - Cazelles
-    - Araujo
-    - Lessard geographic species pool
-- ???
-- ???
+
+- coexistence theory
+
+- assembly dynamics
 
 # Conclusion
 
