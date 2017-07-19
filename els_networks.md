@@ -194,7 +194,7 @@ with at every location.
 
 # From the regional species pool to local structured communities
 
-Ecological networks can be used to represent the local communities, describing both the species present and the interactions between them, formed from the regional species pool (refs). As such, they represent a powerful tool to shed new light on the processes underlying species distribution. There is indeed mounting evidences that biotic interactions not only play a critical role in shaping communities at a local scale, but also at macroecological scales (refs).
+Describing the different local communities that occur at macroecological scales through their ecological networks represent an additional layer of information compared to simple species lists. As such, ecological networks represent a powerful tool to shed new light on the processes underlying species distribution (ref). There is indeed mounting evidences that biotic interactions not only play a critical role in shaping communities at a local scale, but also at macroecological scales (refs). The prevailing idea until recently was that abiotic conditions were the primary factor underlying species distribution at large scale (ref). Empirical observations of the relationship between species occurrence and/or abundance and environmental variables were thus used to understand species physiological tolerance to envrironmental conditions and potentially predict their range at larger scale, or under different scenarios of climate change. 
 
 
 - coexistence theory
