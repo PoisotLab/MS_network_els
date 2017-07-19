@@ -194,31 +194,8 @@ with at every location.
 
 # From the regional species pool to local structured communities
 
-From all the species that can occur on the overall geographic area under focus --
-the regional species pool -- only subsets with varying composition will be
-observed at the different sites: the local communities. Understanding what
-factors drive the local occurrence and abundance of species still is one of the
-primary goal of ecologist and biogeographers (ref). To understand the processes
-underlying species distribution, one must think about species requirements (ref
-Hutchinson 1957). First, species can only occupy areas were the abiotic
-condition (altitude, temperature, precipitations, etc.) are in adequation with
-their physiological tolerance (ref). The empirical relationship between
-environmental conditions and species observed distribution has been widely used
-in particular to build *species climate envelopes* (ref), allowing to predict
-the potential areas of repartition of species under climate change (e.g. ref).
-The local occurrence of species also depends on biotic interaction. They indeed
-need to be able to feed through trophic interactions, some need other species to
-reproduce (e.g. pollination or parasitism), **TODO**
+Ecological networks can be used to represent the local communities, describing both the species present and the interactions between them, formed from the regional species pool (refs). As such, they represent a powerful tool to shed new light on the processes underlying species distribution. There is indeed mounting evidences that biotic interactions not only play a critical role in shaping communities at a local scale, but also at macroecological scales (refs).
 
- While the role of the abiotic environment is widely aknowledged (e.g. refs),
- the role of biotic interaction between species has often been discarded at
- macroecological scales (refs). Yet, recent studies show that their role in
- shaping species distribution at large scales might be more important than
- previously thought (refs).
- - "predicting" species interactions from co-occurrence, limitations
- - using information about actual interactions (ecological network, metaweb)
- - interactions do not respond to the same env. drivers that compo => additional layer of information that should be included in models
- - limited knowledge on that last point => future direction
 
 - coexistence theory
 
