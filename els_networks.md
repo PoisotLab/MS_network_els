@@ -194,7 +194,37 @@ with at every location.
 
 # From the regional species pool to local structured communities
 
-Describing the different local communities that occur at macroecological scales through their ecological networks represent an additional layer of information compared to simple species lists. As such, ecological networks represent a powerful tool to shed new light on the processes underlying species distribution (ref). There is indeed mounting evidences that biotic interactions not only play a critical role in shaping communities at a local scale, but also at macroecological scales (refs). The prevailing idea until recently was that abiotic conditions were the primary factor underlying species distribution at large scale (ref). Empirical observations of the relationship between species occurrence and/or abundance and environmental variables were thus used to understand species physiological tolerance to envrironmental conditions and potentially predict their range at larger scale, or under different scenarios of climate change. 
+Describing the different local communities that occur at macroecological scales
+through their ecological networks represent an additional layer of information
+compared to simple species lists. As such, ecological networks are a powerful
+tool to shed new light on the processes underlying species distribution
+[@caze16tsc]. Until recently, the prevailing idea was that at large scales, the
+role of biotic interactions was minimized compared to that of abiotic
+conditions, and thought to only be important locally [@pear03pic; @boul12adb].
+Empirical observations of species-environment relationship were thus used to
+understand species physiological tolerance to environmental conditions [**ref**]
+and potentially predict their range under different scenarios of climate change
+[e.g. @arau06cwd]. While these climate envelope models provide a useful
+approximation of species potential distribution [@pear02sse], there is mounting
+evidences that biotic interactions -- both positive and negative -- play a
+critical role in shaping communities not only at local scales [@boul12adb], but
+also at macroecological scales [@davi98isr; @arau07ibi; @gote10mss; @heik07bii;
+@arau11usc]. So far, the role of interactions in shaping species distribution is
+mainly estimated from co-occurrence data, used to build joint species
+distribution models (JSDM) [@poll14ucm]. But there are limitations to this
+approach. For instance, it does not allow to distinguish between co-occurrence
+caused by biotic interactions and correlated responses to unmeasured
+environmental variables [@poll14ucm]. Conversely, the lack of association
+between species is no evidence of absence of interaction [@caze16tsc]. To move
+from empirical-based species distribution models (SDM) toward theory-driven SDM,
+further work is needed. In particular, developping methods allowing to include
+prior information about the underlying ecological network when building
+(J)SDMcould help sheding light on the the fundamental processes underlying
+species distribution and thus making more acurate predictions [@caze16tsc].
+Additionnaly, @pois17hpt recently showed that biotic interactions respond to
+environmental conditions on their own, independantly of species.
+
+Failing to account for biotic interactions when building species distribution models can thus lead to underestimating potential cascading effects such
 
 
 - coexistence theory
