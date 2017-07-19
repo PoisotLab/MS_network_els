@@ -102,22 +102,31 @@ structure of interactions indeed translates the distribution of different types
 of properties important for ecosystem functioning, such as the presence of
 omnivory, the generality of species, the modularity of the food-web, etc.
 
-Since more than 50 years, researchers try to understand communities dynamics.
-Considerable attention have been paid to the ability of communities to keep
-their species composition and species coexistence (i.e. persistence), and to the
-rapidity of communities to reach a stable dynamic after a perturbation (i.e.
-recovery resilience). Both are key measures which define the concept of
-community stability. The trivial idea that stability (persistence and
-resilience) increases with the complexity of a network, defined by high species
-richness and connectance, have been frequently used to understand the behavior
-of ecological networks. Nevertheless, predictions have been based on random
-complex networks, while ecological networks have non-random structure
-(@may72wlc, ). Those false assumptions is fueling the stability-complexity
-debate (see @mcca00dd), making irrelevant descriptors usually used to study
-stability through empirical networks, such as species richness, connectance and
-interaction strength. Then, we need to focus on other components of network
-structure.
-(@mcca98wti, @neut02srf, @basc05isc, @jacq16ncr, @bros06ase, @otto07add, @theb10sec, @stou11cif)
+The relationship between ecological network structure and stability has been and
+remains a central topic of discussion. Starting with the idea that increasing
+species diversity and connectance will increase stability of the observed
+communities, this relationship was rapidly contested. Based on random networks,
+@may72wlc proposed that complexity is not bindingly related to community
+stability. From this day, the complexity-stability debate have been really
+prolific (see @mcca00dd), using real ecological communities with a non-random
+structure. To complicate, several measures have been used to evaluate the
+stability of ecological networks (*Pimm 2002*), such as the ability of communities
+to keep their species composition and species coexistence (i.e. persistence) and
+the rapidity of communities to reach a stable dynamic after a perturbation (i.e.
+resilience), rising the difficulty to have a clear idea of the relationship
+between network structure and stability. By now, it is known that there is no
+direct relationship between complexity of ecological networks and their
+stability (@jacq16ncr), but other components of the network structure have a
+stabilizing effect on communities. The power-law distribution of ecological
+network links has indeed a strong stabilizing effect on the network. The
+organization with few highly connected species and a large number of weakly
+connected ones contribute to temperate variations in populations dynamics and
+then stabilize the entire community. Moreover, when combined with a high
+frequency of weak interactions, this distribution results in a stable network
+(@basc05isc, @jacq16ncr). Also, because the predator-prey body-mass ratio
+determines the distribution of interaction strength, it has a stabilizing effect
+on a short trophic network (@emme04pbs, @bros06ase).
+
 
 # Linking interactions to ecological mechanisms
 
