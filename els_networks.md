@@ -69,7 +69,6 @@ in time than expected in host-parasitoids bipartite networks (@bake15srf).
 
 # From structure to properties
 
-- perturbations/extinctions **MB**
 
 The consequences of the erosion of biodiversity for ecosystem functioning has
 been for almost three decades a central problematic for ecologists. While the
@@ -104,6 +103,19 @@ omnivory, the generality of species, the modularity of the food-web, etc.
 
 - stability **MB**
     - @jacq16ncr
+
+The robustness of a network to species loss is an important concept to
+understand how ecological communities behave in front of species loss or
+replacement due to perturbation, such as landscape fragmentation, habitat loss
+of alien species arrival. Impact of species loss in the structure of ecological
+network is measured by the number of secondary extinctions (i.e. direct or
+indirect extinction of species due to a first species loss). Removing a random
+species in a network has no particular effect on the network robustness,
+while removing of a selected species has impressive consequences on the rest of
+the network. The loss of an highly connected species will indeed induce the
+extinction of species related directly or indirectly to the first one, called
+secondary extinctions or cascade extinction.
+
 
 # Linking interactions to ecological mechanisms
 
