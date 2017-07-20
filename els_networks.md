@@ -104,17 +104,25 @@ omnivory, the generality of species, the modularity of the food-web, etc.
 - stability **MB**
     - @jacq16ncr
 
-The robustness of a network to species loss is an important concept to
+The robustness of networks to species loss is an important concept to
 understand how ecological communities behave in front of species loss or
 replacement due to perturbation, such as landscape fragmentation, habitat loss
 of alien species arrival. Impact of species loss in the structure of ecological
 network is measured by the number of secondary extinctions (i.e. direct or
 indirect extinction of species due to a first species loss). Removing a random
 species in a network has no particular effect on the network robustness,
-while removing of a selected species has impressive consequences on the rest of
-the network. The loss of an highly connected species will indeed induce the
-extinction of species related directly or indirectly to the first one, called
-secondary extinctions or cascade extinction.
+whereas removing of a selected species has impressive consequences on the rest of
+the network (@sole01cfe). 
+
+Depending on the interaction type, the network architecture will differ.
+Mutualistic networks (e.g. plant-pollinators networks) have a nested and highly
+connected structure (@basc07pmn), while trophic networks are more modular
+(@theb10sec). This difference induce dissimilarities in network behavior in
+front of perturbation. On one hand, the large proportion of generalists and the
+redundancy of species function in mutualistic lead to a relative resistance to
+perturbations (ref). On the other hand, the modular structure found in trophic
+networks limits propagation of perturbations and secondary extinctions
+(@stou10ufp).
 
 
 # Linking interactions to ecological mechanisms
