@@ -2,15 +2,15 @@
 
 - growth of network theory in the ecological literature
 - definition
-    - network
-    - graph theory references
-    - nodes as species, links as interactions
+  - network
+  - graph theory references
+  - nodes as species, links as interactions
 - domains + questions
-    - ecosystem ecology (nutrients)
-    - community ecology (interactions)
-    - landscape ecology (habitat connectivity)
-    - public health (epidemics)
-    - sociobiology (animal societies)
+  - ecosystem ecology (nutrients)
+  - community ecology (interactions)
+  - landscape ecology (habitat connectivity)
+  - public health (epidemics)
+  - sociobiology (animal societies)
 
 # Invariants in ecological networks
 
@@ -97,7 +97,6 @@ nestedness-phylogeny relationship remain to be further investigated.
 
 # From structure to properties
 
-
 The consequences of the erosion of biodiversity for ecosystem functioning has
 been for almost three decades a central problematic for ecologists. While the
 hypothesis that an increase in species diversity results in an increased
@@ -154,27 +153,23 @@ frequency of weak interactions, this distribution results in a stable network
 determines the distribution of interaction strength, it has a stabilizing effect
 on a short trophic network (@emme04pbs, @bros06ase).
 
-
-The robustness of networks to species loss is an important concept to
-understand how ecological communities behave in front of species loss or
-replacement due to perturbation, such as landscape fragmentation, habitat loss
-of alien species arrival. Impact of species loss in the structure of ecological
-network is measured by the number of secondary extinctions (i.e. direct or
-indirect extinction of species due to a first species loss). Removing a random
-species in a network has no particular effect on the network robustness,
-whereas removing of a selected species has impressive consequences on the rest of
-the network (@sole01cfe). 
-
-Depending on the interaction type, the network architecture will differ.
-Mutualistic networks (e.g. plant-pollinators networks) have a nested and highly
-connected structure (@basc07pmn), while trophic networks are more modular
+The robustness of networks to species loss is an important concept to understand
+how ecological communities behave in front of species loss or replacement due to
+perturbation, such as landscape fragmentation, habitat loss of alien species
+arrival. Impact of species loss in the structure of ecological network is
+measured by the number of secondary extinctions (i.e. direct or indirect
+extinction of species due to a first species loss). Removing a random species in
+a network has no particular effect on the network robustness, whereas removing
+of a selected species has impressive consequences on the rest of the network
+(@sole01cfe). Depending on the interaction type, the network architecture will
+differ. Mutualistic networks (e.g. plant-pollinators networks) have a nested and
+highly connected structure (@basc07pmn), while trophic networks are more modular
 (@theb10sec). This difference induce dissimilarities in network behavior in
 front of perturbation. On one hand, the large proportion of generalists and the
 redundancy of species function in mutualistic lead to a relative resistance to
 perturbations (ref). On the other hand, the modular structure found in trophic
 networks limits propagation of perturbations and secondary extinctions
 (@stou10ufp).
-
 
 # Linking interactions to ecological mechanisms
 
@@ -220,7 +215,7 @@ another through different mechanisms [@ches08ipc]. It can lose individuals to
 predation, have parasitism increase its death rate and at the same time see
 its establishment eased through facilitation. It then becomes necessary to
 account for interactions when studying the dynamic a population, community
-stability or ecosystem functioning.  But the effect of interactions on
+stability or ecosystem functioning. But the effect of interactions on
 populations dynamics is not always the straightforward, both in terms of
 directionality and intensity, as it exists different types of interactions and
 multiple factors influence their probability and strength. Since the seminal
@@ -296,7 +291,6 @@ Additionnaly, @pois17hpt recently showed that biotic interactions respond to
 environmental conditions on their own, independantly of species.
 
 Failing to account for biotic interactions when building species distribution models can thus lead to underestimating potential cascading effects such
-
 
 - coexistence theory
 
