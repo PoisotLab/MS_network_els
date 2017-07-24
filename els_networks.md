@@ -1,16 +1,22 @@
 # Introduction
 
-- growth of network theory in the ecological literature
-- definition
-  - network
-  - graph theory references
-  - nodes as species, links as interactions
-- domains + questions
-  - ecosystem ecology (nutrients)
-  - community ecology (interactions)
-  - landscape ecology (habitat connectivity)
-  - public health (epidemics)
-  - sociobiology (animal societies)
+In ecological communities, interactions between species are organized in ways
+that are non-random. The organisation of these interactions, in turn, drives or
+changes some properties of the community, such as its stability, productivity,
+or ability to resist extinctions. The way interactions are organized can be
+studied by investigating the structure of *Species Interaction Networks*. In
+this representations, species are "nodes", and interactions are "edges". Two
+species are linked by an edge if there is an interaction between them.
+
+Describing and understanding the structure of species interaction networks is an
+active, and growing, field of ecological research. In this contribution, we will
+give an overview of some of the most prominent findings and areas of research
+from the last decade. Starting from a discussion of some invariant properties of
+the structure of species interaction networks, we will then discuss how this
+structure affects ecological properties. We will follow by a discussion of the
+ways ecological networks can be studied under familiar concepts from ecological
+theory, and finally how this approach scales up to larger temporal or spatial
+scales.
 
 # Invariants in ecological networks
 
@@ -290,7 +296,8 @@ species distribution and thus making more acurate predictions [@caze16tsc].
 Additionnaly, @pois17hpt recently showed that biotic interactions respond to
 environmental conditions on their own, independantly of species.
 
-Failing to account for biotic interactions when building species distribution models can thus lead to underestimating potential cascading effects such
+Failing to account for biotic interactions when building species distribution
+models can thus lead to underestimating potential cascading effects such
 
 - coexistence theory
 
@@ -300,17 +307,26 @@ Failing to account for biotic interactions when building species distribution mo
 
 # Glossary
 
-*Adjacency matrix*
+Adjacency matrix
+: definiton
+
 *Allometric scaling*
+
 *Assembly*
+
 *Bioenergetics*
-*Ecological interactions*: Every type of contact between two species that alters
-the abundance, biomass and/or behaviour of one or both species. Interactions
-can be trophic, mutualistic or antagonistic, directed or undirected, weighted
-or unweighted.
+
+Ecological interactions
+: Every type of contact between two species that alters the abundance, biomass
+and/or behaviour of one or both species. Interactions can be trophic,
+mutualistic or antagonistic, directed or undirected, weighted or unweighted.
+
 *Ecosystem functioning*
+
 *Graph theory*
+
 *Nodes/Links, Edges/Vertices*
+
 *Phylogenetic signal*
 
 # References
