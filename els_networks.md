@@ -1,11 +1,16 @@
 # Introduction
 
+- growth of network theory in the ecological literature
 - definition
+    - network
+    - graph theory references
+    - nodes as species, links as interactions
 - domains + questions
-- other uses of networks
-    - epidemiology
-    - animal societies
-    - landscape connectivity
+    - ecosystem ecology (nutrients)
+    - community ecology (interactions)
+    - landscape ecology (habitat connectivity)
+    - public health (epidemics)
+    - sociobiology (animal societies)
 
 # Invariants in ecological networks
 
