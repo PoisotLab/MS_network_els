@@ -219,13 +219,10 @@ between species is no evidence of absence of interaction [@caze16tsc]. To move
 from empirical-based species distribution models (SDM) toward theory-driven SDM,
 further work is needed. In particular, developping methods allowing to include
 prior information about the underlying ecological network when building
-(J)SDMcould help sheding light on the the fundamental processes underlying
+(J)SDM could help sheding light on the the fundamental processes underlying
 species distribution and thus making more acurate predictions [@caze16tsc].
 Additionnaly, @pois17hpt recently showed that biotic interactions respond to
-environmental conditions on their own, independantly of species.
-
-Failing to account for biotic interactions when building species distribution models can thus lead to underestimating potential cascading effects such
-
+environmental conditions on their own, independantly of species. **(needs conclusion)**
 
 - coexistence theory
 
