@@ -294,12 +294,15 @@ prior information about the underlying ecological network when building
 (J)SDMcould help sheding light on the the fundamental processes underlying
 species distribution and thus making more acurate predictions [@caze16tsc].
 Additionnaly, @pois17hpt recently showed that biotic interactions respond to
-environmental conditions on their own, independantly of species.
+environmental conditions on their own, independantly of species. **(needs conclusion / transition)**
 
-Failing to account for biotic interactions when building species distribution
-models can thus lead to underestimating potential cascading effects such
-
-- coexistence theory
+A multitude of species can live in the same geographic area, forming an ecological community. Some of these species share a similar ecology, meaning that their requirements are overlapping in some extent. What makes it possible for these species to coexist and not be subject to competitive exclusion (ref Gause 1934), thus maintaining ecosystems biodiversity is another central question of ecology (ref). To understand the drivers of species coexistence and diversity maintenance, it is necessary to study how the different species of the community interact, as it defines the extent of their competition. Species that share a fraction of their resources or predators are subject to intra- and interspecific competition and susceptible to competitive exclusion in the absence of stabilizing and/or equalizing mechanisms (Chesson 2000). Stabilizing mechanisms include all processes increasing intraspecific relatively to interspecific competition (e.g. resource partitioning, frequency dependant predation, fluctuation-dependant mechanisms) while equalizing mechanisms encompass the processes minimizing fiteness differences between competiting species (Chesson 2000). Ecological networks offer an ideal methodological framework to resolve these mechanisms and their relative importance as they map the interactions between species.
+- models: integrating population dynamics and community interactive structure
+- early results (May 1973) show that while diverse and densely connected communities are almost ubiquitous in natures, they are theoretically impossible (10 species, random structure) => necessarily, there are mechanisms related to the organisation of the interactions among species that improve their persistence / allow coexistence.
+- allow to test different situations / mechanisms
+- results:
+  - in food webs, structure (niche model), behavioral non-linearities (competition between producers and reduced consumption of rare resources) (Martinez, Williams and Dunne 2006), allometrically-scaled metabolic rates (Brose et al., 2006) improve species coexistence, usually measured as the percentage of persisting species
+  - in mutualistic networks : asymetry of dependances (in a pairwise interaction, if a plant A depend strongly on a pollinator B for pollination, B often does not rely strongly on A for ressources) Bascompte, Jordano and Olesen 2006 and nested architecture (minimize competition relatively to competition) (Bastolla et al., 2009, Sugihara & Ye 2009). 
 
 - assembly dynamics
 
