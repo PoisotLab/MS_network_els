@@ -296,45 +296,37 @@ species distribution and thus making more acurate predictions [@caze16tsc].
 Additionnaly, @pois17hpt recently showed that biotic interactions respond to
 environmental conditions on their own, independantly of species. **(needs conclusion / transition)**
 
-A multitude of species can live in the same geographic area, forming an
-ecological community. Some of these species share a similar ecology, meaning
-that their requirements are overlapping in some extent. What makes it possible
-for these species to coexist and not be subject to competitive exclusion (ref
-Gause 1934) -- thus maintaining ecosystems biodiversity -- is another central
-question of ecology (ref). To understand the drivers of species coexistence and
-diversity maintenance, it is necessary to study how the different species of the
-community interact, as it defines the extent of their competition. Species that
-share a fraction of their resources or predators are subject to intra- and
-interspecific competition and susceptible to competitive exclusion in the
-absence of stabilizing and/or equalizing mechanisms (Chesson 2000). Stabilizing
-mechanisms include all processes increasing intraspecific relatively to
-interspecific competition (e.g. resource partitioning, frequency dependant
-predation, fluctuation-dependant mechanisms) while equalizing mechanisms
-encompass the processes minimizing fitness differences between competiting
-species (Chesson 2000). Ecological networks offer an ideal methodological
-framework to resolve these mechanisms and their relative importance as they map
-the interactions between species. In particular the use of population or biomass
-dynamics model applied to ecological networks (ref examples) has allowed to
-integrate the mechanisms of species coexistence and the interactive structure of
-communities. Using this approach, May (refs) showed using simple (LV ?) models
-applied to (10 ?) species communities that rich and densely connected species
-were, in spite of their quasi-ubiquity in Nature (ref), theoretically infeasible
-as most species were subject to dynamic exctinction. The existence of mechanisms
-related to the organisation of the interactions among species that improve their
-coexistence, and thus the network persistence, is then necessary and has been
-widely explored since then. Using a similar approach, other showed that the
-non-random structure of ecological networks improved species coexistence
-(Martinez, Williams and Dunne, 2006). In mutualistic networks, the nested
-structure has been shown to minimize competition relatively to competition
-(Bastolla et al, 2009, Sugihara & Ye 2009). In these networks, the asymetry of
-dependances (explain) also increase persistence (Bascompte, Jordano & Olesen 2006). 
-
-- models: integrating population dynamics and community interactive structure
-- early results (May 1973) show that while diverse and densely connected communities are almost ubiquitous in natures, they are theoretically impossible (10 species, random structure) => necessarily, there are mechanisms related to the organisation of the interactions among species that improve their persistence / allow coexistence.
-- allow to test different situations / mechanisms
-- results:
-  - in food webs, structure (niche model), behavioral non-linearities (competition between producers and reduced consumption of rare resources) (Martinez, Williams and Dunne 2006), allometrically-scaled metabolic rates (Brose et al., 2006) improve species coexistence, usually measured as the percentage of persisting species
-  - in mutualistic networks : asymetry of dependances (in a pairwise interaction, if a plant A depend strongly on a pollinator B for pollination, B often does not rely strongly on A for ressources) Bascompte, Jordano and Olesen 2006 and nested architecture (minimize competition relatively to competition) (Bastolla et al., 2009, Sugihara & Ye 2009).
+Ecological networks also offer an ideal framework to study the conditions for
+the maintenance of biodiversity in communities through species coexistence.
+@gaus34eav predicted that species that shared similar ecologies could not live
+together in the same area. This competitive exclusion principle states that the
+the strongest competitor will eventually come to dominate the other species and
+drive them to local extinction. This stands in contradiction with the existence
+of ecological communities containing species that overlap in some extent in
+their resources or consumers. Phytoplanktonic communities are a paradigmatic
+example of this paradox [@hutc61pp], as they exhibit a high biodiversity while
+species are competing for a limited number of shared ressources (e.g. light,
+nitrate). The use of consumer-resources models has allowed to highlight some
+mechanisms improving species coexistence [@ches00mms]. These mechanisms are
+based on species traits that eighter decrease fitness differences (equalizing
+mechanisms) and/or increase niche differentiation between species (stabilizing
+mechanisms). The coupling of this type of model with the representation of
+ecological communities as their underlying network of interactions has brought
+new perspective on species coexistence, as it is allowing to integrate these
+mechanisms in large realistic communities. Using this methodological framework,
+@mart06dcp showed that the global non-random structure of the food webs improved
+community persistence. The distribution of motifs in food webs [@stou10ufp, see
+paragraph X] as well as species' role within motifs [@stou12ecs] are related to
+community persistence. In mutualistic networks, the nested structure has been
+shown to minimize competition relatively to competition [@bast09amn;
+@sugi09csc]. In these networks, the asymetry of dependances -- the fact that
+when one species $A$ depends strongly on another species $B$ as resource for
+food or pollination, the other species ($B$) only weakly depends on $A$ -- also
+increase persistence [@basc06acn]. This type of approach also allowed to
+highlight the interplay between traits and structure. As an example, @bros06ase
+showed that the allometric scaling of metabolic rates of species improve
+community persistence when the organization of the food webs is such that
+predator–prey body mass ratios are different from zero.
 
 - assembly dynamics
 
