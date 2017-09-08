@@ -301,7 +301,31 @@ models can thus lead to underestimating potential cascading effects such
 
 - coexistence theory
 
-- assembly dynamics
+Environmental filters and community dynamics lead to a subgroup of
+the regional species pool in a community. However, community composition can
+vary across similar habitats. To explain these variations, several assembly
+rules have been described, such as constant body-mass ratios or guild
+proportionality [*ref*]. The assembly rule of @diamond1975 remains the most
+influent, introducing competition among species as a core driver of non-random
+species co-occurrences, with especially to permitted and forbidden interactions.
+Since then, other components have been found to be strong determinants of
+communities' assembly. For example, differences in community composition are due
+to different arrival order of species, and especially underlying the importance
+of the first arrived species [@drak91cms]. The arrival history plays an
+important role in the community composition when multiple stable states are
+possible [@chas03caw]. Species dispersion and phylogeny distance between species
+that compose communities are also drivers of community assembly [@leib17caf;
+@kraft2006 ; @mahe07ipf].
+Based on these assumptions, two distinct type of models have been developed to
+predict community assembly dynamics. Niche-based theory models use coexistence
+theory and niche differentiation, while neutral theory models are based on
+species dynamics (migration, extinction and speciation) under stochastic
+processes. Even if at first glance they seem in total contrary, this two
+types of models are actually complementary [@tilm04ntn ; @gravel2006 ;
+@souz16qca]. Niche-based models explain mechanisms at large scale (metacommunity
+level), neutral models explain them at fine scale (phylogenetic level) [*ref*].
+**network part**
+
 
 # Conclusion
 
