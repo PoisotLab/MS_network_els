@@ -328,7 +328,31 @@ showed that the allometric scaling of metabolic rates of species improve
 community persistence when the organization of the food webs is such that
 predator–prey body mass ratios are different from zero.
 
-- assembly dynamics
+Environmental filters and community dynamics lead to a subgroup of
+the regional species pool in a community. However, community composition can
+vary across similar habitats. To explain these variations, several assembly
+rules have been described, such as constant body-mass ratios or guild
+proportionality [*ref*]. The assembly rule of @diam75asc remains the most
+influent, introducing competition among species as a core driver of non-random
+species co-occurrences, with especially, permitted and forbidden interactions.
+Since then, other components have been found to be strong determinants of
+communities' assembly. For example, differences in community composition are due
+to different arrival order of species, and especially underlying the importance
+of the first arrived species [@drak91cms]. The arrival history plays an
+important role in the community composition when multiple stable states are
+possible [@chas03caw]. However, when a unique stable state is possible,
+communities assembly tend to be similar when the regional species pool is the
+same, independantly to assembly history [@capi09sme]. Species dispersion,
+interaction strength and phylogeny distance between species that compose
+communities are also drivers of community assembly [@leib17caf; @kraf07tec;
+@mahe07ipf; @mont03tpf]. Based on these assumptions, two distinct, but
+complementary, types of models have been developed to predict community assembly
+dynamics [@tilm04ntn; @grav06rnn; @souz16qca]. Niche-based theory models use
+coexistence theory and niche differentiation. These processes explain assembly
+mechanisms at large scale (*e.g.* metacommunity level). Conversely, neutral
+theory models are based on species dynamics (migration, extinction and
+speciation) under stochastic processes, which allow to explain dynamics at fine
+scale (*e.g.* phylogenetic level) [*ref*].
 
 # Conclusion
 
