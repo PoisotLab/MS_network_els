@@ -313,19 +313,19 @@ communities' assembly. For example, differences in community composition are due
 to different arrival order of species, and especially underlying the importance
 of the first arrived species [@drak91cms]. The arrival history plays an
 important role in the community composition when multiple stable states are
-possible [@chas03caw]. Species dispersion and phylogeny distance between species
-that compose communities are also drivers of community assembly [@leib17caf;
-@kraf07tec ; @mahe07ipf].
-Based on these assumptions, two distinct type of models have been developed to
-predict community assembly dynamics. Niche-based theory models use coexistence
-theory and niche differentiation, while neutral theory models are based on
-species dynamics (migration, extinction and speciation) under stochastic
-processes. Even if at first glance they seem in total contrary, this two
-types of models are actually complementary [@tilm04ntn ; @grav06rnn ;
-@souz16qca]. Niche-based models explain mechanisms at large scale (metacommunity
-level), neutral models explain them at fine scale (phylogenetic level) [*ref*].
-**network part**
-
+possible [@chas03caw]. However, when a unique stable state is possible,
+communities assembly tend to be similar when the regional species pool is the
+same, independantly to assembly history [@capi09sme]. Species dispersion,
+interaction strength and phylogeny distance between species that compose
+communities are also drivers of community assembly [@leib17caf; @kraf07tec;
+@mahe07ipf; @mont03tpf]. Based on these assumptions, two distinct, but
+complementary, types of models have been developed to predict community assembly
+dynamics [@tilm04ntn; @grav06rnn; @souz16qca]. Niche-based theory models use
+coexistence theory and niche differentiation. These processes explain assembly
+mechanisms at large scale (*e.g.* metacommunity level). Conversely, neutral
+theory models are based on species dynamics (migration, extinction and
+speciation) under stochastic processes, which allow to explain dynamics at fine
+scale (*e.g.* phylogenetic level) [*ref*].
 
 # Conclusion
 
