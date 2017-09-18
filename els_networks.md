@@ -31,7 +31,7 @@ proportions of species have a large number of interactions. In food webs,
 which represent interactions between preys and their predators, there is a
 well-described relationship between the number of species and the number of
 interactions: the number of interactions ($L$) increases proportionally to the
-number of species ($L$) raised to some exponent, or $L \propto S^k$. @mart92ccc
+number of species ($S$) raised to some exponent, or $L \propto S^k$. @mart92ccc
 suggested that this exponent is approximately equal to 2, *i.e.* the number
 of interactions is proportional to the squared number of species. @bros04uss
 show that this general relationship holds even across space: it is possible
@@ -86,7 +86,7 @@ different types of interactions such as antagonistic or mutualistic interactions
 interaction, prey or predator in food web and plant or pollinator/seed disperser
 in mutualistic interaction, do not provide the same links structure. For
 instance, closely related host tend to share parasites, while closely related
-parasites, because of competition for resources, tend to have different hosts
+parasites, because of competition for resources, tend to have different hosts species
 [*ref*]. The conservatism of interactions is consequently unequal all over the
 network. Following the logic that closely related species interact with the same
 group of species, @reze09cmf shown that phylogenetic structure of ecological
@@ -147,16 +147,14 @@ also the connectance and the interaction strengths in the network, he found
 that, contrarily to the way of thinking at this time, diversity was
 destabilizing communities. This kick in the anthill was the beginning of a
 prolific complexity-stability debate, highly oriented on trophic networks
-[@mcca00dd]. Two different approaches of the stability have emerged: one based
+[see @alle15sra; @mcca00dd]. Two different approaches of the stability have emerged: one based
 on the general complexity-stability relationship and dynamics among species in
 communities and the second one based on the communities ability to resist biotic
 and abiotic changes. The both use different notions and
 definitions of stability, inducing different ways to study it [see @mcca11fwm].
 Despite their dissimilarities, these approaches are not totally independent and
 have allowed highlighting that species diversity has no direct influence on
-communities stability. **In term of communities dynamic, species diversity cannot
-be maintained without interactions between them, interactions distribution and
-strength play a crucial role** [@yodz81sre]. The links distribution of ecological
+communities stability. However, the structure of ecological network such as interactions distribution and strength seems to play a crucial role [@yodz81sre]. The links distribution of ecological
 networks follows a power-law distribution [*ref*], meaning that few species are highly
 connected to the rest of the community and a large number of species are weakly
 connected to others. This organization combined with the myriad of weak
@@ -177,7 +175,7 @@ is removed or changed in a network. The use of dynamic-based models led to
 highlight the fact that the probability of secondary extinctions increases with
 the community size [@lund00sll], and decreases with the network connectance
 [@dunn02nsb]. Then, the focus on species removal have allowed to understand that
-the loss of an highly connected species, called hub, induces a higher rate of
+the loss of an highly connected species, also called hub, induces a higher rate of
 secondary extinctions than the loss of a random, weakly connected species
 [@sole01cfe]. However, even if a species is weakly directly connected, if it
 represents a highway of energy-flow in the network (carbon, nitrogen or
@@ -189,6 +187,37 @@ persist longer than randomly structured networks [@memm04tp ; @fort06hls]. On
 the other hand, presence of modules in the community structure limits
 propagation of perturbations across the rest of the network and then secondary
 extinctions [@stou10ufp].
+
+The consequences of the erosion of biodiversity for ecosystem functioning has
+been for almost three decades a central problematic for ecologists. While the
+hypothesis that an increase in species diversity results in an increased
+productivity dates back to Darwin [@darw59osm], the emergence of experimental
+ecology and the shift from observation in natural systems to the quantification
+of ecology has made possible to develop a quite general theory for what is now
+called the BEF relationship. In a trophic group (i.e. a group of species that
+all belong to the same trophic level, e.g. producers or herbivores), the loss of
+diversity resuts in a loss of efficiency to capture the shared resource
+compartment [@lore10lbe] (e.g. nutrients for producers, or producers for
+herbivores). This leading to a decrease in productivity or other index of
+functioning. Yet, when the trophic group under focus is coupled to other(s), the
+action of diversity on functioning is more variable [@duff07frb]. Top-down and
+bottom-up controls are exemple of mechanisms that modifies the action of the
+diversity at one level on other(s). This makes the BEF relationship
+unpredictable in real-world communities, composed of several trophic groups that
+are virtually never differentiable -- as intraguild predation and omnivory blurr
+the frontier between levels. The multiplicity of the factors influencing the BEF
+relationship calls for a more general framework that allows the integration of
+the theories developped for trophic group and for simple modules or sub-systems.
+By mapping transfer of biomass and energy and/or constraints on organism through
+the different compartments that compose a natural community ecological, networks --
+and food webs in particular -- offer the possibility to perform this
+integration, reconciling at the same time ecosystem ecology and population
+ecology. Anlyses performed on simulated food-webs with unchanged diversity have
+shown that interactions, and more specifically their structure, have a
+significative influence on functioning [@theb03fcb; @theb07cee; @pois13tcd]. The
+structure of interactions indeed translates the distribution of different types
+of properties important for ecosystem functioning, such as the presence of
+omnivory, the generality of species, the modularity of the food-web, etc.
 
 # Linking interactions to ecological mechanisms
 
@@ -329,7 +358,7 @@ new perspective on species coexistence, as it is allowing to integrate these
 mechanisms in large realistic communities. Using this methodological framework,
 @mart06dcp showed that the global non-random structure of the food webs improved
 community persistence. The distribution of motifs in food webs [@stou10ufp, see
-paragraph X] as well as species' role within motifs [@stou12ecs] are related to
+section "Invariants in ecological networks"] as well as species' role within motifs [@stou12ecs] are related to
 community persistence. In mutualistic networks, the nested structure has been
 shown to minimize competition relatively to competition [@bast09amn;
 @sugi09csc]. In these networks, the asymetry of dependances -- the fact that
@@ -347,15 +376,15 @@ vary across similar habitats. To explain these variations, several assembly
 rules have been described, such as constant body-mass ratios or guild
 proportionality [*ref*]. The assembly rule of @diam75asc remains the most
 influent, introducing competition among species as a core driver of non-random
-species co-occurrences, with especially, permitted and forbidden interactions.
+species co-occurrences, especially by permitted and forbidden interactions.
 Since then, other components have been found to be strong determinants of
 communities' assembly. For example, differences in community composition are due
 to different arrival order of species, and especially underlying the importance
 of the first arrived species [@drak91cms]. The arrival history plays an
 important role in the community composition when multiple stable states are
 possible [@chas03caw]. However, when a unique stable state is possible,
-communities assembly tend to be similar when the regional species pool is the
-same, independantly to assembly history [@capi09sme]. Species dispersion,
+communities' assembly tend to be similar when the regional species pool is the
+same, independently to assembly history [@capi09sme]. Dispersion,
 interaction strength and phylogeny distance between species that compose
 communities are also drivers of community assembly [@leib17caf; @kraf07tec;
 @mahe07ipf; @mont03tpf]. Based on these assumptions, two distinct, but
