@@ -400,26 +400,36 @@ scale (*e.g.* phylogenetic level) [*ref*].
 
 # Glossary
 
-Adjacency matrix
-: definiton
+Adjacency matrix: square matrix representing species interactions. If two
+species $i$ and $j$ interact, the intersection of the matrix at ${i,j}$ will be
+1, and  if no interaction.
 
 *Allometric scaling*
 
-*Assembly*
+Assembly rules: Ecological processes that lead to a specific species' composition
+of a community, *e.g.* competition, predator-prey interactions, arrival history, etc.
 
 *Bioenergetics*
 
 Ecological interactions
 : Every type of contact between two species that alters the abundance, biomass
-and/or behaviour of one or both species. Interactions can be trophic,
+and/or behavior of one or both species. Interactions can be trophic,
 mutualistic or antagonistic, directed or undirected, weighted or unweighted.
 
-*Ecosystem functioning*
+Ecosystem functioning: Biotic and abiotic processes that regulate ecosystem,
+allowing energy and matter flux between trophic levels and between ecosystems,
+*e.g.* biogeochemical cycles.
 
-*Graph theory*
+Graph theory: Mathematical framework used to model the relationship between the
+objects of a network
 
-*Nodes/Links, Edges/Vertices*
+Network structure: General shape of a network. It is commonly measured using
+connectance, link distribution, general architecture (nestedness and
+modularity), etc.
 
-*Phylogenetic signal*
+Nodes/Links, Vertices/Edges: Following graph theory, species are represented as
+nodes (or vertices), and interactions between them are represented by links (or edges).
+
+Phylogenetic signal: tendency of phylogenetically close species to have similar traits.
 
 # References
