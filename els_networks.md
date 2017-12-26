@@ -1,7 +1,7 @@
 # Introduction
 
 In ecological communities, interactions between species are organized in ways
-that are non-random. The organisation of these interactions, in turn, drives or
+that are non-random. The organization of these interactions, in turn, drives or
 changes some properties of the community, such as its stability, productivity,
 or ability to resist extinctions. The way interactions are organized can be
 studied by investigating the structure of *Species Interaction Networks*. In
@@ -59,7 +59,7 @@ interconnection between three or more nodes in networks at a frequency
 significantly higher than those find in randomized networks. Three-species
 motifs thus represent the simplest building blocks of networks, and more
 importantly the typical interaction found in communities. As such, they offer
-the possibility to integrate theories developped on simple modules (*e.g.*
+the possibility to integrate theories developed on simple modules (*e.g.*
 omnivory, @mcca98wti, @holt97cm) in larger, more realistic networks. For
 instance, food webs are characterized by an over-representation of linear food
 chains and omnivory and an under-representation of apparent and exploitative
@@ -67,13 +67,13 @@ competition [@cama07qal; @basc05stm]. @stou10ufp found that this distribution
 promotes stability in food webs, with over-represented motifs being more stable
 in isolation and correlated with higher stability in large realistic
 communities, and conversely. Motifs can also be used to characterize species
-role in networks. From the 13 different three-species motifs emerge 30 uniques
+role in networks. From the 13 different three-species motifs emerge 30 unique
 positions for species to occupy in these motifs, representing how the species is
 embedded in its community. The different positions a species will occupy, and
 the frequency with which it will occupy these different positions in networks
-are called species motif role (@stou12ecs). These roles have been shown to be
-evolutionnary conserved in food webs (@stou12ecs) and to have less variability
-in time than expected in host-parasitoids bipartite networks (@bake15srf).
+are called species motif role [@stou12ecs]. These roles have been shown to be
+evolutionary conserved in food webs [@stou12ecs] and to have less variability
+in time than expected in host-parasitoids bipartite networks [@bake15srf].
 
 Thanks to phylogeny, a key determinant of ecological network structure, it is
 possible to understand why ecological networks have the structure we observe (species position and interactions).
@@ -106,37 +106,6 @@ because of species plasticity, phylogeny alone does not fully the structure and
 evolution of ecological networks.
 
 # From structure to properties
-
-The consequences of the erosion of biodiversity for ecosystem functioning has
-been for almost three decades a central problematic for ecologists. While the
-hypothesis that an increase in species diversity results in an increased
-productivity dates back to Darwin [@darw59osm], the emergence of experimental
-ecology and the shift from observation in natural systems to the quantification
-of ecology has made possible to develop a quite general theory for what is now
-called the BEF relationship. In a trophic group (i.e. a group of species that
-all belong to the same trophic level, e.g. producers or herbivores), the loss of
-diversity resuts in a loss of efficiency to capture the shared resource
-compartment [@lore10lbe] (e.g. nutrients for producers, or producers for
-herbivores). This leading to a decrease in productivity or other index of
-functioning. Yet, when the trophic group under focus is coupled to other(s), the
-action of diversity on functioning is more variable [@duff07frb]. Top-down and
-bottom-up controls are exemple of mechanisms that modifies the action of the
-diversity at one level on other(s). This makes the BEF relationship
-unpredictable in real-world communities, composed of several trophic groups that
-are virtually never differentiable -- as intraguild predation and omnivory blurr
-the frontier between levels. The multiplicity of the factors influencing the BEF
-relationship calls for a more general framework that allows the integration of
-the theories developped for trophic group and for simple modules or sub-systems.
-By mapping transfer of biomass and energy and/or constraints on organism through
-the different compartments that compose a natural community ecological, networks --
-and food webs in particular -- offer the possibility to perform this
-integration, reconciling at the same time ecosystem ecology and population
-ecology. Anlyses performed on simulated food-webs with unchanged diversity have
-shown that interactions, and more specifically their structure, have a
-significative influence on functioning [@theb03fcb; @theb07cee; @pois13tcd]. The
-structure of interactions indeed translates the distribution of different types
-of properties important for ecosystem functioning, such as the presence of
-omnivory, the generality of species, the modularity of the food-web, etc.
 
 The relationship between ecological network structure and stability remains a
 main topic of discussion. First, @maca55fap and @elto58rc observed in natural
@@ -182,7 +151,7 @@ represents a highway of energy-flow in the network (carbon, nitrogen or
 biomass), its loss will have similar impact in term of secondary extinctions
 than the loss of an hug [@alle04wdw]. The network architecture also affects the
 community response to perturbations. For instance, thanks to their structural
-properties (hight nestedness and connectance [@jord03ipc]), mutualistic networks
+properties (hight nestedness and connectance, @jord03ipc), mutualistic networks
 persist longer than randomly structured networks [@memm04tp ; @fort06hls]. On
 the other hand, presence of modules in the community structure limits
 propagation of perturbations across the rest of the network and then secondary
@@ -194,14 +163,14 @@ hypothesis that an increase in species diversity results in an increased
 productivity dates back to Darwin [@darw59osm], the emergence of experimental
 ecology and the shift from observation in natural systems to the quantification
 of ecology has made possible to develop a quite general theory for what is now
-called the BEF relationship. In a trophic group (i.e. a group of species that
-all belong to the same trophic level, e.g. producers or herbivores), the loss of
-diversity resuts in a loss of efficiency to capture the shared resource
-compartment [@lore10lbe] (e.g. nutrients for producers, or producers for
+called the biodiversity-ecosystem functioning (BEF) relationship. In a trophic group (*i.e.* a group of species that
+all belong to the same trophic level, *e.g.* producers or herbivores), the loss of
+diversity results in a loss of efficiency to capture the shared resource
+compartment [@lore10lbe] (*e.g.* nutrients for producers, or producers for
 herbivores). This leading to a decrease in productivity or other index of
 functioning. Yet, when the trophic group under focus is coupled to other(s), the
 action of diversity on functioning is more variable [@duff07frb]. Top-down and
-bottom-up controls are exemple of mechanisms that modifies the action of the
+bottom-up controls are example of mechanisms that modifies the action of the
 diversity at one level on other(s). This makes the BEF relationship
 unpredictable in real-world communities, composed of several trophic groups that
 are virtually never differentiable -- as intraguild predation and omnivory blurr
@@ -212,7 +181,7 @@ By mapping transfer of biomass and energy and/or constraints on organism through
 the different compartments that compose a natural community ecological, networks --
 and food webs in particular -- offer the possibility to perform this
 integration, reconciling at the same time ecosystem ecology and population
-ecology. Anlyses performed on simulated food-webs with unchanged diversity have
+ecology. Analyses performed on simulated food-webs with unchanged diversity have
 shown that interactions, and more specifically their structure, have a
 significative influence on functioning [@theb03fcb; @theb07cee; @pois13tcd]. The
 structure of interactions indeed translates the distribution of different types
@@ -331,12 +300,12 @@ caused by biotic interactions and correlated responses to unmeasured
 environmental variables [@poll14ucm]. Conversely, the lack of association
 between species is no evidence of absence of interaction [@caze16tsc]. To move
 from empirical-based species distribution models (SDM) toward theory-driven SDM,
-further work is needed. In particular, developping methods allowing to include
+further work is needed. In particular, developing methods allowing to include
 prior information about the underlying ecological network when building
-(J)SDMcould help sheding light on the the fundamental processes underlying
-species distribution and thus making more acurate predictions [@caze16tsc].
-Additionnaly, @pois17hpt recently showed that biotic interactions respond to
-environmental conditions on their own, independantly of species. **(needs conclusion / transition)**
+(J)SDM could help shedsing light on the the fundamental processes underlying
+species distribution and thus making more accurate predictions [@caze16tsc].
+Additionally, @pois17hpt recently showed that biotic interactions respond to
+environmental conditions on their own, independently of species. **(needs conclusion / transition)**
 
 Ecological networks also offer an ideal framework to study the conditions for
 the maintenance of biodiversity in communities through species coexistence.
@@ -347,10 +316,10 @@ drive them to local extinction. This stands in contradiction with the existence
 of ecological communities containing species that overlap in some extent in
 their resources or consumers. Phytoplanktonic communities are a paradigmatic
 example of this paradox [@hutc61pp], as they exhibit a high biodiversity while
-species are competing for a limited number of shared ressources (e.g. light,
+species are competing for a limited number of shared resources (e.g. light,
 nitrate). The use of consumer-resources models has allowed to highlight some
 mechanisms improving species coexistence [@ches00mms]. These mechanisms are
-based on species traits that eighter decrease fitness differences (equalizing
+based on species traits that either decrease fitness differences (equalizing
 mechanisms) and/or increase niche differentiation between species (stabilizing
 mechanisms). The coupling of this type of model with the representation of
 ecological communities as their underlying network of interactions has brought
@@ -361,7 +330,7 @@ community persistence. The distribution of motifs in food webs [@stou10ufp, see
 section "Invariants in ecological networks"] as well as species' role within motifs [@stou12ecs] are related to
 community persistence. In mutualistic networks, the nested structure has been
 shown to minimize competition relatively to competition [@bast09amn;
-@sugi09csc]. In these networks, the asymetry of dependances -- the fact that
+@sugi09csc]. In these networks, the asymmetry of dependences -- the fact that
 when one species $A$ depends strongly on another species $B$ as resource for
 food or pollination, the other species ($B$) only weakly depends on $A$ -- also
 increase persistence [@basc06acn]. This type of approach also allowed to
