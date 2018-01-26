@@ -367,6 +367,29 @@ scale (*e.g.* phylogenetic level) [*ref*].
 
 # Conclusion
 
+As networks and graph theory allowed to understand breakdown into electricity
+system in United States [*ref*] or the structure and functioning of social
+network, it is also a powerful tool to investigate ecological questions. As long
+as the studying system contains interactions, links or connections, the graph
+theory provides a perfectly adapted simple framework to characterize complicated
+networks such as ecological networks. Indices such as connectance, degree
+distribution of network topology serve as basic measurements to describe
+systems. Using theses indices, this framework facilitates comparison between
+different ecological networks. And the relatively important number of network
+studies leads to a myriads of ways to sample, analyze and interpret them [see
+*Delmas_et_al._2017*].
+
+Studying ecological networks have however a larger purpose than just their
+description and classification. Basic measurements are correlated to several
+environmental factors and network analysis appears to be helpful in different
+ecological fields. As we seen through this paper, it can be used to study
+dynamics of ecological systems and their responses to changes, according to
+their stability over time or the BEF relationships in the system. It also highlight the
+understanding of mechanisms underlying ecological properties such as community
+assembly, coexistence and species distribution. *Network studies were a key to
+reveal relationships between different properties of ecological network such as
+trait and structure.*
+
 # Glossary
 
 Adjacency matrix: square matrix representing species interactions. If two
