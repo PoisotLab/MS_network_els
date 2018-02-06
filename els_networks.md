@@ -18,6 +18,8 @@ ways ecological networks can be studied under familiar concepts from ecological
 theory, and finally how this approach scales up to larger temporal or spatial
 scales.
 
+![Graphical representation of a fictional ecological network (a), where species are represented by circles and their directed interactions by arrows. The representation is build from the adjacency matrix (b). In an unipartite representation as this one, each species is represented both as a column and a row. 1 indicates an interaction between two species (e.g. the green square in (b)), and 0 indicates the absence of interaction. This matrix allows to calculate network characteristics such as the connectance (c) and the degree distribution (d). (c) represents the level of connection into the network and is calculated as shown in the figure. (d) represents the distribution of interaction per species. The circles size is relative to the amount of interactions a species have (d1). This distribution is non-random and generally follows a power-law distribution (d2). The network can be split into subnets composed of 3 species, called motif (e). Among the 13 different possible motifs, we only represented the most commonly found in natural communities.](Figures/figure1.pdf)
+
 # Invariants in ecological networks
 
 One striking particularity of ecological networks is their consistency:
@@ -25,7 +27,7 @@ even though the depict interactions between different organisms across all
 sorts of ecosystems, they all tend to look the same [@jord03ipc]. Remarkably,
 even when interactions among species themselves vary (see section **x**),
 the overall network structure tends to remain unchanged [@kemp17ian]. Most
-ecological networks have a very specific degree distribution [@will11bmc],
+ecological networks have a very specific degree distribution [@will11bmc] (*Figure 1d*),
 whereby most species have a small number of interactions, and a small
 proportions of species have a large number of interactions. In food webs,
 which represent interactions between preys and their predators, there is a
@@ -33,14 +35,14 @@ well-described relationship between the number of species and the number of
 interactions: the number of interactions ($L$) increases proportionally to the
 number of species ($S$) raised to some exponent, or $L \propto S^k$. @mart92ccc
 suggested that this exponent is approximately equal to 2, *i.e.* the number
-of interactions is proportional to the squared number of species. @bros04uss
+of interactions is proportional to the squared number of species (*Figure 1c*). @bros04uss
 show that this general relationship holds even across space: it is possible
 to estimate how many interactions a species will establish across its entire
 range. In some other instances, networks may differ on some aspect of their
 structure, despite obeying to a shared underlying principle. For example,
 @fort10nme show that in networks with a low connectance, nestedness (the
-degree to which the diet of specialists and generalists overlaps) and
-modularity (the tendency of species to form densely aggregated clusters)
+degree to which the diet of specialists and generalists overlaps -- *Figure 2*) and
+modularity (the tendency of species to form densely aggregated clusters -- *Figure 2*)
 are positively correlated. In networks with higher connectance, this became
 the opposite: networks with a large number of interactions were either nested
 (and not modular) or modular (and not nested). In the recent years, it emerged
@@ -49,12 +51,14 @@ that many aspects of network structure covary with connectance [@chag15cte;
 and how many interactions they establish, is already very informative about
 the network structure.
 
+![Network topology, example of a fictional plant-pollinator network. (a) shows a perfectly nested network, where specialists pollinators are visiting plants embedded into the diet of more generalist pollinators. (b) shows a perfectly modular network, where sub-groups of species interact more strongly with each over than with the rest of the network. (c) shows a random network. Two representations are possibles. Top: Bipartite representation using nodes and edges ; Bottom: Ordered adjacency matrix. Here, we used striped yellow squares instead of 1 for presence of interaction and empty squares in absence of interaction.](Figures/figure2.pdf)
+
 Another remarkable generality of network structure is the distribution of
 particular shapes of interconnection between all three-species subsets.
 @milo02nms indeed found that networks (not just ecological but other types of
 networks such as neuronal or electronical networks as well) can be characterized
 by the over-representation of some of these three-species subset, which they
-called motifs. Motifs can be more broadly defined as being particular shapes of
+called motifs (*Figure 1e*). Motifs can be more broadly defined as being particular shapes of
 interconnection between three or more nodes in networks at a frequency
 significantly higher than those find in randomized networks. Three-species
 motifs thus represent the simplest building blocks of networks, and more
@@ -396,12 +400,10 @@ Adjacency matrix: square matrix representing species interactions. If two
 species $i$ and $j$ interact, the intersection of the matrix at ${i,j}$ will be
 1, and  if no interaction.
 
-*Allometric scaling*
-
 Assembly rules: Ecological processes that lead to a specific species' composition
 of a community, *e.g.* competition, predator-prey interactions, arrival history, etc.
 
-*Bioenergetics*
+**Bipartite network**
 
 Ecological interactions
 : Every type of contact between two species that alters the abundance, biomass
@@ -415,6 +417,8 @@ allowing energy and matter flux between trophic levels and between ecosystems,
 Graph theory: Mathematical framework used to model the relationship between the
 objects of a network
 
+**Jacobian matrix**
+
 Network structure: General shape of a network. It is commonly measured using
 connectance, link distribution, general architecture (nestedness and
 modularity), etc.
@@ -423,5 +427,7 @@ Nodes/Links, Vertices/Edges: Following graph theory, species are represented as
 nodes (or vertices), and interactions between them are represented by links (or edges).
 
 Phylogenetic signal: tendency of phylogenetically close species to have similar traits.
+
+**Unipartite network**
 
 # References
