@@ -3,10 +3,29 @@
 In ecological communities, interactions between species are organized in ways
 that are non-random. The organization of these interactions, in turn, drives or
 changes some properties of the community, such as its stability, productivity,
-or ability to resist extinctions. The way interactions are organized can be
-studied by investigating the structure of *Species Interaction Networks*. In
-this representations, species are "nodes", and interactions are "edges". Two
-species are linked by an edge if there is an interaction between them.
+or ability to resist extinctions. (Structure, analyser la structure informe sur
+les processus et règles fondamentales, etc. )
+
+The way interactions are organized can be studied by investigating the structure
+of *Species Interaction Networks*. In this representations, species are "nodes",
+and interactions are "edges". Two species are linked by an edge if there is an
+interaction between them. SINs are therefore an abstraction of ecological
+systems, integrating informations about both the its components (the nodes) and
+their organisation (how they are connected through the edges). Both nodes and
+edges can carry additional information such as weigths (*e.g.* species
+abundance, intensity of the gene flow between two populations, etc.), location
+in space and time, edges direction and sign and nodes labels (*e.g.* species
+identity). This information is summarized mathematically in the adjacency matrix
+(typically named $A$, see definition in glossary).
+(Graph theory, etc.)
+
+Types de réseaux écologiques et résultats principaux ?
+Nodes and edges at different scales, common tool (graph theory) different application
+What are the main results associated with the introduction of GT in these sub-fields.
+- landscape connectivity
+- metacomunities
+- population and community ecology
+- etc.
 
 Describing and understanding the structure of species interaction networks is an
 active, and growing, field of ecological research. In this contribution, we will
