@@ -54,12 +54,12 @@ well-described relationship between the number of species and the number of
 interactions: the number of interactions ($L$) increases proportionally to the
 number of species ($S$) raised to some exponent, or $L \propto S^k$. @mart92ccc
 suggested that this exponent is approximately equal to 2, *i.e.* the number
-of interactions is proportional to the squared number of species (*Figure 1c*). @bros04uss
+of interactions is proportional to the squared number of species. @bros04uss
 show that this general relationship holds even across space: it is possible
 to estimate how many interactions a species will establish across its entire
 range. In some other instances, networks may differ on some aspect of their
 structure, despite obeying to a shared underlying principle. For example,
-@fort10nme show that in networks with a low connectance, nestedness (the
+@fort10nme show that in networks with a low connectance (*Figure 1c*), nestedness (the
 degree to which the diet of specialists and generalists overlaps -- *Figure 2*) and
 modularity (the tendency of species to form densely aggregated clusters -- *Figure 2*)
 are positively correlated. In networks with higher connectance, this became
@@ -70,7 +70,7 @@ that many aspects of network structure covary with connectance [@chag15cte;
 and how many interactions they establish, is already very informative about
 the network structure.
 
-![Network topology, example of a fictional plant-pollinator network. (a) shows a perfectly nested network, where specialists pollinators are visiting plants embedded into the diet of more generalist pollinators. (b) shows a perfectly modular network, where sub-groups of species interact more strongly with each over than with the rest of the network. (c) shows a random network. Two representations are possibles. Top: Bipartite representation using nodes and edges ; Bottom: Ordered adjacency matrix. Here, we used striped yellow squares instead of 1 for presence of interaction and empty squares in absence of interaction.](Figures/figure2.pdf)
+![Network topology, example of a fictional plant-pollinator network. (a) shows a perfectly nested network, where specialists pollinators are visiting plants embedded into the diet of more generalist pollinators. (b) shows a perfectly modular network, where sub-groups of species interact more strongly with each over than with the rest of the network. (c) shows a random network. Two representations are possibles. Top: Bipartite representation using nodes and edges ; Bottom: Ordered interaction matrix. Here, we used striped yellow squares instead of 1 for presence of interaction and empty squares in absence of interaction.](Figures/figure2.pdf)
 
 Another remarkable generality of network structure is the distribution of
 particular shapes of interconnection between all three-species subsets.
@@ -98,35 +98,36 @@ are called species motif role [@stou12ecs]. These roles have been shown to be
 evolutionary conserved in food webs [@stou12ecs] and to have less variability
 in time than expected in host-parasitoids bipartite networks [@bake15srf].
 
-Thanks to phylogeny, a key determinant of ecological network structure, it is
-possible to understand why ecological networks have the structure we observe (species position and interactions).
-Phylogenetically close species inherit traits from their common ancestors (*e.g.*
-body size, habitat, defensive strategy, metabolic type, phenology), increasing
-their propensity to interact with the same group of species or with similar
-species. This conservatism of interactions has been found to hold across
-different types of interactions such as antagonistic or mutualistic interactions
-[*ref*]. However, every species role, such as host or parasite in antagonistic
-interaction, prey or predator in food web and plant or pollinator/seed disperser
-in mutualistic interaction, do not provide the same links structure. For
-instance, closely related host tend to share parasites, while closely related
-parasites, because of competition for resources, tend to have different hosts species
-[*ref*]. The conservatism of interactions is consequently unequal all over the
-network. Following the logic that closely related species interact with the same
-group of species, @reze09cmf shown that phylogenetic structure of ecological
-networks explains almost entirely the formation and composition of modules in
-the network, and the connections between them [*ref*]. For the same reasons that
+Another invariant network property lies in species phylogeny. Phylogeny is a key
+determinant of ecological network structure, allowing the understanding of
+species position and interactions into the community. Phylogenetically close
+species indeed inherit traits from their common ancestors (*e.g.* body size, habitat,
+defensive strategy, metabolic type, phenology), increasing their propensity to
+interact with the same group of species or with similar species. This
+conservatism of interactions has been found to hold across different types of
+interactions such as antagonistic or mutualistic interactions [*ref*]. However,
+every species role, such as host or parasite in antagonistic interaction, prey
+or predator in food web and plant or pollinator/seed disperser in mutualistic
+interaction, do not provide the same links structure. For instance, closely
+related host tend to share parasites, while closely related parasites, because
+of competition for resources, tend to have different hosts species [*ref*]. The
+conservatism of interactions is consequently unequal all over the network.
+Following the logic that closely related species interact with the same group of
+species, @reze09cmf shown that phylogenetic structure of ecological networks
+explains almost entirely the formation and composition of modules in the
+network, and the connections between them [*ref*]. For the same reasons that
 conservatism of interactions is asymmetrical, the link between phylogenetic
 signal and module composition is different depending on the species role
 [*ref*], and species that are modules connector are usually phylogenetically
 close. @catt04pca also found, using a niche-hierarchic model, that diet is
 constrained by the phylogenetic origin of consumers. The nested structure of
 trophic networks, generated by the diet structuration, is then influenced by the
-phylogenetic signal of interacting species and the compatibility of their traits. In contrast, the
-nested structure of mutualistic networks would be a consequence of trait
-complementary between species [*ref*]. For now, mechanisms underlying the
-nestedness-phylogeny relationship remain to be further investigated. Moreover,
-because of species plasticity, phylogeny alone does not fully the structure and
-evolution of ecological networks.
+phylogenetic signal of interacting species and the compatibility of their
+traits. In contrast, the nested structure of mutualistic networks would be a
+consequence of trait complementary between species [*ref*]. For now, mechanisms
+underlying the nestedness-phylogeny relationship remain to be further
+investigated. Moreover, because of species plasticity, phylogeny alone does not
+fully the structure and evolution of ecological networks.
 
 # From structure to properties
 
@@ -362,31 +363,39 @@ showed that the allometric scaling of metabolic rates of species improve
 community persistence when the organization of the food webs is such that
 predator–prey body mass ratios are different from zero.
 
-Environmental filters and community dynamics lead to a subgroup of
-the regional species pool in a community. However, community composition can
-vary across similar habitats. To explain these variations, several assembly
-rules have been described, such as constant body-mass ratios or guild
-proportionality [*ref*]. The assembly rule of @diam75asc remains the most
-influent, introducing competition among species as a core driver of non-random
-species co-occurrences, especially by permitted and forbidden interactions.
-Since then, other components have been found to be strong determinants of
-communities' assembly. For example, differences in community composition are due
-to different arrival order of species, and especially underlying the importance
-of the first arrived species [@drak91cms]. The arrival history plays an
-important role in the community composition when multiple stable states are
-possible [@chas03caw]. However, when a unique stable state is possible,
-communities' assembly tend to be similar when the regional species pool is the
-same, independently to assembly history [@capi09sme]. Dispersion,
-interaction strength and phylogeny distance between species that compose
-communities are also drivers of community assembly [@leib17caf; @kraf07tec;
-@mahe07ipf; @mont03tpf]. Based on these assumptions, two distinct, but
-complementary, types of models have been developed to predict community assembly
-dynamics [@tilm04ntn; @grav06rnn; @souz16qca]. Niche-based theory models use
-coexistence theory and niche differentiation. These processes explain assembly
-mechanisms at large scale (*e.g.* metacommunity level). Conversely, neutral
-theory models are based on species dynamics (migration, extinction and
-speciation) under stochastic processes, which allow to explain dynamics at fine
-scale (*e.g.* phylogenetic level) [*ref*].
+As for the species coexistence, ecologists have questioned the way communities
+are formed and the hypothetical set of rules embedding this assembly. @diam75asc
+have defined emblematic rules to understand community structure and assembly. In
+this continuity, network framework allows to explore in detail processes
+influencing ecological communities assembly. @capi09sme, for instance, have
+retraced the pathway, step by step, of the community assembly process through an
+assembly graph, based on the graph theory. For food webs especially, mechanistic
+models such as niche model (**Williams--Martinez2000**) and the cascade model
+(**Cohen1989**) originally constructed to understand networks structure, have
+actually be used to understand community assembly [*ref*] and the impact of
+invasion. Using also network framework, **Verdu-and-Valiente-Banuet(2008)**
+found that nested community provides generalists species which facilitate the
+presence of other species into the network. At the same time, thanks to an
+experimental network study, **Olesen-et-al2008** have observed that new arrival
+species tend to interact more easily with already well-connected or generalist
+species. These kind of results could let us think about the Drake's
+controversial idea @drak91cms that species arrival history would be a
+*important* factor driving community assembly [@drak91cms]. Thanks to community
+network, @camp11nmp shown that history assembly process is and important factor
+for mutualistic networks. Community assembly have however, a myriad of different
+drivers, such as dispersion, interaction strength and phylogeny distance between
+species composing communities [@leib17caf; @kraf07tec; @mahe07ipf; @mont03tpf].
+Based on these drivers, two distinct types of models have been developed to
+predict community assembly dynamics [@tilm04ntn; @grav06rnn; @souz16qca]. In one
+hand, niche-based theory models use coexistence theory and niche
+differentiation. In the other hand, neutral theory models are based on species
+dynamics (migration, extinction and speciation) under stochastic processes.
+Theses two types of model are actually complementary, offering processes
+explanation at the metacommunity level (niche theory) and at the phylogenetic
+level (neutral theory) [*ref*]. Network framework in community assembly have
+brought the field one step further and makes links between other ecological
+fields, such as disassembly prediction (see **Bascompte-Stouffer2009**) or
+co-evolutionary processes (**Nuismer-et-al.2012**) much more easier.
 
 # Conclusion
 
@@ -411,21 +420,20 @@ their stability over time or the BEF relationships in the system. It also highli
 understanding of mechanisms underlying ecological properties such as community
 assembly, coexistence and species distribution. *Network studies were a key to
 reveal relationships between different properties of ecological network such as
-trait and structure.*
+trait and structure.
 
 # Glossary
 
 Adjacency matrix: square matrix representing species interactions. If two
 species $i$ and $j$ interact, the intersection of the matrix at ${i,j}$ will be
-1, and  if no interaction.
+1, and if no interaction.
 
 Assembly rules: Ecological processes that lead to a specific species' composition
 of a community, *e.g.* competition, predator-prey interactions, arrival history, etc.
 
-**Bipartite network**
+**Bipartite / Unipartite network**
 
-Ecological interactions
-: Every type of contact between two species that alters the abundance, biomass
+Ecological interactions: Every type of contact between two species that alters the abundance, biomass
 and/or behavior of one or both species. Interactions can be trophic,
 mutualistic or antagonistic, directed or undirected, weighted or unweighted.
 
@@ -446,7 +454,5 @@ Nodes/Links, Vertices/Edges: Following graph theory, species are represented as
 nodes (or vertices), and interactions between them are represented by links (or edges).
 
 Phylogenetic signal: tendency of phylogenetically close species to have similar traits.
-
-**Unipartite network**
 
 # References
