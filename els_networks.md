@@ -377,20 +377,20 @@ As an example, @bros06ase showed that the allometric scaling of metabolic rates
 of species improve community persistence when the organization of the food webs
 is such that predator–prey body mass ratios are different from zero.
 
-As for the species coexistence, ecologists have questioned the way communities
+Ecologists have also questioned the way communities
 are formed and the hypothetical set of rules embedding this assembly. @diam75asc
 have defined emblematic rules to understand community structure and assembly. In
 this continuity, network framework allows to explore in detail processes
 influencing ecological communities assembly. @capi09sme, for instance, have
 retraced the pathway, step by step, of the community assembly process through an
 assembly graph, based on the graph theory. For food webs especially, mechanistic
-models such as niche model (**Williams--Martinez2000**) and the cascade model
-(**Cohen1989**) originally constructed to understand networks structure, have
+models such as niche model [@will00sry] and the cascade model
+[@cohe89fwc] originally constructed to understand networks structure, have
 actually be used to understand community assembly [*ref*] and the impact of
-invasion. Using also network framework, **Verdu-and-Valiente-Banuet(2008)**
+invasion. Using also network framework, [@verd08nap]
 found that nested community provides generalists species which facilitate the
 presence of other species into the network. At the same time, thanks to an
-experimental network study, **Olesen-et-al2008** have observed that new arrival
+experimental network study, [@oles08tdp] have observed that new arrival
 species tend to interact more easily with already well-connected or generalist
 species. These kind of results could let us think about the Drake's
 controversial idea @drak91cms that species arrival history would be a
@@ -408,8 +408,8 @@ Theses two types of model are actually complementary, offering processes
 explanation at the metacommunity level (niche theory) and at the phylogenetic
 level (neutral theory) [*ref*]. Network framework in community assembly have
 brought the field one step further and makes links between other ecological
-fields, such as disassembly prediction (see **Bascompte-Stouffer2009**) or
-co-evolutionary processes (**Nuismer-et-al.2012**) much more easier.
+fields, such as disassembly prediction (see @basc09ade) or
+co-evolutionary processes [@nuis13cam] much more easier.
 
 # Conclusion
 
