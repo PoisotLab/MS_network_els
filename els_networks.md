@@ -185,30 +185,29 @@ hypothesis that an increase in species diversity results in an increased
 productivity dates back to Darwin [@darw59osm], the emergence of experimental
 ecology and the shift from observation in natural systems to the quantification
 of ecology has made possible to develop a quite general theory for what is now
-called the biodiversity-ecosystem functioning (BEF) relationship. In a trophic group (*i.e.* a group of species that
-all belong to the same trophic level, *e.g.* producers or herbivores), the loss of
-diversity results in a loss of efficiency to capture the shared resource
-compartment [@lore10lbe] (*e.g.* nutrients for producers, or producers for
-herbivores). This leading to a decrease in productivity or other index of
-functioning. Yet, when the trophic group under focus is coupled to other(s), the
-action of diversity on functioning is more variable [@duff07frb]. Top-down and
-bottom-up controls are example of mechanisms that modifies the action of the
-diversity at one level on other(s). This makes the BEF relationship
-unpredictable in real-world communities, composed of several trophic groups that
-are virtually never differentiable -- as intraguild predation and omnivory blurr
-the frontier between levels. The multiplicity of the factors influencing the BEF
-relationship calls for a more general framework that allows the integration of
-the theories developped for trophic group and for simple modules or sub-systems.
-By mapping transfer of biomass and energy and/or constraints on organism through
-the different compartments that compose a natural community ecological, networks --
+called the biodiversity-ecosystem functioning (BEF) relationship. In a trophic
+group (*i.e.* a group of species that all belong to the same trophic level,
+*e.g.* producers or herbivores), the loss of diversity results in a loss of
+efficiency to capture the shared resource compartment [@lore10lbe] (*e.g.*
+nutrients for producers, or producers for herbivores). This leading to a
+decrease in productivity or other index of functioning. Yet, when the trophic
+group under focus is coupled to other(s), the action of diversity on functioning
+is more variable [@duff07frb]. This makes the BEF relationship unpredictable in
+real-world communities, composed of several trophic groups that are virtually
+never differentiable -- as intraguild predation and omnivory blurr the frontier
+between levels. The multiplicity of the factors influencing the BEF relationship
+calls for a more general framework that allows the integration of the theories
+developped for trophic group and for simple modules or sub-systems. By mapping
+transfer of biomass and energy and/or constraints on organism through the
+different compartments that compose a natural community, ecological networks --
 and food webs in particular -- offer the possibility to perform this
-integration, reconciling at the same time ecosystem ecology and population
-ecology. Analyses performed on simulated food-webs with unchanged diversity have
-shown that interactions, and more specifically their structure, have a
-significative influence on functioning [@theb03fcb; @theb07cee; @pois13tcd]. The
-structure of interactions indeed translates the distribution of different types
-of properties important for ecosystem functioning, such as the presence of
-omnivory, the generality of species, the modularity of the food-web, etc.
+integration. Analyses performed on simulated food-webs with unchanged diversity
+have already shown that interactions, and more specifically their structure,
+have a significative influence on functioning [@theb03fcb; @theb07cee;
+@pois13tcd]. The structure of interactions translates the distribution of
+different types of properties important for ecosystem functioning, such as the
+presence of omnivory, the generality of species, the modularity of the food-web,
+etc.
 
 # Linking interactions to ecological mechanisms
 
@@ -255,9 +254,9 @@ predation, have parasitism increase its death rate and at the same time see
 its establishment eased through facilitation. It then becomes necessary to
 account for interactions when studying the dynamic a population, community
 stability or ecosystem functioning. But the effect of interactions on
-populations dynamics is not always the straightforward, both in terms of
-directionality and intensity, as it exists different types of interactions and
-multiple factors influence their probability and strength. Since the seminal
+populations dynamics is not always straightforward, both in terms of
+directionality and intensity, as there is different types of interactions and
+multiple factors influence their probability of occurrence and strength. Since the seminal
 work of @may72wlc, the analysis of these effects has been a prolific field
 of ecology, feeding in particular the famous "complexity-stability debate"
 (see @alle15sra for an overview). Including interactions in population dynamics
@@ -270,8 +269,8 @@ $$
 wherein the adjacency matrix $A$ ($n*n$), list the realized interactions in a
 given community composed of $n$ species. $A_{ij} \neq 0$ when species $i$ and
 $j$ interact and $0$ otherwise. $\alpha_{ij}$ quantifies the strength of the
-interaction. We presented here an equation to model populations abundance $N$
-but it can easily be adapted to model biomass flows by replacing populations'
+interaction. This equation model populations abundance $N$
+but can easily be adapted to model biomass flows by replacing populations'
 abundances by their biomasses $B_i$ (see for instance @will07hyi).
 
 Ecological networks are also spatially and temporally variable
@@ -304,10 +303,10 @@ through their ecological networks represent an additional layer of information
 compared to simple species lists. As such, ecological networks are a powerful
 tool to shed new light on the processes underlying species distribution
 [@caze16tsc]. Until recently, the prevailing idea was that at large scales, the
-role of biotic interactions was minimized compared to that of abiotic
+role of biotic interactions was very small compared to that of abiotic
 conditions, and thought to only be important locally [@pear03pic; @boul12adb].
-Empirical observations of species-environment relationship were thus used to
-understand species physiological tolerance to environmental conditions [**ref**]
+Empirical observations of species-environment relationship are then used to
+understand species physiological tolerance to environmental conditions
 and potentially predict their range under different scenarios of climate change
 [e.g. @arau06cwd]. While these climate envelope models provide a useful
 approximation of species potential distribution [@pear02sse], there is mounting
@@ -324,10 +323,10 @@ between species is no evidence of absence of interaction [@caze16tsc]. To move
 from empirical-based species distribution models (SDM) toward theory-driven SDM,
 further work is needed. In particular, developing methods allowing to include
 prior information about the underlying ecological network when building
-(J)SDM could help shedsing light on the the fundamental processes underlying
+(J)SDM could help sheding light on the the fundamental processes underlying
 species distribution and thus making more accurate predictions [@caze16tsc].
 Additionally, @pois17hpt recently showed that biotic interactions respond to
-environmental conditions on their own, independently of species. **(needs conclusion / transition)**
+environmental conditions on their own, independently of species.
 
 Ecological networks also offer an ideal framework to study the conditions for
 the maintenance of biodiversity in communities through species coexistence.
@@ -349,17 +348,17 @@ new perspective on species coexistence, as it is allowing to integrate these
 mechanisms in large realistic communities. Using this methodological framework,
 @mart06dcp showed that the global non-random structure of the food webs improved
 community persistence. The distribution of motifs in food webs [@stou10ufp, see
-section "Invariants in ecological networks"] as well as species' role within motifs [@stou12ecs] are related to
-community persistence. In mutualistic networks, the nested structure has been
-shown to minimize competition relatively to competition [@bast09amn;
-@sugi09csc]. In these networks, the asymmetry of dependences -- the fact that
-when one species $A$ depends strongly on another species $B$ as resource for
-food or pollination, the other species ($B$) only weakly depends on $A$ -- also
-increase persistence [@basc06acn]. This type of approach also allowed to
-highlight the interplay between traits and structure. As an example, @bros06ase
-showed that the allometric scaling of metabolic rates of species improve
-community persistence when the organization of the food webs is such that
-predator–prey body mass ratios are different from zero.
+section "Invariants in ecological networks"] as well as species' role within
+motifs [@stou12ecs] are related to community persistence. In mutualistic
+networks, the nested structure has been shown to minimize competition relatively
+to competition [@bast09amn; @sugi09csc]. In these networks, the asymmetry of
+dependences -- the fact that when one species $A$ depends strongly on another
+species $B$ as resource for food or pollination, the other species ($B$) only
+weakly depends on $A$ -- also increase persistence [@basc06acn]. This type of
+approach also allowed to highlight the interplay between traits and structure.
+As an example, @bros06ase showed that the allometric scaling of metabolic rates
+of species improve community persistence when the organization of the food webs
+is such that predator–prey body mass ratios are different from zero.
 
 As for the species coexistence, ecologists have questioned the way communities
 are formed and the hypothetical set of rules embedding this assembly. @diam75asc
