@@ -24,7 +24,6 @@ abundance, intensity of the gene flow between two populations, etc.), location
 in space and time, edges direction and sign and nodes labels (*e.g.* species
 identity). This information is summarized mathematically in the adjacency matrix
 (typically named $A$, see definition in glossary).
-(Graph theory, etc.)
 
 Describing and understanding the structure of species interaction networks is an
 active, and growing, field of ecological research. In this contribution, we will
@@ -72,19 +71,19 @@ the network structure.
 ![Network topology, example of a fictional plant-pollinator network. (a) shows a perfectly nested network, where specialists pollinators are visiting plants embedded into the diet of more generalist pollinators. (b) shows a perfectly modular network, where sub-groups of species interact more strongly with each over than with the rest of the network. (c) shows a random network. Two representations are possibles. Top: Bipartite representation using nodes and edges ; Bottom: Ordered interaction matrix. Here, we used striped yellow squares instead of 1 for presence of interaction and empty squares in absence of interaction.](Figures/figure2.pdf)
 
 Another remarkable generality of network structure is the distribution of
-particular shapes of interconnection between all three-species subsets.
-@milo02nms indeed found that networks (not just ecological but other types of
-networks such as neuronal or electronical networks as well) can be characterized
-by the over-representation of some of these three-species subset, which they
-called motifs (*Figure 1e*). Motifs can be more broadly defined as being particular shapes of
-interconnection between three or more nodes in networks at a frequency
-significantly higher than those find in randomized networks. Three-species
-motifs thus represent the simplest building blocks of networks, and more
-importantly the typical interaction found in communities. As such, they offer
-the possibility to integrate theories developed on simple modules (*e.g.*
-omnivory, @mcca98wti, @holt97cm) in larger, more realistic networks. For
-instance, food webs are characterized by an over-representation of linear food
-chains and omnivory and an under-representation of apparent and exploitative
+particular shapes of interconnection between three-species subsets. @milo02nms
+found that networks (not just ecological but other types of networks such as
+neuronal or electronical networks as well) can be characterized by the over or
+under representation of some of these three-species subset, which they called
+motifs (*Figure 1e*). Motifs can be more broadly defined as being particular
+shapes of interconnection between three or more nodes in networks at a frequency
+significantly higher than those found in randomized networks. Three-species
+motifs represent the simplest building blocks of networks, and more importantly
+the typical interaction found in communities. As such, they offer the
+possibility to integrate and test theories developed on simple modules (*e.g.*
+omnivory, @mcca98wti, @holt97cm) in larger, more realistic networks. Food webs,
+for example, are characterized by an over representation of linear food chains
+and omnivory and an under representation of apparent and exploitative
 competition [@cama07qal; @basc05stm]. @stou10ufp found that this distribution
 promotes stability in food webs, with over-represented motifs being more stable
 in isolation and correlated with higher stability in large realistic
@@ -94,8 +93,8 @@ positions for species to occupy in these motifs, representing how the species is
 embedded in its community. The different positions a species will occupy, and
 the frequency with which it will occupy these different positions in networks
 are called species motif role [@stou12ecs]. These roles have been shown to be
-evolutionary conserved in food webs [@stou12ecs] and to have less variability
-in time than expected in host-parasitoids bipartite networks [@bake15srf].
+evolutionary conserved in food webs [@stou12ecs] and to have less variability in
+time than expected in host-parasitoids bipartite networks [@bake15srf].
 
 Another invariant network property lies in species phylogeny. Phylogeny is a key
 determinant of ecological network structure, allowing the understanding of
@@ -175,7 +174,7 @@ biomass), its loss will have similar impact in term of secondary extinctions
 than the loss of an hug [@alle04wdw]. The network architecture also affects the
 community response to perturbations. For instance, thanks to their structural
 properties (hight nestedness and connectance, @jord03ipc), mutualistic networks
-persist longer than randomly structured networks [@memm04tp ; @fort06hls]. On
+persist longer than randomly structured networks [@memm04tpn ; @fort06hls]. On
 the other hand, presence of modules in the community structure limits
 propagation of perturbations across the rest of the network and then secondary
 extinctions [@stou10ufp].
