@@ -1,10 +1,17 @@
 # Introduction
 
-In ecological communities, interactions between species are organized in ways
-that are non-random. The organization of these interactions, in turn, drives or
-changes some properties of the community, such as its stability, productivity,
-or ability to resist extinctions. (Structure, analyser la structure informe sur
-les processus et règles fondamentales, etc. )
+In ecological systems (*e.g.* communities), interactions between components
+(*e.g.* species) are organized in ways that are non-random, as interactions
+occurrence and properties are constrained by sets of rules (see section X). The
+organization of these interactions, in turn, drives or changes some properties
+of the community, such as its stability, productivity, or ability to resist
+extinctions, which eventually feedback on the system organisation. This constant
+interplay between interaction organisation and system functions results in
+signatures on the system structure (*e.g.* invariance in key features of the
+system structure, see section X). Detecting and analysing these signatures gives
+us informations on the system itself. Studying the structure of ecological
+systems is necessary to gain insights on the fundamental rules and processes
+that govern ecosystem formation, maintenance and functioning.
 
 The way interactions are organized can be studied by investigating the structure
 of *Species Interaction Networks*. In this representations, species are "nodes",
@@ -18,14 +25,6 @@ in space and time, edges direction and sign and nodes labels (*e.g.* species
 identity). This information is summarized mathematically in the adjacency matrix
 (typically named $A$, see definition in glossary).
 (Graph theory, etc.)
-
-Types de réseaux écologiques et résultats principaux ?
-Nodes and edges at different scales, common tool (graph theory) different application
-What are the main results associated with the introduction of GT in these sub-fields.
-- landscape connectivity
-- metacomunities
-- population and community ecology
-- etc.
 
 Describing and understanding the structure of species interaction networks is an
 active, and growing, field of ecological research. In this contribution, we will
