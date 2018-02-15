@@ -14,16 +14,33 @@ systems is necessary to gain insights on the fundamental rules and processes
 that govern ecosystem formation, maintenance and functioning.
 
 The way interactions are organized can be studied by investigating the structure
-of *Species Interaction Networks*. In this representations, species are "nodes",
-and interactions are "edges". Two species are linked by an edge if there is an
-interaction between them. SINs are therefore an abstraction of ecological
-systems, integrating informations about both the its components (the nodes) and
-their organisation (how they are connected through the edges). Both nodes and
-edges can carry additional information such as weigths (*e.g.* species
-abundance, intensity of the gene flow between two populations, etc.), location
-in space and time, edges direction and sign and nodes labels (*e.g.* species
-identity). This information is summarized mathematically in the adjacency matrix
-(typically named $A$, see definition in glossary).
+of ecological networks. Created to analyze the structure of a studied system,
+the *graph theory* is a mathematical framework which seemed to be largely
+appropriate to answer ecological questions. Every system can be abstracted by a
+*graph*, a representation of the system components organization (*Figure 1a*).
+These components are called *nodes* and are linked together by *edges*. These
+combinations form the structure of the studied system. In an ecological system,
+nodes can be individuals, populations, communities or landscape patches and
+edges can represent trophic links, energetic flux, etc, every kind of
+interaction. Both nodes and edges can carry additional information such as
+weight (*e.g.* species abundance, intensity of the gene flow between two
+populations, etc.), location in space and time, edges direction and sign and
+nodes labels (*e.g.* species identity). Specific informations can be attached to
+edges, modifying the characteristics of the graph. Graphs can be *directed*
+(*i.e* interaction goes from A to B) or *undirected*, *weighted* (*i.e*
+different strength of interaction among the network) or *unweighted* (*Figures 1
+and 2*). This information is summarized mathematically in the *adjacency matrix*
+(typically named $A$, see definition in glossary) (*Figure 1b*). The entire
+representation of the adjacency matrix offers an *unipartite* network
+representation, where the hierarchy between nodes and their position into the
+network is not always visible (*Figure 1*). On the contrary, a bipartite or
+k-partite network is a hierarchical representation of the network (*Figure 2*),
+where nodes are separated depending on their position or function into the
+network (*e.g* pollinator-plant as bipartite network). In this paper, for
+simplicity, time and space, we decided to focus on *Species Interaction
+Networks* (SIN). Ecological system such as landscape, genetic or nutrient
+network are not represented here, but they follow the same general rules and
+characteristics defined further.  
 
 Describing and understanding the structure of species interaction networks is an
 active, and growing, field of ecological research. In this contribution, we will
