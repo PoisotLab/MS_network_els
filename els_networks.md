@@ -30,17 +30,10 @@ edges, modifying the characteristics of the graph. Graphs can be *directed*
 (*i.e* interaction goes from A to B) or *undirected*, *weighted* (*i.e*
 different strength of interaction among the network) or *unweighted* (*Figures 1
 and 2*). This information is summarized mathematically in the *adjacency matrix*
-(typically named $A$, see definition in glossary) (*Figure 1b*). The entire
-representation of the adjacency matrix offers an *unipartite* network
-representation, where the hierarchy between nodes and their position into the
-network is not always visible (*Figure 1*). On the contrary, a bipartite or
-k-partite network is a hierarchical representation of the network (*Figure 2*),
-where nodes are separated depending on their position or function into the
-network (*e.g* pollinator-plant as bipartite network). In this paper, for
+(typically named $A$, see definition in glossary) (*Figure 1b*). In this paper, for
 simplicity, time and space, we decided to focus on *Species Interaction
 Networks* (SIN). Ecological system such as landscape, genetic or nutrient
-network are not represented here, but they follow the same general rules and
-characteristics defined further.  
+network are not represented here, but they can be studying following the same framework defined further.
 
 Describing and understanding the structure of species interaction networks is an
 active, and growing, field of ecological research. In this contribution, we will
@@ -446,6 +439,12 @@ Assembly rules: Ecological processes that lead to a specific species' compositio
 of a community, *e.g.* competition, predator-prey interactions, arrival history, etc.
 
 **Bipartite / Unipartite network**
+The entire representation of the adjacency matrix offers an *unipartite* network
+representation, where the hierarchy between nodes and their position into the
+network is not always visible (*Figure 1*). On the contrary, a bipartite or
+k-partite network is a hierarchical representation of the network (*Figure 2*),
+where nodes are separated depending on their position or function into the
+network (*e.g* pollinator-plant as bipartite network).
 
 Ecological interactions: Every type of contact between two species that alters the abundance, biomass
 and/or behavior of one or both species. Interactions can be trophic,
