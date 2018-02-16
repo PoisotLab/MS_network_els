@@ -1,20 +1,19 @@
 # Introduction
 
 In ecological systems (*e.g.* communities), interactions between components
-(*e.g.* species) are organized in ways that are non-random, as interactions
-occurrence and properties are constrained by sets of rules (see section X). The
-organization of these interactions, in turn, drives or changes some properties
+(*e.g.* species) are organized in ways that are non-random and constrained by sets of rules (see section X). The
+organization of these interactions drives or changes some properties
 of the community, such as its stability, productivity, or ability to resist
-extinctions, which eventually feedback on the system organisation. This constant
-interplay between interaction organisation and system functions results in
+extinctions, which eventually feedback on the system organization. This constant
+interplay between interaction organization and system functions results in
 signatures on the system structure (*e.g.* invariance in key features of the
-system structure, see section X). Detecting and analysing these signatures gives
-us informations on the system itself. Studying the structure of ecological
+system structure, see section X). Detecting and analyzing these signatures gives
+us information on the system itself. Studying the structure of ecological
 systems is necessary to gain insights on the fundamental rules and processes
 that govern ecosystem formation, maintenance and functioning.
 
 The way interactions are organized can be studied by investigating the structure
-of ecological networks. Created to analyze the structure of a studied system,
+of ecological networks. Designed to analyze the structure of a studied system,
 the *graph theory* is a mathematical framework which seemed to be largely
 appropriate to answer ecological questions. Every system can be abstracted by a
 *graph*, a representation of the system components organization (*Figure 1a*).
@@ -33,8 +32,8 @@ and 2*). This information is summarized mathematically in the *adjacency matrix*
 (typically named $A$, see definition in glossary) (*Figure 1b*). In this paper, for
 simplicity, time and space, we decided to mostly focus on *Species Interaction
 Networks* (SIN). Ecological system such as landscape, genetic or nutrient
-network are not represented here, but they can be studying following the same
-framework defined further.
+networks are not represented here, but they can be studying following the same
+framework defined further [*ref*].
 
 Describing and understanding the structure of species interaction networks is an
 active, and growing, field of ecological research. In this contribution, we will
@@ -51,7 +50,7 @@ scales.
 # Invariants in ecological networks
 
 One striking particularity of ecological networks is their consistency:
-even though the depict interactions between different organisms across all
+even though they depict interactions between different organisms across all
 sorts of ecosystems, they all tend to look the same [@jord03ipc]. Remarkably,
 even when interactions among species themselves vary (see section **x**),
 the overall network structure tends to remain unchanged [@kemp17ian]. Most
@@ -141,7 +140,7 @@ fully the structure and evolution of ecological networks.
 # From structure to properties
 
 The relationship between ecological network structure and stability remains a
-main topic of discussion. First, @maca55fap and @elto58rc observed in natural
+contemporary topic of discussion. First, @maca55fap and @elto58rc observed in natural
 ecosystems that diverse communities have a more stable dynamic than simple ones.
 Using a mathematical model based on random ecological networks, @may72wlc
 undermined this hypothesis. Taking into account not only species diversity but
@@ -177,7 +176,7 @@ or cascade of extinctions). These extinctions are used to measure the
 robustness of ecological communities and to explore what happen when a species
 is removed or changed in a network. The use of dynamic-based models led to
 highlight the fact that the probability of secondary extinctions increases with
-the community size [@lund00sll], and decreases with the network connectance
+the community size [@lund08sll], and decreases with the network connectance
 [@dunn02nsb]. Then, the focus on species removal have allowed to understand that
 the loss of an highly connected species, also called hub, induces a higher rate of
 secondary extinctions than the loss of a random, weakly connected species
@@ -250,14 +249,14 @@ population abundances to predict interactions yields realistic food webs. In
 a host-parasite system, local abundances has also been identified as a
 key predictor of species interactions [@cana14een]. Speaking more broadly,
 because interactions emerge from all of these ecological mechanisms, there
-is a need to develop a deeper understanding of them [@pois15swe]. Beyond
+is a need to develop a deeper understanding of their variability [@pois15swe]. Beyond
 the fundamental advance that this represents, this would allow to predict
 interactions based on external information [@mora15ibi].
 
 The realization of an interaction between individuals from the same or
 different populations within a community also have ecological consequences
 as it modifies the dynamics of at least one of the interacting populations,
-and through it, the ecosystem emerging properties. If we consider for
+and through it, emerging properties. If we consider for
 instance a population A, its dynamics is not the same when it multiplies
 in isolation -- where it can grow exponentially if resources are unlimited
 [@malt98epp] or logistically otherwise [@verh38nlq] -- or when it is embedded
@@ -273,7 +272,7 @@ multiple factors influence their probability of occurrence and strength. Since t
 work of @may72wlc, the analysis of these effects has been a prolific field
 of ecology, feeding in particular the famous "complexity-stability debate"
 (see @alle15sra for an overview). Including interactions in population dynamics
-analyses can be done by using model of the following general form [@pois15swe]:
+analyses can be done by using model of the following general form:
 
 $$
 \frac{1}{N_i}\frac{\text{d}}{\text{d}t}N_i = r_i \times \sum_j A_{ij} \alpha_{i,j} N_j \,
@@ -374,18 +373,20 @@ of species improve community persistence when the organization of the food webs
 is such that predator–prey body mass ratios are different from zero.
 
 Ecologists have also questioned the way communities are formed and the
-hypothetical set of rules embedding this assembly. @diam75asc have defined
+hypothetical set of rules embedding this assembly. @diam75asc defined
 emblematic rules to understand community structure and assembly. In this
 continuity, network framework allows to explore in detail processes influencing
 ecological communities assembly. @capi09sme, for instance, have retraced the
-pathway, step by step, of the community assembly process through an assembly
-graph, based on the graph theory. For food webs especially, mechanistic models
-such as niche model [@will00sry] and the cascade model [@cohe89fwc] originally
+pathway of the community assembly process through an assembly
+graph, based on graph theory. It allows to follow step by step every possible
+path in community assembly from, for instance, 0 to 21 species among 3 trophic levels, and
+highlight underlying mechanisms. For food webs especially, mechanistic models
+such as niche model [@will00srya] and the cascade model [@cohe89fwc] originally
 constructed to understand networks structure, have actually be used to
 understand community assembly and the impact of invasion. Using also network
 framework, [@verd08nap] found that nested community provides generalists species
 which facilitate the presence of other species into the network. At the same
-time, thanks to an experimental network study, [@oles08tdp] have observed that
+time, thanks to an experimental network study, [@oles08tdpb] have observed that
 new arrival species tend to interact more easily with already
 well-connected or generalist species. These kind of results could let us think
 about the Drake's controversial idea @drak91cms that species arrival history
@@ -404,7 +405,7 @@ complementary, offering processes explanation at the metacommunity level
 (niche theory) and at the phylogenetic level (neutral theory) [*ref*]. Network
 framework in community assembly have brought the field one step further and
 makes links between other ecological fields, such as disassembly prediction
-[see @basc09ade] or co-evolutionary processes [@nuis13cam] much more easier.
+[see @basc09adea] or co-evolutionary processes [@nuis13cam] much more easier.
 
 # Conclusion
 
@@ -430,6 +431,7 @@ highlight the understanding of mechanisms underlying ecological properties such
 as community assembly, coexistence and species distribution. Network studies
 were a key to reveal relationships between different properties of ecological
 network such as trait and structure.
+
 
 # Glossary
 
