@@ -31,9 +31,10 @@ edges, modifying the characteristics of the graph. Graphs can be *directed*
 different strength of interaction among the network) or *unweighted* (*Figures 1
 and 2*). This information is summarized mathematically in the *adjacency matrix*
 (typically named $A$, see definition in glossary) (*Figure 1b*). In this paper, for
-simplicity, time and space, we decided to focus on *Species Interaction
+simplicity, time and space, we decided to mostly focus on *Species Interaction
 Networks* (SIN). Ecological system such as landscape, genetic or nutrient
-network are not represented here, but they can be studying following the same framework defined further.
+network are not represented here, but they can be studying following the same
+framework defined further.
 
 Describing and understanding the structure of species interaction networks is an
 active, and growing, field of ecological research. In this contribution, we will
@@ -113,12 +114,12 @@ species indeed inherit traits from their common ancestors (*e.g.* body size, hab
 defensive strategy, metabolic type, phenology), increasing their propensity to
 interact with the same group of species or with similar species. This
 conservatism of interactions has been found to hold across different types of
-interactions such as antagonistic or mutualistic interactions [*ref*]. However,
+interactions such as antagonistic or mutualistic interactions [@font15cce]. However,
 every species role, such as host or parasite in antagonistic interaction, prey
 or predator in food web and plant or pollinator/seed disperser in mutualistic
 interaction, do not provide the same links structure. For instance, closely
 related host tend to share parasites, while closely related parasites, because
-of competition for resources, tend to have different hosts species [*ref*]. The
+of competition for resources, tend to have different hosts species [@kras12psm]. The
 conservatism of interactions is consequently unequal all over the network.
 Following the logic that closely related species interact with the same group of
 species, @reze09cmf shown that phylogenetic structure of ecological networks
@@ -148,21 +149,23 @@ also the connectance and the interaction strengths in the network, he found
 that, contrarily to the way of thinking at this time, diversity was
 destabilizing communities. This kick in the anthill was the beginning of a
 prolific complexity-stability debate, highly oriented on trophic networks
-[see @alle15sra; @mcca00dd]. Two different approaches of the stability have emerged: one based
-on the general complexity-stability relationship and dynamics among species in
-communities and the second one based on the communities ability to resist biotic
-and abiotic changes. The both use different notions and
+[see @alle15sra; @mcca00dd]. Two different approaches of the stability have
+emerged: one based on the general complexity-stability relationship and dynamics
+among species in communities and the second one based on the communities ability
+to resist biotic and abiotic changes. The both use different notions and
 definitions of stability, inducing different ways to study it [see @mcca11fwm].
 Despite their dissimilarities, these approaches are not totally independent and
 have allowed highlighting that species diversity has no direct influence on
-communities stability. However, the structure of ecological network such as interactions distribution and strength seems to play a crucial role [@yodz81sre]. The links distribution of ecological
-networks follows a power-law distribution [*ref*], meaning that few species are highly
-connected to the rest of the community and a large number of species are weakly
-connected to others. This organization combined with the myriad of weak
-interactions found across ecological networks, called the weak interaction
-effect [*ref*], buffers species variations and then stabilizes the entire
-community [@basc05isc; @jacq16ncr]. Other parameters, such as the predator-prey
-body-mass ratio [@emme04pbs; @bros06cbr] or network architecture [@mont06ent; @theb10sec],
+communities stability. However, the structure of ecological network such as
+interactions distribution and strength seems to play a crucial role
+[@yodz81sre]. The links distribution of ecological networks follows a power-law
+distribution [@mont02swp], meaning that few species are highly connected to the
+rest of the community and a large number of species are weakly connected to
+others. This organization combined with the myriad of weak interactions found
+across ecological networks, called the weak interaction effect [@berl99sew], buffers
+species variations and then stabilizes the entire community
+[@basc05isc; @jacq16ncr]. Other parameters, such as the predator-prey body-mass
+ratio [@emme04pbs; @bros06cbr] or network architecture [@mont06ent; @theb10sec],
 determine the distribution and strength of interactions and then contribute to
 the stability of ecological networks.
 
@@ -370,44 +373,43 @@ As an example, @bros06ase showed that the allometric scaling of metabolic rates
 of species improve community persistence when the organization of the food webs
 is such that predator–prey body mass ratios are different from zero.
 
-Ecologists have also questioned the way communities
-are formed and the hypothetical set of rules embedding this assembly. @diam75asc
-have defined emblematic rules to understand community structure and assembly. In
-this continuity, network framework allows to explore in detail processes
-influencing ecological communities assembly. @capi09sme, for instance, have
-retraced the pathway, step by step, of the community assembly process through an
-assembly graph, based on the graph theory. For food webs especially, mechanistic
-models such as niche model [@will00sry] and the cascade model
-[@cohe89fwc] originally constructed to understand networks structure, have
-actually be used to understand community assembly [*ref*] and the impact of
-invasion. Using also network framework, [@verd08nap]
-found that nested community provides generalists species which facilitate the
-presence of other species into the network. At the same time, thanks to an
-experimental network study, [@oles08tdp] have observed that new arrival
-species tend to interact more easily with already well-connected or generalist
-species. These kind of results could let us think about the Drake's
-controversial idea @drak91cms that species arrival history would be a
-*important* factor driving community assembly [@drak91cms]. Thanks to community
-network, @camp11nmp shown that history assembly process is and important factor
-for mutualistic networks. Community assembly have however, a myriad of different
-drivers, such as dispersion, interaction strength and phylogeny distance between
-species composing communities [@leib17caf; @kraf07tec; @mahe07ipf; @mont03tpf].
-Based on these drivers, two distinct types of models have been developed to
-predict community assembly dynamics [@tilm04ntn; @grav06rnn; @souz16qca]. In one
-hand, niche-based theory models use coexistence theory and niche
-differentiation. In the other hand, neutral theory models are based on species
-dynamics (migration, extinction and speciation) under stochastic processes.
-Theses two types of model are actually complementary, offering processes
-explanation at the metacommunity level (niche theory) and at the phylogenetic
-level (neutral theory) [*ref*]. Network framework in community assembly have
-brought the field one step further and makes links between other ecological
-fields, such as disassembly prediction (see @basc09ade) or
-co-evolutionary processes [@nuis13cam] much more easier.
+Ecologists have also questioned the way communities are formed and the
+hypothetical set of rules embedding this assembly. @diam75asc have defined
+emblematic rules to understand community structure and assembly. In this
+continuity, network framework allows to explore in detail processes influencing
+ecological communities assembly. @capi09sme, for instance, have retraced the
+pathway, step by step, of the community assembly process through an assembly
+graph, based on the graph theory. For food webs especially, mechanistic models
+such as niche model [@will00sry] and the cascade model [@cohe89fwc] originally
+constructed to understand networks structure, have actually be used to
+understand community assembly and the impact of invasion. Using also network
+framework, [@verd08nap] found that nested community provides generalists species
+which facilitate the presence of other species into the network. At the same
+time, thanks to an experimental network study, [@oles08tdp] have observed that
+new arrival species tend to interact more easily with already
+well-connected or generalist species. These kind of results could let us think
+about the Drake's controversial idea @drak91cms that species arrival history
+would be a *important* factor driving community assembly [@drak91cms]. Thanks to
+community network, @camp11nmp shown that history assembly process is and
+important factor for mutualistic networks. Community assembly have however, a
+myriad of different drivers, such as dispersion, interaction strength and
+phylogeny distance between species composing communities [@leib17caf;
+@kraf07tec; @mahe07ipf; @mont03tpf]. Based on these drivers, distinct types
+of models have been developed to predict community assembly dynamics
+[@tilm04ntn; @grav06rnn; @souz16qca]. In one hand, niche-based theory models use
+coexistence theory and niche differentiation. In the other hand, neutral theory
+models are based on species dynamics (migration, extinction and speciation)
+under stochastic processes. Theses two types of model are actually
+complementary, offering processes explanation at the metacommunity level
+(niche theory) and at the phylogenetic level (neutral theory) [*ref*]. Network
+framework in community assembly have brought the field one step further and
+makes links between other ecological fields, such as disassembly prediction
+[see @basc09ade] or co-evolutionary processes [@nuis13cam] much more easier.
 
 # Conclusion
 
 As networks and graph theory allowed to understand breakdown into electricity
-system in United States [*ref*] or the structure and functioning of social
+system in United States or the structure and functioning of social
 network, it is also a powerful tool to investigate ecological questions. As long
 as the studying system contains interactions, links or connections, the graph
 theory provides a perfectly adapted simple framework to characterize complicated
@@ -416,18 +418,18 @@ distribution of network topology serve as basic measurements to describe
 systems. Using theses indices, this framework facilitates comparison between
 different ecological networks. And the relatively important number of network
 studies leads to a myriads of ways to sample, analyze and interpret them [see
-*Delmas_et_al._2017*].
+@delm17aen].
 
 Studying ecological networks have however a larger purpose than just their
 description and classification. Basic measurements are correlated to several
 environmental factors and network analysis appears to be helpful in different
 ecological fields. As we seen through this paper, it can be used to study
 dynamics of ecological systems and their responses to changes, according to
-their stability over time or the BEF relationships in the system. It also highlight the
-understanding of mechanisms underlying ecological properties such as community
-assembly, coexistence and species distribution. *Network studies were a key to
-reveal relationships between different properties of ecological network such as
-trait and structure.
+their stability over time or the BEF relationships in the system. It also
+highlight the understanding of mechanisms underlying ecological properties such
+as community assembly, coexistence and species distribution. Network studies
+were a key to reveal relationships between different properties of ecological
+network such as trait and structure.
 
 # Glossary
 
