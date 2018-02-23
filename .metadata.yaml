@@ -1,0 +1,56 @@
+---
+title: Complex Ecological Networks
+short: Graph theory applied in ecology
+keyword:
+  - Assemblage
+  - Coexistence
+  - Communities
+  - Graph theory
+  - Network structure
+  - Population dynamics
+  - Species interactions
+  - Stability
+  -
+  -
+date: \today
+abstract: >
+  Introduction to ecological network
+author:
+  - family: Besson
+    given: Mathilde
+    affiliations:
+      - 1
+      - 2
+    id: mb
+    orcid: sa
+  - family: Delmas*
+    given: Eva
+    affiliations:
+      - 1
+      - 2
+    id: ed
+    orcid:
+  - family: Poisot
+    given: Timothée
+    affiliations:
+      - 1
+      - 2
+    id: tp
+    orcid:
+  - family: Gravel
+    given: Dominique
+    affiliations:
+      - 2
+      - 3
+    id: dg
+    orcid:
+    email:
+affiliation:
+  - id: 1
+    text: 'Université de Montréal, Département de Sciences Biologiques'
+  - id: 2
+    text: Québec Centre for Biodiversity Sciences
+  - id: 3
+    text: Université de Sherbrooke, Département de Biologie
+cleveref: true
+---

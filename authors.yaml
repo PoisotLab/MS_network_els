@@ -1,0 +1,32 @@
+---
+- family: Besson
+  given: Mathilde
+  affiliations:
+    - Université de Montréal, Département de Sciences Biologiques
+    - Québec Centre for Biodiversity Sciences
+  id: mb
+  orcid:
+- family: Delmas
+  given: Eva
+  affiliations:
+    - Université de Montréal, Département de Sciences Biologiques
+    - Québec Centre for Biodiversity Sciences
+  id: ed
+  orcid:
+- family: Poisot
+  given: Timothée
+  affiliations:
+    - Université de Montréal, Département de Sciences Biologiques
+    - Québec Centre for Biodiversity Sciences
+  id: tp
+  orcid:
+- family: Gravel
+  given: Dominique
+  affiliations:
+    - Université de Sherbrooke, Département de Biologie
+    - Québec Centre for Biodiversity Sciences
+  id: dg
+  orcid:
+  email:
+
+---
