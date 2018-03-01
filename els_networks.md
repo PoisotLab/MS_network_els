@@ -1,38 +1,31 @@
 # Introduction
 
-In ecological systems (*e.g.* communities), interactions between components
-(*e.g.* species) are organized in ways that are non-random and constrained by sets of rules (see section X). The
-organization of these interactions drives or changes some properties
-of the community, such as its stability, productivity, or ability to resist
-extinctions, which eventually feedback on the system organization. This constant
-interplay between interaction organization and system functions results in
-signatures on the system structure (*e.g.* invariance in key features of the
-system structure, see section X). Detecting and analyzing these signatures gives
-us information on the system itself. Studying the structure of ecological
-systems is necessary to gain insights on the fundamental rules and processes
-that govern ecosystem formation, maintenance and functioning.
+Interactions between components of ecological systems, such as species in a community, (*e.g.* species) are organized non-randomly and constrained by
+sets of rules (see section X). The organization of these interactions drives
+some properties of the community such as stability, productivity, and the ability to
+resist extinctions, all of which eventually feedback on the system organization.
+The constant interplay between the organization of interactions and system dynamics
+constrains its structure. Studying the structure of
+ecological systems is necessary to gain insights on the fundamental rules and
+processes that govern ecosystem formation, maintenance and functioning.
 
-The way interactions are organized can be studied by investigating the structure
-of ecological networks. Designed to analyze the structure of a studied system,
-the *graph theory* is a mathematical framework which seemed to be largely
-appropriate to answer ecological questions. Every system can be abstracted by a
-*graph*, a representation of the system components organization (*Figure 1a*).
-These components are called *nodes* and are linked together by *edges*. These
-combinations form the structure of the studied system. In an ecological system,
+The organization of interactions in a community is best represented as a network. *Graph theory* is a field of mathematics developped to analyze the structure of such systems. Every community can be abstracted by a
+*graph*, a representation of the system components and their arrangement(*Figure 1a*).
+These components are called *nodes* and are linked together by *edges*. In an ecological system,
 nodes can be individuals, populations, communities or landscape patches and
 edges can represent trophic links, energetic flux, etc, every kind of
 interaction. Both nodes and edges can carry additional information such as
 weight (*e.g.* species abundance, intensity of the gene flow between two
-populations, etc.), location in space and time, edges direction and sign and
+populations, etc.), location in space and time, and
 nodes labels (*e.g.* species identity). Specific informations can be attached to
 edges, modifying the characteristics of the graph. Graphs can be *directed*
 (*i.e* interaction goes from A to B) or *undirected*, *weighted* (*i.e*
 different strength of interaction among the network) or *unweighted* (*Figures 1
-and 2*). This information is summarized mathematically in the *adjacency matrix*
-(typically named $A$, see definition in glossary) (*Figure 1b*). In this paper, for
-simplicity, time and space, we decided to mostly focus on *Species Interaction
-Networks* (SIN). Ecological system such as landscape, genetic or nutrient
-networks are not represented here, but they can be studying following the same
+and 2*). This information is summarized in the *adjacency matrix*
+(typically named $A$, see definition in glossary) (*Figure 1b*). In this chapter, for
+simplicity, we will focus mostly on *Species Interaction
+Networks* (SIN). Ecological systems such as landscape, genetic or nutrient
+networks are not represented here, but they can be studying using the same
 framework defined further [*ref*].
 
 Describing and understanding the structure of species interaction networks is an
@@ -40,12 +33,12 @@ active, and growing, field of ecological research. In this contribution, we will
 give an overview of some of the most prominent findings and areas of research
 from the last decade. Starting from a discussion of some invariant properties of
 the structure of species interaction networks, we will then discuss how this
-structure affects ecological properties. We will follow by a discussion of the
+structure affects community dynamics and properties. We will follow by a discussion of the
 ways ecological networks can be studied under familiar concepts from ecological
-theory, and finally how this approach scales up to larger temporal or spatial
+theory, and finally how this approach scales up to larger temporal and spatial
 scales.
 
-![Graphical representation of a fictional ecological network (a), where species are represented by circles and their directed interactions by arrows. The representation is build from the adjacency matrix (b). In an unipartite representation as this one, each species is represented both as a column and a row. 1 indicates an interaction between two species (e.g. the green square in (b)), and 0 indicates the absence of interaction. This matrix allows to calculate network characteristics such as the connectance (c) and the degree distribution (d). (c) represents the level of connection into the network and is calculated as shown in the figure. (d) represents the distribution of interaction per species. The circles size is relative to the amount of interactions a species have (d1). This distribution is non-random and generally follows a power-law distribution (d2). The network can be split into subnets composed of 3 species, called motif (e). Among the 13 different possible motifs, we only represented the most commonly found in natural communities.](Figures/figure1.pdf)
+![Graphical representation of an ecological network (a), where species are represented by circles and their directed interactions by arrows. The representation is formalized in the adjacency matrix (b). In an unipartite representation as this one, each species is represented both as a column and a row. 1 indicates an interaction between two species (e.g. the green square in (b)), and 0 indicates the absence of interaction. This matrix facilitates computation of characteristics such as the connectance (c) and the degree distribution (d). (c) represents the level of connection into the network and is calculated as shown in the figure. (d) represents the distribution of interaction per species. The circles size is relative to the amount of interactions a species have (d1). This distribution is non-random and generally follows a power-law distribution (d2). The network can be split into subnets composed of 3 species, called motif (e). Among the 13 different possible motifs, we only represented the most commonly found in natural communities.](Figures/figure1.pdf)
 
 # Invariants in ecological networks
 
@@ -59,38 +52,37 @@ whereby most species have a small number of interactions, and a small
 proportions of species have a large number of interactions. In food webs,
 which represent interactions between preys and their predators, there is a
 well-described relationship between the number of species and the number of
-interactions: the number of interactions ($L$) increases proportionally to the
+interactions. The number of interactions ($L$) increases proportionally to the
 number of species ($S$) raised to some exponent, or $L \propto S^k$. @mart92ccc
 suggested that this exponent is approximately equal to 2, *i.e.* the number
 of interactions is proportional to the squared number of species. @bros04uss
-show that this general relationship holds even across space: it is possible
+shown that this general relationship holds even across space; it is possible
 to estimate how many interactions a species will establish across its entire
 range. In some other instances, networks may differ on some aspect of their
 structure, despite obeying to a shared underlying principle. For example,
 @fort10nme show that in networks with a low connectance (*Figure 1c*), nestedness (the
 degree to which the diet of specialists and generalists overlaps -- *Figure 2*) and
 modularity (the tendency of species to form densely aggregated clusters -- *Figure 2*)
-are positively correlated. In networks with higher connectance, this became
-the opposite: networks with a large number of interactions were either nested
+are positively correlated. In networks with higher connectance, this becomes
+the opposite: networks with a large number of interactions are either nested
 (and not modular) or modular (and not nested). In the recent years, it emerged
 that many aspects of network structure covary with connectance [@chag15cte;
-@pois14wen]: this suggests that simply knowing how many species there are,
+@pois14wen], suggesting that simply knowing how many species there are,
 and how many interactions they establish, is already very informative about
 the network structure.
 
 ![Network topology, example of a fictional plant-pollinator network. (a) shows a perfectly nested network, where specialists pollinators are visiting plants embedded into the diet of more generalist pollinators. (b) shows a perfectly modular network, where sub-groups of species interact more strongly with each over than with the rest of the network. (c) shows a random network. Two representations are possibles. Top: Bipartite representation using nodes and edges ; Bottom: Ordered interaction matrix. Here, we used striped yellow squares instead of 1 for presence of interaction and empty squares in absence of interaction.](Figures/figure2.pdf)
 
 Another remarkable generality of network structure is the distribution of
-particular shapes of interconnection between three-species subsets. @milo02nms
+particular interconnection between three-species subsets. @milo02nms
 found that networks (not just ecological but other types of networks such as
 neuronal or electronical networks as well) can be characterized by the over or
 under representation of some of these three-species subset, which they called
-motifs (*Figure 1e*). Motifs can be more broadly defined as being particular
-shapes of interconnection between three or more nodes in networks at a frequency
-significantly higher than those found in randomized networks. Three-species
+motifs (*Figure 1e*). Motifs can be more broadly defined as specific
+shapes of interconnection between three or more nodes in networks. The frequency at which they occur in a network can be computed and compared to randomized networks in order to reveal significant aspects of structure. Three-species
 motifs represent the simplest building blocks of networks, and more importantly
-the typical interaction found in communities. As such, they offer the
-possibility to integrate and test theories developed on simple modules (*e.g.*
+typical interaction modules found in communities. As such, they offer the
+possibility to integrate and test theories developed on with simple models (*e.g.*
 omnivory, @mcca98wti, @holt97cm) in larger, more realistic networks. Food webs,
 for example, are characterized by an over representation of linear food chains
 and omnivory and an under representation of apparent and exploitative
@@ -106,24 +98,26 @@ are called species motif role [@stou12ecs]. These roles have been shown to be
 evolutionary conserved in food webs [@stou12ecs] and to have less variability in
 time than expected in host-parasitoids bipartite networks [@bake15srf].
 
-Another invariant network property lies in species phylogeny. Phylogeny is a key
-determinant of ecological network structure, allowing the understanding of
+Another invariant network property relates to evolutionary history. Phylogeny is a key
+determinant of ecological network structure, being related to
 species position and interactions into the community. Phylogenetically close
 species indeed inherit traits from their common ancestors (*e.g.* body size, habitat,
 defensive strategy, metabolic type, phenology), increasing their propensity to
 interact with the same group of species or with similar species. This
 conservatism of interactions has been found to hold across different types of
-interactions such as antagonistic or mutualistic interactions [@font15cce]. However,
+interactions such as antagonistic or mutualistic interactions [@font15cce].
+DG: JE NE COMPRENDS PAS LA PHRASE SUIVANTE
+However,
 every species role, such as host or parasite in antagonistic interaction, prey
 or predator in food web and plant or pollinator/seed disperser in mutualistic
-interaction, do not provide the same links structure. For instance, closely
-related host tend to share parasites, while closely related parasites, because
-of competition for resources, tend to have different hosts species [@kras12psm]. The
+interaction, do not provide the same links structure.
+For instance, closely
+related hosts tend to share parasites, while closely related parasites, because
+of competition for resources, tend to have different hosts [@kras12psm]. The
 conservatism of interactions is consequently unequal all over the network.
 Following the logic that closely related species interact with the same group of
 species, @reze09cmf shown that phylogenetic structure of ecological networks
-explains almost entirely the formation and composition of modules in the
-network, and the connections between them. For the same reasons that
+explains almost entirely the formation and composition of modules and the connections between them. For the same reasons that
 conservatism of interactions is asymmetrical, the link between phylogenetic
 signal and module composition is different depending on the species role
 [@kras12psm], and species that are modules connector are usually phylogenetically
@@ -135,117 +129,92 @@ traits. In contrast, the nested structure of mutualistic networks would be a
 consequence of trait complementary between species [@reze07epc]. For now, mechanisms
 underlying the nestedness-phylogeny relationship remain to be further
 investigated. Moreover, because of species plasticity, phylogeny alone does not
-fully the structure and evolution of ecological networks.
+fully explain the structure and evolution of ecological networks.
 
 # From structure to properties
 
-The relationship between ecological network structure and stability remains a
-contemporary topic of discussion. First, @maca55fap and @elto58rc observed in natural
-ecosystems that diverse communities have a more stable dynamic than simple ones.
-Using a mathematical model based on random ecological networks, @may72wlc
-undermined this hypothesis. Taking into account not only species diversity but
-also the connectance and the interaction strengths in the network, he found
-that, contrarily to the way of thinking at this time, diversity was
-destabilizing communities. This kick in the anthill was the beginning of a
-prolific complexity-stability debate, highly oriented on trophic networks
-[see @alle15sra; @mcca00dd]. Two different approaches of the stability have
-emerged: one based on the general complexity-stability relationship and dynamics
-among species in communities and the second one based on the communities ability
-to resist biotic and abiotic changes. The both use different notions and
-definitions of stability, inducing different ways to study it [see @mcca11fwm].
+The relationship between ecological network structure and stability is a long-lasting object of discussion. @maca55fap and @elto58rc first proposed that diverse communities should have a more stable dynamic than simple ones because disturbances are more easily spread through highly connected nodes.
+@may72wlc countered this hypothesis using a mathematical model based on random ecological networks and proposed there should be a limit to ecosystem complexity. This counter-intuitive proposition sparkled live debates still lasting today
+[see @alle15sra; @mcca00dd]. Two different approaches to the problem followed: one focused on dynamical stability and the other on the
+resistance of communities to changes in the environment.
 Despite their dissimilarities, these approaches are not totally independent and
-have allowed highlighting that species diversity has no direct influence on
-communities stability. However, the structure of ecological network such as
-interactions distribution and strength seems to play a crucial role
-[@yodz81sre]. The links distribution of ecological networks follows a power-law
-distribution [@mont02swp], meaning that few species are highly connected to the
+revealed that species diversity has no direct influence on
+community stability. However, the structure of ecological network such as
+the distribution of interaction strength and network topology seems to play a crucial role
+[@yodz81sre]. As mentionned above, the degree distribution of ecological networks often follows a power-law
+distribution [@mont02swp], indicating that few species are highly connected to the
 rest of the community and a large number of species are weakly connected to
 others. This organization combined with the myriad of weak interactions found
-across ecological networks, called the weak interaction effect [@berl99sew], buffers
-species variations and then stabilizes the entire community
-[@basc05isc; @jacq16ncr]. Other parameters, such as the predator-prey body-mass
-ratio [@emme04pbs; @bros06cbr] or network architecture [@mont06ent; @theb10sec],
-determine the distribution and strength of interactions and then contribute to
-the stability of ecological networks.
+across ecological networks buffers
+species variations and stabilizes the entire community
+[@basc05isc; @jacq16ncr]. Other aspects of community structure, such as the predator-prey body-mass
+ratio [@emme04pbs; @bros06cbr] and network architecture [@mont06ent; @theb10sec],
+determine the distribution and strength of interactions and together drive
+the stability of ecological networks [@jacq16ncr].
 
-Perturbations in ecological communities, generally caused by landscape
-fragmentation, habitat loss, species loss or invasion, induce a decrease of
-species diversity. This loss of diversity is explained by extinctions of species
-due directly or indirectly to a first species loss (*i.e.* secondary extinctions
-or cascade of extinctions). These extinctions are used to measure the
-robustness of ecological communities and to explore what happen when a species
-is removed or changed in a network. The use of dynamic-based models led to
-highlight the fact that the probability of secondary extinctions increases with
-the community size [@lund08sll], and decreases with the network connectance
-[@dunn02nsb]. Then, the focus on species removal have allowed to understand that
-the loss of an highly connected species, also called hub, induces a higher rate of
-secondary extinctions than the loss of a random, weakly connected species
-[@sole01cfe]. However, even if a species is weakly directly connected, if it
-represents a highway of energy-flow in the network (carbon, nitrogen or
-biomass), its loss will have similar impact in term of secondary extinctions
-than the loss of an hug [@alle04wdw]. The network architecture also affects the
-community response to perturbations. For instance, thanks to their structural
+Perturbations in ecological communities such as landscape
+fragmentation, habitat loss, or species invasion, are the primary drivers of species loss. Extinctions may happen directly, for instance if a particular habitat is eliminated, or indirectly following a first species loss (a phenomenon refered as secondary extinction or cascades). Such extinctions are used to measure the robustness of ecological communities. Simulation experiments revealed that the likelihood of secondary extinctions increases with community size [@lund08sll], decreases with network connectance
+[@dunn02nsb] and primarily affects the most isolated species in the network. The loss of an highly connected species, also called a hub, induces a higher rate of secondary extinctions than the loss of a random and weakly connected species [@sole01cfe]. Similarly, species responsible for important energy-flow in the network (carbon, nitrogen or
+biomass) can trigger secondary extinctions [@alle04wdw].
+
+The network architecture also affects the community response to perturbations. In agreement with Macarthur's intuition, it was found that species with low degree also more strongly propagate  perturbations following permanent changes in the environment because of their tight connections [MONTOYA2009]. Alternatively, the most connected species (hubs) diffuse such perturbations through the network and even though they affect more species, their average effect on other ones is much smaller. Overall network properties also affect the response to perturbation. Thanks to their structural
 properties (hight nestedness and connectance, @jord03ipc), mutualistic networks
 persist longer than randomly structured networks [@memm04tpn ; @fort06hls]. On
 the other hand, presence of modules in the community structure limits
-propagation of perturbations across the rest of the network and then secondary
-extinctions [@stou10ufp].
+propagation of perturbations across the rest of the network and, as such,  secondary extinctions [@stou10ufp].
 
-The consequences of the erosion of biodiversity for ecosystem functioning has
-been for almost three decades a central problematic for ecologists. While the
+Eluding the consequences of biodiversity lost for ecosystem functioning has
+been  a central problem for ecologists over the last three decades. The
 hypothesis that an increase in species diversity results in an increased
-productivity dates back to Darwin [@darw59osm], the emergence of experimental
-ecology and the shift from observation in natural systems to the quantification
-of ecology has made possible to develop a quite general theory for what is now
-called the biodiversity-ecosystem functioning (BEF) relationship. In a trophic
+productivity dates back to Darwin [@darw59osm] and a formal theory for what is now
+called the biodiversity-ecosystem functioning (BEF) relationship was proposed in the mid 90s. In a trophic
 group (*i.e.* a group of species that all belong to the same trophic level,
-*e.g.* producers or herbivores), the loss of diversity results in a loss of
-efficiency to capture the shared resource compartment [@lore10lbe] (*e.g.*
-nutrients for producers, or producers for herbivores). This leading to a
-decrease in productivity or other index of functioning. Yet, when the trophic
+*e.g.* producers or herbivores), increasing diversity improves resource use efficiency and translates into larger productivity [@lore10lbe] (*e.g.*
+nutrients for producers, or producers for herbivores). Yet, when the trophic
 group under focus is coupled to other(s), the action of diversity on functioning
 is more variable [@duff07frb]. This makes the BEF relationship unpredictable in
-real-world communities, composed of several trophic groups that are virtually
+real-world communities [@harv13], composed of several trophic groups that are virtually
 never differentiable -- as intraguild predation and omnivory blurr the frontier
 between levels. The multiplicity of the factors influencing the BEF relationship
 calls for a more general framework that allows the integration of the theories
-developped for trophic group and for simple modules or sub-systems. By mapping
+developped for trophic group and for simple modules or sub-systems [@grave16phi]. By mapping
 transfer of biomass and energy and/or constraints on organism through the
 different compartments that compose a natural community, ecological networks --
 and food webs in particular -- offer the possibility to perform this
-integration. Analyses performed on simulated food-webs with unchanged diversity
-have already shown that interactions, and more specifically their structure,
-have a significative influence on functioning [@theb03fcb; @theb07cee;
+integration. Analyses performed on simulated food-webs with fixed species richness
+have shown that interactions, and more specifically their structure,
+have a significative influence on productivity [@theb03fcb; @theb07cee;
 @pois13tcd]. The structure of interactions translates the distribution of
 different types of properties important for ecosystem functioning, such as the
 presence of omnivory, the generality of species, the modularity of the food-web,
 etc.
+DG: je ne comprends pas la dernière phrase
 
-# Linking interactions to ecological mechanisms
+# Mechanisms underlying pairwise interactions
 
-It is worth remembering that ecological interactions are the direct
-expression of ecological mechanisms. A pollinator is able to effectively
-reach the nectar in a plant because the traits of the two organisms match,
-because they have compatible phenologies, and because they occur in the same
+Ecological interactions should be viewed as the result of lower level processes impacting pairs of individuals. A pollinator is able to effectively
+reach the nectar in a plant because their respective traits match,
+they have compatible phenologies, and they occur in the same
 environment. A virus can infect its host because it is able to attach to the
 cell surface, effectively penetrate it, and hijack the cellular machinery
 to its benefit. Interactions that are not allowed because trait values do
 not match have been called "forbidden links" [@oles11mfl]. This prompted
 a search for "linkage rules" [@bart13ulr] in ecological networks, *i.e.*
-the relationships that must exist between traits borne by two organisms
+the relationships that must exist between traits of two organisms
 in order for an interaction between them to exist. These can be identified
 from existing data on traits and interactions [@bart16cfi], and then used
-to generate realistic ecological networks [@crea15nme]. @gonz16llf point out
-that interactions are happening between individuals: this requires to consider
-how the traits are distributed at the individual scale, but also how different
-behaviors may allow organisms to overcome some of the forbidden links. Although
+to generate realistic ecological networks [@crea15nme]. @gonz16llf pointed out
+that interactions are happening between individuals, and as a consequence, it requires to consider
+not only how the traits are distributed at the individual scale, but also how different
+behaviors may allow organisms to overcome some of the forbidden interactions.
+
+Although
 traits are an important part of what makes interactions happen, they are only
 relevant insofar as the organisms are able to encounter one another. The
 importance of neutral dynamics (*i.e.* how abundances of different species
 can determine the probability that they can interact, based on how often they
 would bump into one another by chance) is, somewhat counter-intuitively,
-great. @cana12esp reveals that simulating food web dynamics by using only
-population abundances to predict interactions yields realistic food webs. In
+great. @cana12esp revealed that realistic food webs can be predicted with only knoweldge of abundances. In
 a host-parasite system, local abundances has also been identified as a
 key predictor of species interactions [@cana14een]. Speaking more broadly,
 because interactions emerge from all of these ecological mechanisms, there
@@ -253,37 +222,33 @@ is a need to develop a deeper understanding of their variability [@pois15swe]. B
 the fundamental advance that this represents, this would allow to predict
 interactions based on external information [@mora15ibi].
 
-The realization of an interaction between individuals from the same or
-different populations within a community also have ecological consequences
-as it modifies the dynamics of at least one of the interacting populations,
-and through it, emerging properties. If we consider for
+The realization of an interaction between individuals has, by definition, an effect on populations dynamics. But it is also archetypical of complex system dynamics, where low level processes propagate up to higher level of organization and impact emerging properties of the community. If we consider for
 instance a population A, its dynamics is not the same when it multiplies
 in isolation -- where it can grow exponentially if resources are unlimited
 [@malt98epp] or logistically otherwise [@verh38nlq] -- or when it is embedded
 in a real-world community, composed of several species interacting with one
-another through different mechanisms [@ches08ipc]. It can lose individuals to
+another through different processes [@ches08ipc]. That population can lose individuals to
 predation, have parasitism increase its death rate and at the same time see
 its establishment eased through facilitation. It then becomes necessary to
-account for interactions when studying the dynamic a population, community
-stability or ecosystem functioning. But the effect of interactions on
-populations dynamics is not always straightforward, both in terms of
+account for the entire set of interactions to understand population, community and ecosystem dynamics. But the effect of interactions on
+dynamics is not always straightforward to elude, both in terms of
 directionality and intensity, as there is different types of interactions and
-multiple factors influence their probability of occurrence and strength. Since the seminal
-work of @may72wlc, the analysis of these effects has been a prolific field
-of ecology, feeding in particular the famous "complexity-stability debate"
-(see @alle15sra for an overview). Including interactions in population dynamics
-analyses can be done by using model of the following general form:
+multiple factors influencing their occurrence and strength. Including interactions in population dynamics
+analyses is often done using models of the following general form:
 
 $$
 \frac{1}{N_i}\frac{\text{d}}{\text{d}t}N_i = r_i \times \sum_j A_{ij} \alpha_{i,j} N_j \,
 $$
 
-wherein the adjacency matrix $A$ ($n*n$), list the realized interactions in a
+wherein the adjacency matrix $A$ ($n*n$) lists the realized direct interactions in a
 given community composed of $n$ species. $A_{ij} \neq 0$ when species $i$ and
 $j$ interact and $0$ otherwise. $\alpha_{ij}$ quantifies the strength of the
 interaction. This equation model populations abundance $N$
 but can easily be adapted to model biomass flows by replacing populations'
 abundances by their biomasses $B_i$ (see for instance @will07hyi).
+
+#DG: j'ai l'impression que l'histoire est incomplète. À quoi sert le modèle ?
+Un point intéressant à révéler est que cette matrice peut être utilisée de nombreuses façons. Pour documenter les interactions directes et la structure du réseau (soit en utilisant A directemetn ou par un transformation binaire), en l'inversant pour obtenir les interactions indirectes, ou encore en calculant ses valeurs propres pour étudier sa stabilité et sa réactivité.
 
 Ecological networks are also spatially and temporally variable
 [@troj16enm]. There are two drivers to this variability: changes in
@@ -315,25 +280,25 @@ through their ecological networks represent an additional layer of information
 compared to simple species lists. As such, ecological networks are a powerful
 tool to shed new light on the processes underlying species distribution
 [@caze16tsc]. Until recently, the prevailing idea was that at large scales, the
-role of biotic interactions was very small compared to that of abiotic
-conditions, and thought to only be important locally [@pear03pic; @boul12adb].
-Empirical observations of species-environment relationship are then used to
-understand species physiological tolerance to environmental conditions
+role of biotic interactions on distribution is very small compared to that of abiotic
+conditions, and as such is important only locally [@pear03pic; @boul12adb].
+Empirical observations of species-environment relationship are used to
+approximate species physiological tolerance to environmental conditions
 and potentially predict their range under different scenarios of climate change
 [e.g. @arau06cwd]. While these climate envelope models provide a useful
 approximation of species potential distribution [@pear02sse], there is mounting
 evidences that biotic interactions -- both positive and negative -- play a
 critical role in shaping communities not only at local scales [@boul12adb], but
 also at macroecological scales [@davi98isr; @arau07ibi; @gote10mss; @heik07bii;
-@arau11usc]. So far, the role of interactions in shaping species distribution is
-mainly estimated from co-occurrence data, used to build joint species
-distribution models (JSDM) [@poll14ucm]. But there are limitations to this
+@arau11usc].
+
+It was proposed the role of interactions in shaping species distribution could be approximated from co-occurrence data (Araujo2011). This approach is particularly popular to reconstruct microbial interaction networks (e.g. REF). More recently, joint species
+distribution models (JSDM) were developed to account simultaneously for the effect of the environment and co-distribution  [@poll14ucm]. But there are limitations to this
 approach. For instance, it does not allow to distinguish between co-occurrence
 caused by biotic interactions and correlated responses to unmeasured
 environmental variables [@poll14ucm]. Conversely, the lack of association
-between species is no evidence of absence of interaction [@caze16tsc]. To move
-from empirical-based species distribution models (SDM) toward theory-driven SDM,
-further work is needed. In particular, developing methods allowing to include
+between species is no evidence of absence of interaction [@caze16tsc]. Further work is therefore needed to move
+from correlative species distribution models (SDM) toward more theoretically sound models. In particular, developing methods allowing to include
 prior information about the underlying ecological network when building
 (J)SDM could help sheding light on the the fundamental processes underlying
 species distribution and thus making more accurate predictions [@caze16tsc].
@@ -341,58 +306,51 @@ Additionally, @pois17hpt recently showed that biotic interactions respond to
 environmental conditions on their own, independently of species.
 
 Ecological networks also offer an ideal framework to study the conditions for
-the maintenance of biodiversity in communities through species coexistence.
-@gaus34eav predicted that species that shared similar ecologies could not live
-together in the same area. This competitive exclusion principle states that the
+the maintenance of biodiversity in communities through species resources ecologies could not live
+together in the same area. The competitive exclusion principle states that the
 the strongest competitor will eventually come to dominate the other species and
 drive them to local extinction. This stands in contradiction with the existence
 of ecological communities containing species that overlap in some extent in
-their resources or consumers. Phytoplanktonic communities are a paradigmatic
-example of this paradox [@hutc61pp], as they exhibit a high biodiversity while
+their resources or consumers. Phytoplanktonic communities are often considered to
+illustrate this paradox [@hutc61pp], as they exhibit a high biodiversity while
 species are competing for a limited number of shared resources (e.g. light,
-nitrate). The use of consumer-resources models has allowed to highlight some
-mechanisms improving species coexistence [@ches00mms]. These mechanisms are
+nitrate). Species coexistence mechanisms [@ches00mms] are
 based on species traits that either decrease fitness differences (equalizing
 mechanisms) and/or increase niche differentiation between species (stabilizing
-mechanisms). The coupling of this type of model with the representation of
-ecological communities as their underlying network of interactions has brought
-new perspective on species coexistence, as it is allowing to integrate these
-mechanisms in large realistic communities. Using this methodological framework,
-@mart06dcp showed that the global non-random structure of the food webs improved
+mechanisms).
+
+The coexistence theory and the representation of
+ecological communities as networks of interactions has brought
+new perspective on species coexistence.
+@mart06dcp for instance showed that the global non-random structure of the food webs improve
 community persistence. The distribution of motifs in food webs [@stou10ufp, see
 section "Invariants in ecological networks"] as well as species' role within
 motifs [@stou12ecs] are related to community persistence. In mutualistic
-networks, the nested structure has been shown to minimize competition relatively
+networks, the nested structure minimizes competition relative
 to competition [@bast09amn; @sugi09csc]. In these networks, the asymmetry of
 dependences -- the fact that when one species $A$ depends strongly on another
 species $B$ as resource for food or pollination, the other species ($B$) only
 weakly depends on $A$ -- also increase persistence [@basc06acn]. This type of
-approach also allowed to highlight the interplay between traits and structure.
+approach highlighted the interplay between traits and structure.
 As an example, @bros06ase showed that the allometric scaling of metabolic rates
-of species improve community persistence when the organization of the food webs
-is such that predator–prey body mass ratios are different from zero.
+of species improve community persistence and its overall diversity..
 
 Ecologists have also questioned the way communities are formed and the
-hypothetical set of rules embedding this assembly. @diam75asc defined
-emblematic rules to understand community structure and assembly. In this
-continuity, network framework allows to explore in detail processes influencing
-ecological communities assembly. @capi09sme, for instance, have retraced the
-pathway of the community assembly process through an assembly
-graph, based on graph theory. It allows to follow step by step every possible
+hypothetical set of rules embedding this assembly. The network approach allows to explore in details the different processes influencing
+ecological communities assembly. @capi09sme, for instance, have characterized the
+sequence of community assembly with an assembly
+graph. It allows to follow step by step every possible
 path in community assembly from, for instance, 0 to 21 species among 3 trophic levels, and
-highlight underlying mechanisms. For food webs especially, mechanistic models
-such as niche model [@will00srya] and the cascade model [@cohe89fwc] originally
-constructed to understand networks structure, have actually be used to
+highlight underlying mechanisms. Semi-mechanistic models of food web structures
+such as niche model [@will00srya] and the cascade model [@cohe89fwc]  have also been used to
 understand community assembly and the impact of invasion. Using also network
 framework, [@verd08nap] found that nested community provides generalists species
 which facilitate the presence of other species into the network. At the same
 time, thanks to an experimental network study, [@oles08tdpb] have observed that
-new arrival species tend to interact more easily with already
-well-connected or generalist species. These kind of results could let us think
+newly arriving species tend to interact more easily with already
+well-connected or generalist species. Such results could let us think
 about the Drake's controversial idea @drak91cms that species arrival history
-would be a *important* factor driving community assembly [@drak91cms]. Thanks to
-community network, @camp11nmp shown that history assembly process is and
-important factor for mutualistic networks. Community assembly have however, a
+would be a *important* factor driving community assembly [@drak91cms]. This proposition was supported by network analyses, such as in @camp11nmp for mutualistic networks. Community assembly have however, a
 myriad of different drivers, such as dispersion, interaction strength and
 phylogeny distance between species composing communities [@leib17caf;
 @kraf07tec; @mahe07ipf; @mont03tpf]. Based on these drivers, distinct types
@@ -406,28 +364,28 @@ complementary, offering processes explanation at the metacommunity level
 framework in community assembly have brought the field one step further and
 makes links between other ecological fields, such as disassembly prediction
 [see @basc09adea] or co-evolutionary processes [@nuis13cam] much more easier.
+#DG: the previous paragraph is very interesting and has a lot of material, but the structure is unclear and the flow of logic not easy to follow
 
 # Conclusion
 
-As networks and graph theory allowed to understand breakdown into electricity
+As networks and graph theory allowed to understand breakdown of the electricity distribution
 system in United States or the structure and functioning of social
 network, it is also a powerful tool to investigate ecological questions. As long
-as the studying system contains interactions, links or connections, the graph
-theory provides a perfectly adapted simple framework to characterize complicated
-networks such as ecological networks. Indices such as connectance, degree
+as the studying system contains interactions, links or connections, graph
+theory provides a perfectly adapted simple framework to characterize complex systems such as ecological networks. Indices such as connectance, degree
 distribution of network topology serve as basic measurements to describe
 systems. Using theses indices, this framework facilitates comparison between
-different ecological networks. And the relatively important number of network
+different systems. And the relatively important number of network
 studies leads to a myriads of ways to sample, analyze and interpret them [see
 @delm17aen].
 
 Studying ecological networks have however a larger purpose than just their
 description and classification. Basic measurements are correlated to several
 environmental factors and network analysis appears to be helpful in different
-ecological fields. As we seen through this paper, it can be used to study
+ecological fields. As we seen through this chapter, it can be used to study
 dynamics of ecological systems and their responses to changes, according to
 their stability over time or the BEF relationships in the system. It also
-highlight the understanding of mechanisms underlying ecological properties such
+highlights the understanding of mechanisms underlying ecological properties such
 as community assembly, coexistence and species distribution. Network studies
 were a key to reveal relationships between different properties of ecological
 network such as trait and structure.
@@ -435,11 +393,11 @@ network such as trait and structure.
 
 # Glossary
 
-Adjacency matrix: square matrix representing species interactions. If two
+Adjacency matrix: matrix representing species interactions. If two
 species $i$ and $j$ interact, the intersection of the matrix at ${i,j}$ will be
-1, and if no interaction.
+1, and 0 if no interaction.
 
-Assembly rules: Ecological processes that lead to a specific species' composition
+Assembly rules: Ecological processes leading to a specific species' composition
 of a community, *e.g.* competition, predator-prey interactions, arrival history, etc.
 
 **Bipartite / Unipartite network**
@@ -450,11 +408,10 @@ k-partite network is a hierarchical representation of the network (*Figure 2*),
 where nodes are separated depending on their position or function into the
 network (*e.g* pollinator-plant as bipartite network).
 
-Ecological interactions: Every type of contact between two species that alters the abundance, biomass
-and/or behavior of one or both species. Interactions can be trophic,
+Ecological interactions: Every type of contact between two species that alters influencing the fitness of one or the two species. Interactions can be trophic,
 mutualistic or antagonistic, directed or undirected, weighted or unweighted.
 
-Ecosystem functioning: Biotic and abiotic processes that regulate ecosystem,
+Ecosystem functioning: Biotic and abiotic processes that regulate ecosystems,
 allowing energy and matter flux between trophic levels and between ecosystems,
 *e.g.* biogeochemical cycles.
 
