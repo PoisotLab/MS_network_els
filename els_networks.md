@@ -1,3 +1,46 @@
+# Abstract
+
+Ecological networks provide a useful abstraction of ecological systems, representing them as graphs, composed of nodes (species) and edges (interactions). This allows to use a whole new set of measures extended from graph theory, to study ecological systems. In this chapter, we review some of the most prominent findings and areas of research from the last decade. We start by reviewing how it was used to uncover invariance in the organization of ecological systems. Then we show the importance of structure when studying systems dynamics and how this coupled approach shed new light on ecosystems emerging properties. Through this chapter we want to highlight the important contribution of networks in clarifying ecosystem properties and functioning, but also the potential to develop new approaches for example for comparing ecosystem structure, relating species traits to community structure.
+
+# Glossary
+
+Adjacency matrix: matrix representing species interactions. If two
+species $i$ and $j$ interact, the intersection of the matrix at ${i,j}$ will be
+1, and 0 if no interaction.
+
+Assembly rules: Ecological processes leading to a specific species' composition
+of a community, *e.g.* competition, predator-prey interactions, arrival history, etc.
+
+Ecological interactions: Every type of contact between two species that alters
+influencing the fitness of one or the two species. Interactions can be trophic,
+mutualistic or antagonistic, directed or undirected, weighted or unweighted.
+
+Ecosystem functioning: Biotic and abiotic processes that regulate ecosystems,
+allowing energy and matter flux between trophic levels and between ecosystems,
+*e.g.* biogeochemical cycles.
+
+Graph theory: Mathematical framework used to model the relationship between the
+objects of a network
+
+Network structure: General shape of a network. It is commonly measured using
+connectance, link distribution, general architecture (nestedness and
+modularity), etc.
+
+Nodes/Links, Vertices/Edges: Following graph theory, species are represented as
+nodes (or vertices), and interactions between them are represented by links (or
+edges).
+
+Phylogenetic signal: tendency of phylogenetically close species to have similar
+traits.
+
+Unipartite / Bipartite network: The graphical representation of the entire
+adjacency matrix offers an *unipartite* network representation (see *Figure 1*),
+where the hierarchy between nodes and their position into the network is not
+always visible. On contrary, a bipartite or k-partite network is a hierarchical
+representation of the network (*Figure 2*), where nodes are separated depending
+on their position or function into the network (*e.g* pollinator-plant as
+bipartite network).
+
 # Introduction
 
 Interactions between components of ecological systems, such as species in a
@@ -371,32 +414,34 @@ hypothetical set of rules embedding this assembly. The network approach allows
 to explore in details the different processes influencing ecological communities
 assembly. @capi09sme, for instance, have characterized the sequence of community
 assembly with an assembly graph. It allows to follow step by step every possible
-path in community assembly from, for instance, 0 to 21 species among 3 trophic
-levels, and highlight underlying mechanisms. Semi-mechanistic models of food web
-structures such as niche model [@will00srya] and the cascade model [@cohe89fwc]
-have also been used to understand community assembly and the impact of invasion.
-Using also network framework, [@verd08nap] found that nested community provides
-generalists species which facilitate the presence of other species into the
-network. At the same time, thanks to an experimental network study,
-[@oles08tdpb] have observed that newly arriving species tend to interact more
-easily with already well-connected or generalist species. Such results could let
-us think about the Drake's controversial idea @drak91cms that species arrival
-history would be a *important* factor driving community assembly [@drak91cms].
-This proposition was supported by network analyses, such as in @camp11nmp for
-mutualistic networks. Community assembly have however, a myriad of different
-drivers, such as dispersion, interaction strength and phylogeny distance between
-species composing communities [@leib17caf; @kraf07tec; @mahe07ipf; @mont03tpf].
-Based on these drivers, distinct types of models have been developed to predict
-community assembly dynamics [@tilm04ntn; @grav06rnn; @souz16qca]. In one hand,
-niche-based theory models use coexistence theory and niche differentiation. In
-the other hand, neutral theory models are based on species dynamics (migration,
-extinction and speciation) under stochastic processes. Theses two types of model
-are actually complementary, offering processes explanation at the metacommunity
-level (niche theory) and at the phylogenetic level (neutral theory) [*ref*].
-Network framework in community assembly have brought the field one step further
-and makes links between other ecological fields, such as disassembly prediction
-[see @basc09adea] or co-evolutionary processes [@nuis13cam] much more easier.
-**#DG: the previous paragraph is very interesting and has a lot of material, but the structure is unclear and the flow of logic not easy to follow**
+path in community assembly from 0 to $x$ species among several trophic levels,
+and to highlight underlying mechanisms. As mechanism, [@verd08nap] found that
+nested community provides generalists species which facilitate the presence of
+other species into the network. At the same time, thanks to an experimental
+network study, [@oles08tdpb] have observed that newly arriving species tend to
+interact more easily with already well-connected or generalist species. Such
+results could let us think about the Drake's controversial idea that species
+arrival history would be an *important* factor driving community assembly
+[@drak91cms]. This proposition was supported by network analyses, such as in
+@camp11nmp for mutualistic networks, but still remains in debate.
+
+The use of semi-mechanistic models of food web structures such as niche model
+[@will00srya] and the cascade model [@cohe89fwc] to understand the impact of
+invasion on communities assembly, seems to have launched the investigation of
+community assemblage dynamics. The addition of diverse communities
+assembly drivers, such as dispersion, interaction strength and phylogeny distance
+between species composing communities [@leib17caf; @kraf07tec; @mahe07ipf;
+@mont03tpf] opened the way to new different types of models [@tilm04ntn; @grav06rnn;
+@souz16qca]. In one hand, niche-based theory models use coexistence theory and
+niche differentiation. In the other hand, neutral theory models are based on
+species dynamics (migration, extinction and speciation) under stochastic
+processes. Theses two types of model are actually complementary, offering
+processes explanation at the metacommunity level (niche theory) and at the
+phylogenetic level (neutral theory). These models, coupled with a network
+framework, have brought the community assembly field one
+step further and make links between other ecological fields, such as
+disassembly prediction [see @basc09adea] or co-evolutionary processes
+[@nuis13cam] much more easier.
 
 # Conclusion
 
@@ -405,11 +450,11 @@ distribution system in United States or the structure and functioning of social
 network, it is also a powerful tool to investigate ecological questions. As long
 as the studying system contains interactions, links or connections, graph theory
 provides a perfectly adapted simple framework to characterize complex systems
-such as ecological networks. Indices such as connectance, degree distribution of
+such as ecological networks. Indices such as connectance, degree distribution or
 network topology serve as basic measurements to describe systems. Using theses
-indices, this framework facilitates comparison between different systems. And
-the relatively important number of network studies leads to a myriads of ways to
-sample, analyze and interpret them [see @delm17aen].
+indices, this framework facilitates comparison between different systems.
+Nowadays, the relatively important number of network studies leads to a myriads
+of ways to sample, analyze and interpret them [see @delm17aen].
 
 Studying ecological networks have however a larger purpose than just their
 description and classification. Basic measurements are correlated to several
@@ -421,45 +466,5 @@ highlights the understanding of mechanisms underlying ecological properties such
 as community assembly, coexistence and species distribution. Network studies
 were a key to reveal relationships between different properties of ecological
 network such as trait and structure.
-
-
-# Glossary
-
-Adjacency matrix: matrix representing species interactions. If two
-species $i$ and $j$ interact, the intersection of the matrix at ${i,j}$ will be
-1, and 0 if no interaction.
-
-Assembly rules: Ecological processes leading to a specific species' composition
-of a community, *e.g.* competition, predator-prey interactions, arrival history, etc.
-
-**Bipartite / Unipartite network**
-The entire representation of the adjacency matrix offers an *unipartite* network
-representation, where the hierarchy between nodes and their position into the
-network is not always visible (*Figure 1*). On the contrary, a bipartite or
-k-partite network is a hierarchical representation of the network (*Figure 2*),
-where nodes are separated depending on their position or function into the
-network (*e.g* pollinator-plant as bipartite network).
-
-Ecological interactions: Every type of contact between two species that alters
-influencing the fitness of one or the two species. Interactions can be trophic,
-mutualistic or antagonistic, directed or undirected, weighted or unweighted.
-
-Ecosystem functioning: Biotic and abiotic processes that regulate ecosystems,
-allowing energy and matter flux between trophic levels and between ecosystems,
-*e.g.* biogeochemical cycles.
-
-Graph theory: Mathematical framework used to model the relationship between the
-objects of a network
-
-Network structure: General shape of a network. It is commonly measured using
-connectance, link distribution, general architecture (nestedness and
-modularity), etc.
-
-Nodes/Links, Vertices/Edges: Following graph theory, species are represented as
-nodes (or vertices), and interactions between them are represented by links (or
-edges).
-
-Phylogenetic signal: tendency of phylogenetically close species to have similar
-traits.
 
 # References
