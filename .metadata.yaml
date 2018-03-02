@@ -1,0 +1,56 @@
+---
+title: Complex Ecological Networks
+short: Graph theory applied in ecology
+keyword:
+  - Assemblage
+  - Coexistence
+  - Communities
+  - Graph theory
+  - Network structure
+  - Population dynamics
+  - Species interactions
+  - Stability
+  -
+  -
+date: \today
+abstract: >
+  Ecological networks provide a useful abstraction of ecological systems, representing them as graphs, composed of nodes (species) and edges (interactions). This allows to use a whole new set of measures extended from graph theory, to study ecological systems. In this chapter, we review some of the most prominent findings and areas of research from the last decade. We start by reviewing how it was used to uncover invariance in the organization of ecological systems. Then we show the importance of structure when studying systems dynamics and how this coupled approach shed new light on ecosystems emerging properties. Through this chapter we want to highlight the important contribution of networks in clarifying ecosystem properties and functioning, but also the potential to develop new approaches for example for comparing ecosystem structure, relating species traits to community structure.
+author:
+  - family: Besson
+    given: Mathilde
+    affiliations:
+      - 1
+      - 2
+    id: mb
+    orcid: sa
+  - family: Delmas*
+    given: Eva
+    affiliations:
+      - 1
+      - 2
+    id: ed
+    orcid: 0000-0002-6238-229X
+  - family: Poisot
+    given: Timothée
+    affiliations:
+      - 1
+      - 2
+    id: tp
+    orcid: 0000-0002-0735-5184
+  - family: Gravel
+    given: Dominique
+    affiliations:
+      - 2
+      - 3
+    id: dg
+    orcid:
+    email:
+affiliation:
+  - id: 1
+    text: 'Université de Montréal, Département de Sciences Biologiques'
+  - id: 2
+    text: Québec Centre for Biodiversity Sciences
+  - id: 3
+    text: Université de Sherbrooke, Département de Biologie
+cleveref: true
+---

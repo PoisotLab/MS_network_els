@@ -1,7 +1,3 @@
-# Abstract
-
-Ecological networks provide a useful abstraction of ecological systems, representing them as graphs, composed of nodes (species) and edges (interactions). This allows to use a whole new set of measures extended from graph theory, to study ecological systems. In this chapter, we review some of the most prominent findings and areas of research from the last decade. We start by reviewing how it was used to uncover invariance in the organization of ecological systems. Then we show the importance of structure when studying systems dynamics and how this coupled approach shed new light on ecosystems emerging properties. Through this chapter we want to highlight the important contribution of networks in clarifying ecosystem properties and functioning, but also the potential to develop new approaches for example for comparing ecosystem structure, relating species traits to community structure.
-
 # Glossary
 
 Adjacency matrix: matrix representing species interactions. If two
@@ -41,6 +37,16 @@ representation of the network (*Figure 2*), where nodes are separated depending
 on their position or function into the network (*e.g* pollinator-plant as
 bipartite network).
 
+# Nomenclature
+
+$N$ population size
+
+$r$ growth rate
+
+$A$ adjacency matrix
+
+$\alpha$ interaction strength
+
 # Introduction
 
 Interactions between components of ecological systems, such as species in a
@@ -71,7 +77,7 @@ information is summarized in the *adjacency matrix* (typically named $A$, see
 definition in glossary) (*Figure 1b*). In this chapter, for simplicity, we will
 focus mostly on *Species Interaction Networks* (SIN). Ecological systems such as
 landscape, genetic or nutrient networks are not represented here, but they can
-be studying using the same framework defined further [*ref*].
+be studying using the same framework defined further.
 
 Describing and understanding the structure of species interaction networks is an
 active, and growing, field of ecological research. In this contribution, we will
@@ -85,7 +91,7 @@ larger temporal and spatial scales.
 
 ![Graphical representation of an ecological network (a), where species are represented by circles and their directed interactions by arrows. The representation is formalized in the adjacency matrix (b). In an unipartite representation as this one, each species is represented both as a column and a row. 1 indicates an interaction between two species (e.g. the green square in (b)), and 0 indicates the absence of interaction. This matrix facilitates computation of characteristics such as the connectance (c) and the degree distribution (d). (c) represents the level of connection into the network and is calculated as shown in the figure. (d) represents the distribution of interaction per species. The circles size is relative to the amount of interactions a species have (d1). This distribution is non-random and generally follows a power-law distribution (d2). The network can be split into subnets composed of 3 species, called motif (e). Among the 13 different possible motifs, we only represented the most commonly found in natural communities.](Figures/figure1.pdf){width=100%}
 
-# Invariants in ecological networks
+## Invariants in ecological networks
 
 One striking particularity of ecological networks is their consistency: even
 though they depict interactions between different organisms across all sorts of
@@ -175,7 +181,7 @@ relationship remain to be further investigated. Moreover, because of species
 plasticity, phylogeny alone does not fully explain the structure and evolution
 of ecological networks.
 
-# From structure to properties
+## From structure to properties
 
 The relationship between ecological network structure and stability is a
 long-lasting object of discussion. @maca55fap and @elto58rc first proposed that
@@ -218,7 +224,7 @@ secondary extinctions [@alle04wdw].
 The network architecture also affects the community response to perturbations.
 In agreement with MacArthur's intuition, it was found that species with low
 degree also more strongly propagate  perturbations following permanent changes
-in the environment because of their tight connections [MONTOYA2009].
+in the environment because of their tight connections [@mont09ppi].
 Alternatively, the most connected species (hubs) diffuse such perturbations
 through the network and even though they affect more species, their average
 effect on other ones is much smaller. Overall network properties also affect the
@@ -240,12 +246,12 @@ resource use efficiency and translates into larger productivity [@lore10lbe]
 (*e.g.* nutrients for producers, or producers for herbivores). Yet, when the
 trophic group under focus is coupled to other(s), the action of diversity on
 functioning is more variable [@duff07frb]. This makes the BEF relationship
-unpredictable in real-world communities [@harv13], composed of several trophic
+unpredictable in real-world communities [@harv13ied], composed of several trophic
 groups that are virtually never differentiable -- as intraguild predation and
 omnivory blurr the frontier between levels. The multiplicity of the factors
 influencing the BEF relationship calls for a more general framework that allows
 the integration of the theories developed for trophic group and for simple
-modules or sub-systems [@grave16phi]. By mapping transfer of biomass and energy
+modules or sub-systems [@grav16mft]. By mapping transfer of biomass and energy
 and/or constraints on organism through the different compartments that compose a
 natural community, ecological networks -- and food webs in particular -- offer
 the possibility to perform this integration. Analyses performed on simulated
@@ -343,7 +349,7 @@ communities: @bake15srf show that species keep occupying the same position in
 the network across space, regardless of the species they interact with at every
 location.
 
-# From the regional species pool to local structured communities
+## From the regional species pool to local structured communities
 
 Describing the different local communities that occur at macroecological scales
 through their ecological networks represent an additional layer of information
@@ -443,7 +449,7 @@ step further and make links between other ecological fields, such as
 disassembly prediction [see @basc09adea] or co-evolutionary processes
 [@nuis13cam] much more easier.
 
-# Conclusion
+## Conclusion
 
 As networks and graph theory allowed to understand breakdown of the electricity
 distribution system in United States or the structure and functioning of social
